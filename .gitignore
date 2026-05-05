@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Dependencies / generated tool state
+node_modules/
+bun.lock
+package-lock.json
+.resolved-prompt-*
+
+# Logs and temporary batch runtime files
+batch/logs/*
+!batch/logs/.gitkeep
+batch/batch-state.tsv
+batch/batch-input.tsv
+
+# OS / local app files
+.DS_Store
+*.mov
+*.mp4
+
+# Claude Code local
+.claude/settings.local.json
+.claude/memory/
+career-dashboard
+
+# Update locks
+.update-dismissed
+.update-lock

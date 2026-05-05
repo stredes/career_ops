@@ -1,0 +1,94 @@
+# Career-Ops Profile Configuration
+# This file contains personal targeting data and is not auto-updated.
+
+candidate:
+  full_name: "Gian Lucas San Martin Agurto"
+  email: "gianlucassanmartin@gmail.com"
+  phone: "+56954764325"
+  location: "Santiago, Región Metropolitana, Chile"
+  linkedin: "https://www.linkedin.com/in/gian-lucas-san-martin-49ab29323/"
+  portfolio_url: ""
+  github: "https://github.com/stredes"
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Programador Junior"
+    - "Programador Área TI"
+    - "Desarrollador Junior"
+    - "Analista Programador Junior"
+    - "Soporte TI / Soporte de Sistemas"
+    - "Automatización de Procesos"
+    - "Desarrollador Python Junior"
+    - "Desarrollador Full Stack Junior"
+  archetypes:
+    - name: "Programador Junior"
+      level: "Junior / Trainee"
+      fit: "primary"
+    - name: "Analista Programador"
+      level: "Junior"
+      fit: "primary"
+    - name: "Soporte TI / Soporte de Sistemas"
+      level: "Junior"
+      fit: "primary"
+    - name: "Automatización de Procesos"
+      level: "Junior"
+      fit: "primary"
+    - name: "HealthTech / Sistemas Clínicos"
+      level: "Junior"
+      fit: "secondary"
+    - name: "Data / Reporting Junior"
+      level: "Junior"
+      fit: "secondary"
+
+narrative:
+  headline: "Analista Programador en formación, buscando empleo como programador en área TI"
+  exit_story: "Está orientando su carrera principal hacia programación en el área TI, desarrollo junior, soporte de sistemas y automatización. Su experiencia en laboratorio clínico funciona como segunda carrera y ventaja diferencial: conoce procesos regulados, trazabilidad, datos clínicos, bioseguridad, inventario y operación real."
+  superpowers:
+    - "Base técnica en Python, JavaScript, Java, SQL, React, FastAPI y Git/GitHub"
+    - "Capacidad para entender procesos reales y transformarlos en herramientas digitales"
+    - "Experiencia en datos, registros, trazabilidad e inventario desde entornos clínicos"
+    - "Conocimiento de sistemas LIS como Zendo LIMS y Manager+"
+    - "Atención al detalle y cumplimiento de procedimientos en entornos regulados"
+    - "Puente entre usuarios operativos/salud y equipos técnicos"
+  proof_points:
+    - name: "Formación en Analista Programador"
+      url: ""
+      hero_metric: "Estudiante de Analista Programador con conocimientos en Python, JavaScript, Java, SQL, React, FastAPI, Git/GitHub y herramientas de automatización."
+    - name: "Exelcior Apolo"
+      url: "https://github.com/stredes/exelcior_apolo"
+      hero_metric: "Aplicación Python de escritorio para automatizar transformación, validación e impresión de Excel en flujos logísticos y clínicos."
+    - name: "Inventario App"
+      url: "https://github.com/stredes/INVENTARIO_APP"
+      hero_metric: "Sistema Python de inventario, compras y ventas con SQLite/PostgreSQL, generación de PDFs, CSV y arquitectura por capas."
+    - name: "AMILAB Frontend"
+      url: "https://github.com/stredes/amiweb"
+      hero_metric: "Frontend React + TypeScript + Vite para catálogo B2B/e-commerce de insumos médicos, con rutas, componentes, features, hooks, tests y despliegue en Vercel."
+    - name: "AMILAB Backend"
+      url: "https://github.com/stredes/backend_amiweb"
+      hero_metric: "Backend serverless TypeScript con Vercel Functions, Firebase/Firestore, endpoints REST, Auth, CORS, Zod, logging, paginación y tests."
+    - name: "Experiencia con sistemas y datos clínicos"
+      url: ""
+      hero_metric: "Uso de Zendo LIMS y Manager+ para registros, resultados, inventario y trazabilidad."
+    - name: "Experiencia en laboratorio clínico"
+      url: ""
+      hero_metric: "Experiencia en áreas preanalítica y analítica, control de calidad, bioseguridad e ISO 9001:2015."
+    - name: "Experiencia en operación logística"
+      url: ""
+      hero_metric: "Control de inventario, gestión de stock, despacho y distribución con Manager+, FedEx y Urbano."
+
+compensation:
+  target_range: "$800.000 - $1.000.000 CLP líquidos o brutos según condiciones del cargo"
+  currency: "CLP"
+  minimum: "$800.000 CLP"
+  location_flexibility: "Preferencia por teletrabajo o modalidad semipresencial en Santiago."
+
+location:
+  country: "Chile"
+  city: "Santiago"
+  timezone: "America/Santiago"
+  visa_status: "No requiere patrocinio en Chile"
+  onsite_availability: "Disponible para modalidad teletrabajo o semipresencial; presencial completo solo si el rol tiene alta proyección y buenas condiciones."
+
+cv:
+  output_format: "html"

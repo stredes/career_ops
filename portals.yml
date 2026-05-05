@@ -1,0 +1,92 @@
+# Portal Scanner Configuration
+# Active channels only: LinkedIn and Get on Board.
+# Goal: Programador / Area TI junior, remote or semi-presential, Chile.
+
+title_filter:
+  positive:
+    - "Programador"
+    - "Programadora"
+    - "Programador TI"
+    - "Programadora TI"
+    - "Analista Programador"
+    - "Desarrollador"
+    - "Desarrolladora"
+    - "Developer"
+    - "Software Developer"
+    - "Software Engineer"
+    - "Full Stack"
+    - "Frontend"
+    - "Backend"
+    - "Python"
+    - "JavaScript"
+    - "TypeScript"
+    - "React"
+    - "Node"
+    - "SQL"
+    - "API REST"
+    - "Soporte TI"
+    - "Soporte Sistemas"
+    - "Automatización"
+    - "Automatizacion"
+    - "Junior"
+    - "Trainee"
+    - "Remote"
+    - "Remoto"
+    - "Teletrabajo"
+    - "Híbrido"
+    - "Hibrido"
+    - "Semipresencial"
+  negative:
+    - "Senior"
+    - "Staff"
+    - "Lead"
+    - "Jefe"
+    - "Arquitecto"
+    - "Principal"
+    - "Técnico en Laboratorio Clínico"
+    - "Tecnico en Laboratorio Clinico"
+    - "Toma de Muestras"
+    - "Químico Farmacéutico"
+    - "Tecnólogo Médico"
+    - "No se aceptan solicitudes"
+    - "Ya no se aceptan solicitudes"
+  seniority_boost:
+    - "Junior"
+    - "Trainee"
+    - "Entry Level"
+    - "Sin experiencia"
+
+allowed_channels:
+  - "LinkedIn"
+  - "Get on Board"
+
+search_queries:
+  - name: LinkedIn - Programador Junior Chile Remoto
+    query: 'site:cl.linkedin.com/jobs ("Programador Junior" OR "Analista Programador Junior" OR "Desarrollador Junior") Chile (remoto OR teletrabajo OR híbrido OR hibrido)'
+    enabled: true
+
+  - name: LinkedIn - Full Stack Junior Chile
+    query: 'site:cl.linkedin.com/jobs ("Full Stack Junior" OR "Programador full stack Junior" OR "Desarrollador Full Stack Junior") Chile (remoto OR teletrabajo OR híbrido OR hibrido)'
+    enabled: true
+
+  - name: LinkedIn - Software Developer Junior Chile
+    query: 'site:cl.linkedin.com/jobs ("Junior Software Developer" OR "Junior Software Engineer" OR "Software Developer Junior") Chile remote'
+    enabled: true
+
+  - name: LinkedIn - Soporte Sistemas Junior Chile
+    query: 'site:cl.linkedin.com/jobs ("Soporte TI" OR "Soporte de Sistemas" OR "Mesa de Ayuda") Junior Chile (remoto OR híbrido OR teletrabajo)'
+    enabled: true
+
+  - name: Get on Board - Programador Junior Chile
+    query: 'site:getonbrd.com/empleos OR site:getonbrd.com/jobs ("Programador Junior" OR "Desarrollador Junior" OR "Junior Developer") Chile Remote'
+    enabled: true
+
+  - name: Get on Board - Python JavaScript Junior Chile
+    query: 'site:getonbrd.com/empleos OR site:getonbrd.com/jobs (Python OR JavaScript OR TypeScript OR React) Junior Chile Remote'
+    enabled: true
+
+  - name: Get on Board - APIs Backend Junior Chile
+    query: 'site:getonbrd.com/empleos OR site:getonbrd.com/jobs ("API" OR "REST" OR Backend OR Fullstack) Junior Chile Remote'
+    enabled: true
+
+tracked_companies: []
