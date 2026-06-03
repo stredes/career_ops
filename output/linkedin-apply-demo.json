@@ -1,0 +1,293 @@
+﻿[
+    {
+        "type":  "click",
+        "selector":  "a[aria-label=\"Mostrar\\ todos\\ los\\ empleos\\ disponibles\"]",
+        "label":  "Mostrar todos los empleos disponibles",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/jobs/",
+        "at":  "2026-06-03T17:36:19.394Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "div.jobs-search-discovery-tabs \u003e nav \u003e ul.jobs-search-discovery-tabs__tablist \u003e li.jobs-search-discovery-tabs__listitem.jobs-search-discovery-tabs__listitem--active:nth-of-type(1) \u003e a.TvDNDHkDyVdjWuyAAbWdzvbHOybuxKZgzIwnmg.t-black",
+        "label":  "Solicitud sencilla",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:23.451Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember57",
+        "label":  "Desarrollador Frontend Angular",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:29.235Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#jobs-apply-button-id",
+        "label":  "Solicitud sencilla para el empleo Programador full stack .NET + React/Angular en SII Group Chile",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:31.892Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember351",
+        "label":  "Ir al siguiente paso",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:33.612Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember351",
+        "label":  "Ir al siguiente paso",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:34.694Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+        "label":  "Â¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:36.252Z"
+    },
+    {
+        "type":  "select",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+        "label":  "Â¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+        "value":  "Yes",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:36.984Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+        "label":  "Â¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:36.991Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+        "label":  "Â¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:37.400Z"
+    },
+    {
+        "type":  "select",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+        "label":  "Â¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+        "value":  "Yes",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:38.059Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+        "label":  "Â¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:38.066Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786738-numeric",
+        "label":  "Â¿CuÃ¡ntos aÃ±os de experiencia total tiene desarrollando con el ecosistema .NET / C#?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:38.910Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786738-numeric",
+        "label":  "Â¿CuÃ¡ntos aÃ±os de experiencia total tiene desarrollando con el ecosistema .NET / C#?",
+        "value":  "4",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:42.028Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "8",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:44.453Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "80",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:44.587Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "800",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:44.772Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "8000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:45.093Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "80000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:45.445Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "8000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:46.525Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "800",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:46.644Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "80",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:46.772Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "8",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:46.917Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:47.043Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "9",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:47.620Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "90",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:47.732Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "900",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:47.899Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "9000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:48.075Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "90000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:48.219Z"
+    },
+    {
+        "type":  "fill",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "value":  "900000",
+        "redacted":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:48.356Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+        "label":  "Â¿CuÃ¡l es tu pretensiÃ³n de renta lÃ­quida?",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:51.192Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember361",
+        "label":  "Revisar tu solicitud",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:52.212Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember377",
+        "label":  "Enviar solicitud",
+        "blockedOnReplay":  true,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:53.796Z"
+    },
+    {
+        "type":  "click",
+        "selector":  "#ember488",
+        "label":  "Hecho",
+        "blockedOnReplay":  false,
+        "url":  "https://www.linkedin.com/preload/?_bprMode=vanilla",
+        "at":  "2026-06-03T17:36:56.686Z"
+    }
+]

@@ -1,0 +1,715 @@
+[
+  {
+    "type": "click",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:35.813Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "g",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:36.501Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gi",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:36.588Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gia",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:36.687Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gian",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:36.796Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianl",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:36.972Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianlu",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:37.183Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianluc",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:37.294Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianluca",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:37.356Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianlucas",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:37.453Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_key",
+    "label": "Email o teléfono",
+    "value": "gianlucassanmartin@gmail.com",
+    "redacted": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:38.473Z"
+  },
+  {
+    "type": "click",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:39.354Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:40.438Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:40.637Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:40.812Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:40.973Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.093Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.238Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.293Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.460Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.517Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.701Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.797Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:41.950Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:42.061Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#session_password",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:42.557Z"
+  },
+  {
+    "type": "click",
+    "selector": "div.self-start.relative > div.hero-cta-form > form > div.flex.justify-between:nth-of-type(2) > button.btn-md.btn-primary",
+    "label": "Iniciar sesión",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:42.821Z"
+  },
+  {
+    "type": "click",
+    "selector": "div.self-start.relative > div.hero-cta-form > form > div.flex.justify-between:nth-of-type(2) > button.btn-md.btn-primary",
+    "label": "Iniciar sesión",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:43.928Z"
+  },
+  {
+    "type": "click",
+    "selector": "div._5b6832e6._809dd39d:nth-of-type(2) > nav._57d7ed81:nth-of-type(1) > ul.e070083c._1ce6cb05 > li.a7dec980._0f32562b:nth-of-type(1) > a._6cadab1a._4b5a8f50",
+    "label": "Preferencias",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:49.710Z"
+  },
+  {
+    "type": "click",
+    "selector": "a[aria-label=\"Mi\\ red\\,\\ 4\\ nuevas\\ notificaciones\"]",
+    "label": "Mi red, 4 nuevas notificaciones",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:35:51.406Z"
+  },
+  {
+    "type": "click",
+    "selector": "a[aria-label=\"Mi\\ red\\,\\ 4\\ nuevas\\ notificaciones\"]",
+    "label": "Mi red, 4 nuevas notificaciones",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/mynetwork",
+    "at": "2026-06-03T17:35:51.524Z"
+  },
+  {
+    "type": "click",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:53.524Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:56.032Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:56.398Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:56.613Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:56.774Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:56.973Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.125Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.228Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.380Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.469Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.637Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.700Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.876Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:57.932Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#«r1»",
+    "label": "Contraseña",
+    "value": "",
+    "redacted": true,
+    "url": "https://www.linkedin.com/login/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpreload%2F%3F_bprMode%3Dvanilla",
+    "at": "2026-06-03T17:35:58.510Z"
+  },
+  {
+    "type": "click",
+    "selector": "html.theme.theme--mercado > body.render-mode-VANILLA.nav-v2 > div.application-outlet:nth-of-type(6) > section.pt7.artdeco-empty-state > a.artdeco-button.artdeco-button--secondary",
+    "label": "Ir a tu feed",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/404/",
+    "at": "2026-06-03T17:36:09.155Z"
+  },
+  {
+    "type": "click",
+    "selector": "a[aria-label=\"Empleos\\,\\ 0\\ nuevas\\ notificaciones\"]",
+    "label": "Empleos, 0 nuevas notificaciones",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/feed/",
+    "at": "2026-06-03T17:36:13.526Z"
+  },
+  {
+    "type": "click",
+    "selector": "a[aria-label=\"Mostrar\\ todos\\ los\\ empleos\\ disponibles\"]",
+    "label": "Mostrar todos los empleos disponibles",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/jobs/",
+    "at": "2026-06-03T17:36:19.394Z"
+  },
+  {
+    "type": "click",
+    "selector": "div.jobs-search-discovery-tabs > nav > ul.jobs-search-discovery-tabs__tablist > li.jobs-search-discovery-tabs__listitem.jobs-search-discovery-tabs__listitem--active:nth-of-type(1) > a.TvDNDHkDyVdjWuyAAbWdzvbHOybuxKZgzIwnmg.t-black",
+    "label": "Solicitud sencilla",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:23.451Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember57",
+    "label": "Desarrollador Frontend Angular",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:29.235Z"
+  },
+  {
+    "type": "click",
+    "selector": "#jobs-apply-button-id",
+    "label": "Solicitud sencilla para el empleo Programador full stack .NET + React/Angular en SII Group Chile",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:31.892Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember351",
+    "label": "Ir al siguiente paso",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:33.612Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember351",
+    "label": "Ir al siguiente paso",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:34.694Z"
+  },
+  {
+    "type": "click",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+    "label": "¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:36.252Z"
+  },
+  {
+    "type": "select",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+    "label": "¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+    "value": "Yes",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:36.984Z"
+  },
+  {
+    "type": "click",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786754-multipleChoice",
+    "label": "¿Cuenta con experiencia trabajando con bases de datos SQL Server u Oracle?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:36.991Z"
+  },
+  {
+    "type": "click",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+    "label": "¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:37.400Z"
+  },
+  {
+    "type": "select",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+    "label": "¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+    "value": "Yes",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:38.059Z"
+  },
+  {
+    "type": "click",
+    "selector": "#text-entity-list-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786746-multipleChoice",
+    "label": "¿Tiene experiencia desarrollando en el Frontend utilizando tanto Angular como React?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:38.066Z"
+  },
+  {
+    "type": "click",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786738-numeric",
+    "label": "¿Cuántos años de experiencia total tiene desarrollando con el ecosistema .NET / C#?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:38.910Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786738-numeric",
+    "label": "¿Cuántos años de experiencia total tiene desarrollando con el ecosistema .NET / C#?",
+    "value": "4",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:42.028Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "8",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:44.453Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "80",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:44.587Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "800",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:44.772Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "8000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:45.093Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "80000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:45.445Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "8000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:46.525Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "800",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:46.644Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "80",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:46.772Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "8",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:46.917Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:47.043Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "9",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:47.620Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "90",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:47.732Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "900",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:47.899Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "9000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:48.075Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "90000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:48.219Z"
+  },
+  {
+    "type": "fill",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "value": "900000",
+    "redacted": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:48.356Z"
+  },
+  {
+    "type": "click",
+    "selector": "#single-line-text-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4422149406-32745786730-numeric",
+    "label": "¿Cuál es tu pretensión de renta líquida?",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:51.192Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember361",
+    "label": "Revisar tu solicitud",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:52.212Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember377",
+    "label": "Enviar solicitud",
+    "blockedOnReplay": true,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:53.796Z"
+  },
+  {
+    "type": "click",
+    "selector": "#ember488",
+    "label": "Hecho",
+    "blockedOnReplay": false,
+    "url": "https://www.linkedin.com/preload/?_bprMode=vanilla",
+    "at": "2026-06-03T17:36:56.686Z"
+  }
+]

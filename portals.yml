@@ -89,4 +89,24 @@ search_queries:
     query: 'site:getonbrd.com/empleos OR site:getonbrd.com/jobs ("API" OR "REST" OR Backend OR Fullstack) Junior Chile Remote'
     enabled: true
 
+  - name: Chiletrabajos - Programador Junior Chile
+    query: 'site:chiletrabajos.cl/trabajo ("Programador Junior" OR "Analista Programador Junior" OR "Desarrollador Junior") (remoto OR hibrido OR Santiago OR Chile)'
+    enabled: true
+
+  - name: Computrabajo - Desarrollo Junior Chile
+    query: 'site:cl.computrabajo.com ("Programador Junior" OR "Desarrollador Junior" OR "Analista Programador") Chile'
+    enabled: true
+
+  - name: Trabajando - Analista Programador Junior Chile
+    query: 'site:trabajando.cl ("Analista Programador Junior" OR "Programador Junior" OR "Desarrollador Junior") Chile'
+    enabled: true
+
+  - name: BeBee - Junior TI Chile
+    query: 'site:bebee.com/cl/jobs ("Analista Programador Junior" OR "Desarrollador Junior" OR "Programador Junior") Chile'
+    enabled: true
+
+  - name: ATS directo - Chile junior software
+    query: '(site:greenhouse.io OR site:lever.co OR site:ashbyhq.com OR site:workable.com) ("Junior Developer" OR "Software Engineer Junior" OR "QA Junior" OR "Support Engineer") Chile'
+    enabled: true
+
 tracked_companies: []

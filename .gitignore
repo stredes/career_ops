@@ -18,6 +18,11 @@ batch/batch-input.tsv
 *.mov
 *.mp4
 
+# Browser automation profiles / session state
+.apply-browser-profile/
+.real-chrome-apply-profile/
+.recording-browser-profile/
+
 # Claude Code local
 .claude/settings.local.json
 .claude/memory/

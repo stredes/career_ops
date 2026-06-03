@@ -219,17 +219,6 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 
 ---
 
-## Ethical Use -- CRITICAL
-
-**This system is designed for quality, not quantity.** The goal is to help the user find and apply to roles where there is a genuine match -- not to spam companies with mass applications.
-
-- **NEVER submit an application without the user reviewing it first.** Fill forms, draft answers, generate PDFs -- but always STOP before clicking Submit/Send/Apply. The user makes the final call.
-- **Strongly discourage low-fit applications.** If a score is below 4.0/5, explicitly recommend against applying. The user's time and the recruiter's time are both valuable. Only proceed if the user has a specific reason to override the score.
-- **Quality over speed.** A well-targeted application to 5 companies beats a generic blast to 50. Guide the user toward fewer, better applications.
-- **Respect recruiters' time.** Every application a human reads costs someone's attention. Only send what's worth reading.
-
----
-
 ## Offer Verification -- MANDATORY
 
 **NEVER trust WebSearch/WebFetch to verify if an offer is still active.** ALWAYS use Playwright:

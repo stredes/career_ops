@@ -19,4 +19,3 @@ Reglas:
 - Prioridad alta: Easy Apply / Apply with LinkedIn / Apply with GitHub / formulario corto.
 - Prioridad media: formulario Get on Board normal.
 - Descartar o dejar en pausa: formularios largos, cuentas obligatorias nuevas, pruebas antes de postular, ofertas cerradas o "ya no se aceptan solicitudes".
-- Mantener revisión humana antes del envío final.

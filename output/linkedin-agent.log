@@ -1,0 +1,294 @@
+[2026-06-03T17:56:29.583Z] Opening visible browser with persistent session...
+[2026-06-03T17:56:29.586Z] LinkedIn query: Programador Full Stack Junior
+[2026-06-03T17:56:29.586Z] Location: Chile
+[2026-06-03T17:56:29.587Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T17:56:29.587Z] AUTO_ADVANCE: on
+[2026-06-03T17:56:33.901Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T17:56:33.902Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T17:56:39.675Z] Round 1: found 32 job cards
+[2026-06-03T17:56:42.432Z] Skipped by title filter: Jefe/a de Oficina Técnica - Tramo CD, Línea 9 Metro
+[2026-06-03T17:56:44.706Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T17:56:46.984Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T17:56:49.234Z] Skipped by title filter: Docente - Escalada Deportiva - Escuela de Turismo y Hospitalidad - Sede San Bernardo- Jornada Diurna - Duoc UC
+[2026-06-03T17:56:51.622Z] Skipped by title filter: Cajero
+[2026-06-03T17:57:08.902Z] Final submit detected. Stopping here for manual review.
+[2026-06-03T17:57:08.902Z] Prepared 1/3: Application Developer
+[2026-06-03T17:57:13.961Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T17:57:19.020Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T17:57:24.094Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T17:57:34.863Z] Skipped by title filter: Programa de Entrenamiento Ejecutivo Banca Personas - Santiago | Edwards
+[2026-06-03T17:57:37.107Z] Skipped by title filter: Programa de Entrenamiento Ejecutivo Banca Personas - Santiago | Edwards
+[2026-06-03T17:57:39.408Z] Skipped by title filter: Especialistas en Inteligencia Artificial (AI Engineer / Automation & AI Integration)
+[2026-06-03T17:57:41.720Z] Skipped by title filter: Ingeniero de proyectos SAP
+[2026-06-03T17:57:43.963Z] Skipped by title filter: Ingeniero de proyectos SAP
+[2026-06-03T17:57:46.236Z] Skipped by title filter: Práctica Estrategia 2do semestre 2026
+[2026-06-03T17:57:48.826Z] Skipped by title filter: Diseñadora gráfica
+[2026-06-03T17:57:51.011Z] Skipped by title filter: Diseñadora gráfica
+[2026-06-03T17:57:57.907Z] Final submit detected. Stopping here for manual review.
+[2026-06-03T17:57:57.907Z] Prepared 2/3: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:03.009Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:05.030Z] Round 2: found 46 job cards
+[2026-06-03T17:58:10.166Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:15.379Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:20.573Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:25.642Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:30.741Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:35.817Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:40.887Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:45.947Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:47.970Z] Round 3: found 50 job cards
+[2026-06-03T17:58:53.377Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:58:58.445Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T17:59:00.463Z] Round 4: found 50 job cards
+[2026-06-03T17:59:02.766Z] Round 5: found 50 job cards
+[2026-06-03T17:59:05.054Z] Round 6: found 50 job cards
+[2026-06-03T17:59:07.433Z] Round 7: found 50 job cards
+[2026-06-03T17:59:09.725Z] Round 8: found 50 job cards
+[2026-06-03T17:59:12.039Z] Prepared 2 LinkedIn Easy Apply process(es).
+[2026-06-03T17:59:12.040Z] Review every open modal/tab manually. The script never clicks final submit.
+[2026-06-03T17:59:12.041Z] Leave this process open while you review. Press Ctrl+C in this terminal when done.
+[2026-06-03T18:08:56.555Z] Opening visible browser with persistent session...
+[2026-06-03T18:08:56.558Z] LinkedIn query: Programador Junior OR Programador Área TI OR Desarrollador Junior
+[2026-06-03T18:08:56.559Z] Location: Santiago, Chile
+[2026-06-03T18:08:56.559Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:08:56.560Z] AUTO_ADVANCE: on
+[2026-06-03T18:08:56.560Z] AUTO_SUBMIT: on
+[2026-06-03T18:09:01.008Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:09:01.009Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:09:06.928Z] Round 1: found 32 job cards
+[2026-06-03T18:09:09.219Z] Skipped by title filter: Jefe/a de Sección de Estrategia - Ciberseguridad
+[2026-06-03T18:09:22.717Z] Submitted application.
+[2026-06-03T18:09:22.717Z] Submitted 1/50: Frontend Developer
+[2026-06-03T18:09:27.794Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:09:32.863Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:09:35.328Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:09:37.587Z] Skipped by title filter: Cajero
+[2026-06-03T18:09:39.994Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:09:57.684Z] Submitted application.
+[2026-06-03T18:09:57.685Z] Submitted 2/50: Data Engineer - Filial Blue Express
+[2026-06-03T18:10:00.701Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:10:19.882Z] Submitted application.
+[2026-06-03T18:10:19.883Z] Submitted 3/50: Quant Developer
+[2026-06-03T18:10:23.082Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:10:25.309Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:10:27.514Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:10:29.804Z] Skipped by title filter: Ejecutivo/a de Trading
+[2026-06-03T18:10:32.154Z] Skipped by title filter: Ejecutivo/a de Trading
+[2026-06-03T18:10:34.452Z] Skipped by title filter: Especialistas en Inteligencia Artificial (AI Engineer / Automation & AI Integration)
+[2026-06-03T18:10:36.761Z] Skipped by title filter: Práctica Estrategia 2do semestre 2026
+[2026-06-03T18:10:39.015Z] Skipped by title filter: Jefe de contabilidad
+[2026-06-03T18:10:41.246Z] Skipped by title filter: Jefe de contabilidad
+[2026-06-03T18:10:43.545Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T18:10:45.867Z] Skipped by title filter: Business Patner
+[2026-06-03T18:10:48.124Z] Skipped by title filter: Business Patner
+[2026-06-03T18:11:08.653Z] Prepared 4/50: Data Engineer
+[2026-06-03T18:11:13.725Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:11:15.743Z] Round 2: found 46 job cards
+[2026-06-03T18:11:20.948Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:11:26.015Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:11:31.073Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:11:36.157Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:12:54.881Z] Opening visible browser with persistent session...
+[2026-06-03T18:12:54.884Z] LinkedIn query: Programador Junior OR Programador Área TI OR Desarrollador Junior
+[2026-06-03T18:12:54.884Z] Location: Santiago, Chile
+[2026-06-03T18:12:54.885Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:12:54.886Z] AUTO_ADVANCE: on
+[2026-06-03T18:12:54.886Z] AUTO_SUBMIT: on
+[2026-06-03T18:12:59.174Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:12:59.175Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:13:05.210Z] Round 1: found 32 job cards
+[2026-06-03T18:13:07.556Z] Skipped by title filter: Vendedor Freelance en Seguros Generales
+[2026-06-03T18:13:09.761Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:13:11.978Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:13:14.231Z] Skipped by title filter: UI Designer
+[2026-06-03T18:13:16.482Z] Skipped by title filter: UI Designer
+[2026-06-03T18:13:18.770Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:13:21.038Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T18:13:23.325Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:13:25.609Z] Skipped by title filter: Cajero
+[2026-06-03T18:13:27.968Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:13:30.307Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:13:32.609Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:13:34.866Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:13:37.107Z] Skipped by title filter: Ejecutivo/a Comercial – Software para Empresas de Servicios Industriales | Comisión Recurrente | Chile
+[2026-06-03T18:13:39.338Z] Skipped by title filter: Ejecutivo/a Comercial – Software para Empresas de Servicios Industriales | Comisión Recurrente | Chile
+[2026-06-03T18:13:41.394Z] Round 2: found 42 job cards
+[2026-06-03T18:13:43.994Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:13:46.278Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:13:48.545Z] Skipped by title filter: Arquitecto/a de desarrollo de proyectos
+[2026-06-03T18:13:50.800Z] Skipped by title filter: Arquitecto/a de desarrollo de proyectos
+[2026-06-03T18:13:53.014Z] Skipped by title filter: Especialista Desktop (Presencial - Las Condes)
+[2026-06-03T18:13:55.223Z] Skipped by title filter: Especialista Desktop (Presencial - Las Condes)
+[2026-06-03T18:13:57.483Z] Skipped by title filter: Docente - Ética para el Trabajo, Etica Profesional, Fundamentos de Antropología - Sede Plaza Vespucio - Jornada Diurna y/o Vespertina - Duoc UC
+[2026-06-03T18:13:59.739Z] Skipped by title filter: Docente - Ética para el Trabajo, Etica Profesional, Fundamentos de Antropología - Sede Plaza Vespucio - Jornada Diurna y/o Vespertina - Duoc UC
+[2026-06-03T18:14:19.282Z] Submitted application.
+[2026-06-03T18:14:19.283Z] Submitted 1/50: Backend Developer
+[2026-06-03T18:14:21.323Z] Round 3: found 43 job cards
+[2026-06-03T18:14:26.550Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:31.640Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:36.705Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:38.756Z] Round 4: found 49 job cards
+[2026-06-03T18:14:43.946Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:49.039Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:54.095Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:14:59.162Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:15:04.289Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:15:06.309Z] Round 5: found 50 job cards
+[2026-06-03T18:15:11.487Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:15:13.630Z] Round 6: found 50 job cards
+[2026-06-03T18:15:15.905Z] Round 7: found 50 job cards
+[2026-06-03T18:15:18.170Z] Round 8: found 50 job cards
+[2026-06-03T18:15:20.427Z] Prepared 1 LinkedIn Easy Apply process(es).
+[2026-06-03T18:15:20.428Z] Auto-submit was enabled. Review the log for submitted and skipped applications.
+[2026-06-03T18:15:20.430Z] Leave this process open while you review. Press Ctrl+C in this terminal when done.
+[2026-06-03T18:17:28.974Z] Opening visible browser with persistent session...
+[2026-06-03T18:17:28.976Z] LinkedIn query: Programador Junior OR Programador Área TI OR Desarrollador Junior
+[2026-06-03T18:17:28.977Z] Location: Santiago, Chile
+[2026-06-03T18:17:28.978Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:17:28.978Z] AUTO_ADVANCE: on
+[2026-06-03T18:17:28.980Z] AUTO_SUBMIT: on
+[2026-06-03T18:17:33.378Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:17:33.378Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:17:39.358Z] Round 1: found 32 job cards
+[2026-06-03T18:17:41.595Z] Skipped by title filter: ENFERMERA JEFE POLICLINICO
+[2026-06-03T18:17:43.899Z] Skipped by title filter: Sales Trader Junior
+[2026-06-03T18:17:46.176Z] Skipped by title filter: Sales Trader Junior
+[2026-06-03T18:17:48.404Z] Skipped by title filter: Vendedor Freelance en Seguros Generales
+[2026-06-03T18:17:50.614Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:17:52.875Z] Skipped by title filter: UI Designer
+[2026-06-03T18:17:55.193Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:17:57.530Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T18:17:59.834Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:18:02.102Z] Skipped by title filter: Cajero
+[2026-06-03T18:18:04.497Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:18:06.827Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:18:09.117Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:18:11.179Z] Round 2: found 42 job cards
+[2026-06-03T18:18:13.761Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:18:16.064Z] Skipped by title filter: Arquitecto/a de desarrollo de proyectos
+[2026-06-03T18:18:18.338Z] Skipped by title filter: Especialista Desktop (Presencial - Las Condes)
+[2026-06-03T18:18:20.667Z] Skipped by title filter: Docente - Ética para el Trabajo, Etica Profesional, Fundamentos de Antropología - Sede Plaza Vespucio - Jornada Diurna y/o Vespertina - Duoc UC
+[2026-06-03T18:18:22.970Z] Skipped without Easy Apply: Backend Developer
+[2026-06-03T18:18:24.983Z] Round 3: found 43 job cards
+[2026-06-03T18:18:27.595Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:18:30.117Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T18:18:32.431Z] Skipped by title filter: Business Patner
+[2026-06-03T18:18:34.497Z] Round 4: found 48 job cards
+[2026-06-03T18:18:36.992Z] Skipped by title filter: Ejecutivo/a de Trading
+[2026-06-03T18:18:39.274Z] Skipped by title filter: Ejecutivo/a Comercial – Software para Empresas de Servicios Industriales | Comisión Recurrente | Chile
+[2026-06-03T18:18:41.756Z] Skipped by title filter: Especialistas en Inteligencia Artificial (AI Engineer / Automation & AI Integration)
+[2026-06-03T18:18:44.045Z] Skipped by title filter: Jefe de contabilidad
+[2026-06-03T18:18:46.146Z] Round 5: found 50 job cards
+[2026-06-03T18:18:48.594Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:18:50.726Z] Round 6: found 50 job cards
+[2026-06-03T18:18:53.007Z] Round 7: found 50 job cards
+[2026-06-03T18:18:55.926Z] Round 8: found 50 job cards
+[2026-06-03T18:18:58.222Z] Prepared 0 LinkedIn Easy Apply process(es).
+[2026-06-03T18:18:58.223Z] Auto-submit was enabled. Review the log for submitted and skipped applications.
+[2026-06-03T18:18:58.224Z] Leave this process open while you review. Press Ctrl+C in this terminal when done.
+[2026-06-03T18:21:09.708Z] Opening visible browser with persistent session...
+[2026-06-03T18:21:09.711Z] LinkedIn query: Desarrollador Junior
+[2026-06-03T18:21:09.712Z] Location: Chile
+[2026-06-03T18:21:09.712Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:21:09.713Z] AUTO_ADVANCE: on
+[2026-06-03T18:21:09.713Z] AUTO_SUBMIT: on
+[2026-06-03T18:21:14.672Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:21:14.673Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:21:20.485Z] Round 1: found 32 job cards
+[2026-06-03T18:21:23.231Z] Skipped by title filter: Sales Trader Junior
+[2026-06-03T18:21:25.469Z] Skipped by title filter: Vendedor Freelance en Seguros Generales
+[2026-06-03T18:21:27.687Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:21:29.941Z] Skipped by title filter: UI Designer
+[2026-06-03T18:21:32.211Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:21:34.460Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T18:21:36.746Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:21:39.095Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:21:41.387Z] Skipped by title filter: Especialista en Fauna Marina (Director de Campaña de Chungungos)- 6929-6 (Licitaciones) San Antonio
+[2026-06-03T18:21:43.653Z] Skipped by title filter: Especialista en Fauna Marina (Director de Campaña de Chungungos)- 6929-6 (Licitaciones) San Antonio
+[2026-06-03T18:21:45.951Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:21:48.233Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:21:50.451Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:21:52.514Z] Round 2: found 42 job cards
+[2026-06-03T18:21:54.996Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:21:57.351Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:22:09.877Z] Opening visible browser with persistent session...
+[2026-06-03T18:22:09.880Z] LinkedIn query: Analista Programador Junior
+[2026-06-03T18:22:09.880Z] Location: Chile
+[2026-06-03T18:22:09.881Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:22:09.882Z] AUTO_ADVANCE: on
+[2026-06-03T18:22:09.882Z] AUTO_SUBMIT: on
+[2026-06-03T18:22:14.360Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:22:14.361Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:22:20.147Z] Round 1: found 32 job cards
+[2026-06-03T18:22:22.525Z] Skipped by title filter: Sales Trader Junior
+[2026-06-03T18:22:24.797Z] Skipped by title filter: Vendedor Freelance en Seguros Generales
+[2026-06-03T18:22:27.035Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:22:29.301Z] Skipped by title filter: UI Designer
+[2026-06-03T18:22:31.586Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:22:33.835Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T18:22:36.137Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:22:38.425Z] Skipped by title filter: Ingeniero/a Adjunto/a al Jefe Residente - Tramo CD, Línea 9
+[2026-06-03T18:22:40.693Z] Skipped by title filter: Cajero
+[2026-06-03T18:22:43.028Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:22:45.330Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:22:47.594Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:22:49.654Z] Round 2: found 42 job cards
+[2026-06-03T18:22:52.120Z] Skipped by title filter: Asesor de Inversiones Patrimoniales
+[2026-06-03T18:22:54.358Z] Skipped by title filter: Asesor de Inversiones Patrimoniales
+[2026-06-03T18:22:56.677Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T18:22:58.912Z] Skipped by title filter: Business Patner
+[2026-06-03T18:23:01.192Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:23:03.463Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:23:05.485Z] Round 3: found 43 job cards
+[2026-06-03T18:23:07.970Z] Skipped by title filter: Jefe de contabilidad
+[2026-06-03T18:23:10.207Z] Skipped by title filter: Práctica Estrategia 2do semestre 2026
+[2026-06-03T18:23:12.285Z] Round 4: found 46 job cards
+[2026-06-03T18:23:14.854Z] Skipped by title filter: Ingeniero de proyectos SAP
+[2026-06-03T18:23:17.173Z] Skipped by title filter: Especialistas en Inteligencia Artificial (AI Engineer / Automation & AI Integration)
+[2026-06-03T18:23:19.441Z] Skipped by title filter: Analista de Selección - Región de Los Rios
+[2026-06-03T18:23:21.659Z] Skipped by title filter: Analista de Selección - Región de Los Rios
+[2026-06-03T18:23:23.729Z] Round 5: found 49 job cards
+[2026-06-03T18:23:38.777Z] Opening visible browser with persistent session...
+[2026-06-03T18:23:38.780Z] LinkedIn query: Desarrollador Junior
+[2026-06-03T18:23:38.781Z] Location: Chile
+[2026-06-03T18:23:38.782Z] CV: C:\Users\bodega 1\Desktop\workspace\career-ops\output\cv-gian-programador-ti.pdf
+[2026-06-03T18:23:38.782Z] AUTO_ADVANCE: on
+[2026-06-03T18:23:38.783Z] AUTO_SUBMIT: on
+[2026-06-03T18:23:43.267Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-03T18:23:43.269Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-03T18:23:49.154Z] Round 1: found 32 job cards
+[2026-06-03T18:23:51.716Z] Skipped by title filter: Sales Trader Junior
+[2026-06-03T18:23:53.965Z] Skipped by title filter: CONSULTOR SAP FICO (Chile, Freelance USD)
+[2026-06-03T18:23:56.252Z] Skipped by title filter: UI Designer
+[2026-06-03T18:23:58.538Z] Skipped without Easy Apply: Frontend Developer
+[2026-06-03T18:24:00.790Z] Skipped by title filter: Analista Jr de Operaciones – Planta Fotovoltaica
+[2026-06-03T18:24:03.044Z] Skipped by title filter: SDR - Sales Development Representative
+[2026-06-03T18:24:05.329Z] Skipped by title filter: Ingeniero/a Adjunto/a al Jefe Residente - Tramo CD, Línea 9
+[2026-06-03T18:24:07.689Z] Skipped without Easy Apply: Application Developer
+[2026-06-03T18:24:10.016Z] Skipped without Easy Apply: Data Engineer - Filial Blue Express
+[2026-06-03T18:24:12.318Z] Skipped without Easy Apply: Quant Developer
+[2026-06-03T18:24:14.552Z] Skipped by title filter: CTO Fractional / CTO a tiempo parcial
+[2026-06-03T18:24:17.125Z] Round 2: found 42 job cards
+[2026-06-03T18:24:19.580Z] Skipped by title filter: Business Patner
+[2026-06-03T18:24:21.863Z] Skipped without Easy Apply: Data Engineer
+[2026-06-03T18:24:24.113Z] Skipped by title filter: Tax Specialist
+[2026-06-03T18:24:26.382Z] Skipped by title filter: Arquitecto/a de desarrollo de proyectos
+[2026-06-03T18:24:28.616Z] Skipped by title filter: Especialista Desktop (Presencial - Las Condes)
+[2026-06-03T18:24:30.870Z] Skipped by title filter: Docente - Ética para el Trabajo, Etica Profesional, Fundamentos de Antropología - Sede Plaza Vespucio - Jornada Diurna y/o Vespertina - Duoc UC
+[2026-06-03T18:24:33.389Z] Round 3: found 43 job cards
+[2026-06-03T18:24:35.935Z] Skipped without Easy Apply: Desarrollador Backend / Ingeniero Informático | Java & Oracle
+[2026-06-03T18:24:38.203Z] Skipped by title filter: Asesor de Inversiones Patrimoniales
+[2026-06-03T18:24:40.802Z] Round 4: found 46 job cards
+[2026-06-03T18:24:43.226Z] Skipped by title filter: Analista de Selección - Región de Los Rios
+[2026-06-03T18:24:45.457Z] Skipped by title filter: Ingeniero de proyectos SAP
+[2026-06-03T18:24:47.743Z] Skipped by title filter: Práctica Estrategia 2do semestre 2026
+[2026-06-03T18:24:50.335Z] Round 5: found 49 job cards
+[2026-06-03T18:24:52.833Z] Skipped by title filter: Ejecutivo/a de Trading
+[2026-06-03T18:24:55.142Z] Skipped by title filter: Especialistas en Inteligencia Artificial (AI Engineer / Automation & AI Integration)
+[2026-06-03T18:24:57.776Z] Round 6: found 50 job cards
+[2026-06-03T18:25:00.126Z] Skipped by title filter: Ejecutivo/a Comercial – Software para Empresas de Servicios Industriales | Comisión Recurrente | Chile
+[2026-06-03T18:25:02.760Z] Round 7: found 50 job cards
+[2026-06-03T18:25:05.532Z] Round 8: found 50 job cards
+[2026-06-03T18:25:08.326Z] Prepared 0 LinkedIn Easy Apply process(es).
+[2026-06-03T18:25:08.326Z] Auto-submit was enabled. Review the log for submitted and skipped applications.
+[2026-06-03T18:25:08.327Z] Leave this process open while you review. Press Ctrl+C in this terminal when done.

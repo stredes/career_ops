@@ -5,6 +5,15 @@ import { resolve } from 'path';
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const cvPath = resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
 
+const profileBlocks = {
+  experience: `Mi experiencia profesional combina operación, datos y desarrollo de software. Actualmente estoy orientando mi carrera al área TI como Analista Programador en formación, con proyectos prácticos en frontend, backend, automatización y gestión de datos. He desarrollado AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Vercel Functions, Firebase/Firestore, endpoints REST, validaciones con Zod, logging y tests. También desarrollé Inventario App, un sistema en Python con SQLAlchemy, SQLite/PostgreSQL, generación de PDFs, exportación CSV y arquitectura por capas, además de Exelcior Apolo, una aplicación Python para automatizar transformación, validación e impresión de archivos Excel.
+
+Mi experiencia previa en laboratorio clínico y logística aporta una base sólida para TI: manejo de sistemas, trazabilidad, control de datos, documentación, cumplimiento de procedimientos y trabajo con usuarios reales. En Barnafi Krause y RLab trabajé con registros, sistemas LIS, datos clínicos y procesos regulados, mientras que en Amilab he trabajado con control de inventario, stock, despacho y datos operativos. Esa combinación me permite entender problemas reales de negocio y transformarlos en soluciones digitales útiles.`,
+  education: `Actualmente curso la carrera de Analista Programador en Instituto Profesional Duoc UC, Sede Puente Alto, donde he desarrollado conocimientos en programación, bases de datos, desarrollo web, análisis de sistemas y construcción de aplicaciones. Mi formación técnica incluye Python, JavaScript, TypeScript, Java, SQL, React, Node.js, FastAPI, Git/GitHub, Firebase/Firestore, consumo y diseño de APIs REST, testing, automatización y generación de reportes.
+
+Como complemento, soy titulado de Técnico en Laboratorio Clínico y Banco de Sangre por Instituto Profesional Duoc UC. Esta segunda formación me entrega una ventaja diferencial para el área TI: experiencia con procesos regulados, datos sensibles, trazabilidad, calidad, documentación y trabajo riguroso bajo protocolos. Mi objetivo profesional actual es desarrollarme como programador en el área TI, aportando con proyectos reales, aprendizaje continuo y capacidad para conectar tecnología con procesos operativos.`,
+};
+
 const applications = [
   {
     company: 'Consistor Chile',
@@ -127,7 +136,19 @@ async function fillObviousFields(page, app) {
     try {
       const field = textareas.nth(i);
       const current = await field.inputValue({ timeout: 500 }).catch(() => '');
-      if (!current || current.length < 20) await field.fill(app.message);
+      const labelText = await field.evaluate((node) => {
+        const id = node.getAttribute('id');
+        const label = id ? document.querySelector(`label[for="${CSS.escape(id)}"]`) : null;
+        const parent = node.closest('label, div, section, fieldset');
+        return `${label?.textContent || ''} ${parent?.textContent || ''}`;
+      }).catch(() => '');
+      if (/experiencia|perfil profesional|professional experience|about you/i.test(labelText)) {
+        if (current.trim() !== profileBlocks.experience.trim()) await field.fill(profileBlocks.experience);
+      } else if (/formaci[oó]n|educaci[oó]n|estudios|education|academic/i.test(labelText)) {
+        if (current.trim() !== profileBlocks.education.trim()) await field.fill(profileBlocks.education);
+      } else if (!current || current.length < 20) {
+        await field.fill(app.message);
+      }
     } catch {}
   }
 
@@ -161,8 +182,8 @@ async function main() {
     console.log(`Prepared: ${app.company} - ${app.role}`);
   }
 
-  console.log('\nReview each browser tab. Do the final Submit/Postular click manually after checking fields.');
-  console.log('Leave this process open while you review. Press Ctrl+C here when finished.');
+  console.log('\nTabs prepared.');
+  console.log('Leave this process open. Press Ctrl+C here when finished.');
   await new Promise(() => {});
 }
 

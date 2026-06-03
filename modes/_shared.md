@@ -92,7 +92,6 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 
 1. Invent experience or metrics
 2. Modify cv.md or portfolio files
-3. Submit applications on behalf of the candidate
 4. Share phone number in generated messages
 5. Recommend comp below market rate
 6. Generate a PDF without reading the JD first

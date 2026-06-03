@@ -1,0 +1,153 @@
+[2026-06-03T18:38:04.761Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:38:04.763Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:38:11.399Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:38:11.400Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:38:18.213Z] Prepared Ameris Capital: no final submit button visible.
+[2026-06-03T18:38:18.213Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T18:38:18.214Z] Prepared direct application tabs.
+[2026-06-03T18:40:18.773Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:40:18.778Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:40:25.517Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:40:25.518Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:40:32.206Z] Prepared Ameris Capital: no final submit button visible.
+[2026-06-03T18:40:32.207Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T18:40:32.208Z] Prepared direct application tabs.
+[2026-06-03T18:42:55.464Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:43:05.016Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:43:05.017Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:43:12.989Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:43:12.990Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:48:01.573Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:48:24.488Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:48:24.488Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:48:40.508Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:48:40.509Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:49:35.907Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:50:19.653Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:50:19.654Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:50:33.766Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:50:33.766Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:52:58.036Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:53:09.897Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Más trabajos de Programación | Magnet | Seguir | Programación | Tienes una postulación por enviar | Copiar enlace Copiar enlace | E-mail E-mail
+[2026-06-03T18:53:41.559Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T18:53:41.560Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:53:53.427Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Más trabajos de Programación | BC Tecnología | Seguir | Programación | Postular | Copiar enlace Copiar enlace | E-mail E-mail
+[2026-06-03T18:54:36.614Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:54:40.393Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:54:43.447Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:54:43.554Z] Skipped submit for Magnet: blocking text detected.
+[2026-06-03T18:54:43.555Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:54:47.217Z] Clicked apply control: Postular
+[2026-06-03T18:54:50.259Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Soporte Operativo Junior | 1 Experiencia | 2 Información básica | 3 Preguntas | 4 Vista previa | Bold Bold | Italic Italic
+[2026-06-03T18:54:50.358Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:54:50.358Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:54:54.289Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:54:57.331Z] Visible controls for Ameris Capital: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:54:57.441Z] Skipped submit for Ameris Capital: blocking text detected.
+[2026-06-03T18:54:57.442Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T18:54:57.443Z] Prepared direct application tabs.
+[2026-06-03T18:56:29.005Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:56:32.807Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:56:35.864Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:56:35.997Z] Skipped submit for Magnet: blocking text detected.
+[2026-06-03T18:56:36.000Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:56:39.656Z] Clicked apply control: Postular
+[2026-06-03T18:56:42.708Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Soporte Operativo Junior | 1 Experiencia | 2 Información básica | 3 Preguntas | 4 Vista previa | Bold Bold | Italic Italic
+[2026-06-03T18:56:42.810Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:42.843Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:45.465Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:45.504Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:48.129Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:48.162Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:50.803Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:50.836Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:53.457Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:53.494Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:56.111Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:56:56.140Z] Advanced BC Tecnologia: 4 Vista previa
+[2026-06-03T18:56:58.653Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:57:02.561Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:57:05.597Z] Visible controls for Ameris Capital: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:57:05.697Z] Skipped submit for Ameris Capital: blocking text detected.
+[2026-06-03T18:57:05.700Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T18:57:05.701Z] Prepared direct application tabs.
+[2026-06-03T18:58:42.194Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:58:46.210Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:58:49.257Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:58:49.366Z] Skipped submit for Magnet: blocking text detected.
+[2026-06-03T18:58:49.369Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T18:58:53.075Z] Clicked apply control: Postular
+[2026-06-03T18:58:56.200Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Soporte Operativo Junior | 1 Experiencia | 2 Información básica | 3 Preguntas | 4 Vista previa | Bold Bold | Italic Italic
+[2026-06-03T18:58:56.349Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:58:56.461Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:58:59.167Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:58:59.170Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:59:01.803Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:59:01.806Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:59:04.423Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:59:04.426Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:59:07.065Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:59:07.067Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:59:09.694Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T18:59:09.697Z] Advanced BC Tecnologia: Siguiente
+[2026-06-03T18:59:12.202Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T18:59:16.301Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:59:19.345Z] Visible controls for Ameris Capital: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:59:19.441Z] Skipped submit for Ameris Capital: blocking text detected.
+[2026-06-03T18:59:19.444Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T18:59:19.445Z] Prepared direct application tabs.
+[2026-06-03T18:59:52.987Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T18:59:56.803Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T18:59:59.847Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T18:59:59.961Z] Skipped submit for Magnet: blocking text detected.
+[2026-06-03T18:59:59.964Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T19:00:03.809Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T19:00:06.854Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T19:00:06.980Z] Skipped submit for BC Tecnologia: blocking text detected.
+[2026-06-03T19:00:06.983Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T19:00:11.395Z] Clicked apply control: Tienes una postulación por enviar
+[2026-06-03T19:00:14.448Z] Visible controls for Ameris Capital: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Filtrar postulaciones | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1 | ENVIADA | Junior Front-end Engineer Full time Krunchbox
+[2026-06-03T19:00:14.547Z] Skipped submit for Ameris Capital: blocking text detected.
+[2026-06-03T19:00:14.550Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T19:00:14.551Z] Prepared direct application tabs.
+[2026-06-03T19:01:21.483Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T19:01:33.319Z] Visible controls for Magnet: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Más trabajos de Programación | Magnet | Seguir | Programación | Tienes una postulación por enviar | Copiar enlace Copiar enlace | E-mail E-mail
+[2026-06-03T19:02:04.978Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T19:02:04.982Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T19:02:16.845Z] Visible controls for BC Tecnologia: Get on Board | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Más trabajos de Programación | BC Tecnología | Seguir | Programación | Tienes una postulación por enviar | Copiar enlace Copiar enlace | E-mail E-mail
+[2026-06-03T19:20:12.009Z] Connected to real Chrome over CDP: http://127.0.0.1:9222
+[2026-06-03T19:20:19.290Z] Visible controls for Magnet: Get on Board | Ayuda | Gian Lucas San Martin | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Todas las fases | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1
+[2026-06-03T19:20:19.469Z] Prepared Magnet: no final submit button visible.
+[2026-06-03T19:20:19.473Z] Prepared Magnet: Back-end Developer Node.js con React
+[2026-06-03T19:20:26.285Z] Visible controls for BC Tecnologia: Get on Board | Ayuda | Gian Lucas San Martin | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Todas las fases | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1
+[2026-06-03T19:20:26.429Z] Prepared BC Tecnologia: no final submit button visible.
+[2026-06-03T19:20:26.432Z] Prepared BC Tecnologia: Soporte Operativo Junior
+[2026-06-03T19:20:33.690Z] Visible controls for Ameris Capital: Get on Board | Ayuda | Gian Lucas San Martin | Tema | Empleos para ti | Tus postulaciones 1 | Invitaciones | Editar mi perfil | Tus CVs NUEVO | Eventos | Siguiendo | Tests | Beneficios | Español | Ayuda | Tablero | Lista | Todas las fases | 1Desarrollador(a) de Automatizaciones e IA Part time Zesty | 1
+[2026-06-03T19:20:33.830Z] Prepared Ameris Capital: no final submit button visible.
+[2026-06-03T19:20:33.834Z] Prepared Ameris Capital: Developer QA Junior
+[2026-06-03T19:20:33.835Z] Prepared direct application tabs.
+[2026-06-03T19:24:19.017Z] Resolving Get on Board drafts.
+[2026-06-03T19:24:19.094Z] Opened draft: Por enviar
+[2026-06-03T19:24:21.779Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:24:26.581Z] Opened draft: Por enviar
+[2026-06-03T19:24:29.215Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:24:34.038Z] Opened draft: Por enviar
+[2026-06-03T19:24:36.677Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:24:41.565Z] Opened draft: Por enviar
+[2026-06-03T19:24:44.240Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:24:49.257Z] Opened draft: Por enviar
+[2026-06-03T19:24:51.917Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:24:56.943Z] Opened draft: Por enviar
+[2026-06-03T19:24:59.586Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:25:04.490Z] Opened draft: Por enviar
+[2026-06-03T19:25:07.153Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:27:44.935Z] Resolving Get on Board drafts.
+[2026-06-03T19:27:45.002Z] Opened draft: Por enviar
+[2026-06-03T19:27:47.687Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:27:52.871Z] Opened draft: Por enviar
+[2026-06-03T19:27:55.541Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:28:00.456Z] Opened draft: Por enviar
+[2026-06-03T19:28:03.247Z] Clicked final submit: Enviar postulación ahora
+[2026-06-03T19:32:48.137Z] Starting Get on Board matched visible jobs apply run.
+[2026-06-03T19:32:52.367Z] Automation Developer: no apply button found.
+[2026-06-03T19:32:56.223Z] Desarrollador/a Full-Stack Jr: opened application via Postular
