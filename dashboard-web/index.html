@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career Ops Control Center</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Career Ops</p>
+        <h1>Centro de control de postulaciones</h1>
+      </div>
+      <div class="top-actions">
+        <span id="updatedAt">Actualizando...</span>
+        <button id="refreshBtn" type="button">Actualizar</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="control-grid" aria-label="Control total">
+        <article class="control-card">
+          <div class="control-title">
+            <h2>Salud del sistema</h2>
+            <span id="healthBadge" class="agent-badge offline">verificando</span>
+          </div>
+          <div id="healthList" class="check-list"></div>
+        </article>
+        <article class="control-card">
+          <div class="control-title">
+            <h2>Reglas activas</h2>
+            <span id="policyBadge" class="agent-badge running">activo</span>
+          </div>
+          <div id="policyList" class="check-list"></div>
+        </article>
+        <article class="control-card">
+          <div class="control-title">
+            <h2>Atencion</h2>
+            <span id="attentionBadge" class="agent-badge attention">0</span>
+          </div>
+          <ul id="attentionList" class="compact-list"></ul>
+        </article>
+      </section>
+
+      <section class="metrics" aria-label="Resumen">
+        <article class="metric"><span>Total</span><strong id="totalCount">0</strong></article>
+        <article class="metric"><span>Activas</span><strong id="activeCount">0</strong></article>
+        <article class="metric"><span>Enviadas</span><strong id="appliedCount">0</strong></article>
+        <article class="metric"><span>Respondidas</span><strong id="respondedCount">0</strong></article>
+        <article class="metric"><span>Entrevistas</span><strong id="interviewCount">0</strong></article>
+        <article class="metric"><span>Descartadas</span><strong id="discardedCount">0</strong></article>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel">
+          <h2>Estado</h2>
+          <div id="statusBars" class="bars"></div>
+          <div class="rates">
+            <div><span>Tasa respuesta</span><strong id="responseRate">0%</strong></div>
+            <div><span>Tasa entrevista</span><strong id="interviewRate">0%</strong></div>
+          </div>
+          <div class="agent-card">
+            <div class="agent-head">
+              <h2>Agente</h2>
+              <span id="agentBadge" class="agent-badge offline">offline</span>
+            </div>
+            <dl>
+              <div><dt>Ultima revision</dt><dd id="agentLastCheck">-</dd></div>
+              <div><dt>Proxima revision</dt><dd id="agentNextCheck">-</dd></div>
+              <div><dt>Intervalo</dt><dd id="agentInterval">-</dd></div>
+            </dl>
+            <ul id="agentAlerts" class="agent-alerts"></ul>
+          </div>
+          <div class="portal-card">
+            <div class="agent-head">
+              <h2>Portales</h2>
+              <span id="portalBadge" class="agent-badge offline">pendiente</span>
+            </div>
+            <p id="portalLastCheck" class="portal-note">Sin revision todavia.</p>
+            <div id="portalChecks" class="portal-checks"></div>
+          </div>
+        </aside>
+
+        <section class="table-panel">
+          <div class="table-tools">
+            <label>
+              Buscar
+              <input id="searchInput" type="search" placeholder="Empresa, rol o nota">
+            </label>
+            <label>
+              Estado
+              <select id="statusFilter">
+                <option value="">Todos</option>
+              </select>
+            </label>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Fecha</th>
+                  <th>Empresa</th>
+                  <th>Rol</th>
+                  <th>Estado</th>
+                  <th>Notas</th>
+                </tr>
+              </thead>
+              <tbody id="applicationsBody"></tbody>
+            </table>
+          </div>
+          <section class="ops-panel">
+            <div>
+              <h2>Ultimas postulaciones</h2>
+              <ul id="recentList" class="compact-list"></ul>
+            </div>
+            <div>
+              <h2>Log del agente</h2>
+              <pre id="agentLog" class="log-box"></pre>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

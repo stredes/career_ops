@@ -1,0 +1,36 @@
+{
+  "state": "attention",
+  "pid": 16644,
+  "intervalSec": 60,
+  "portalIntervalSec": 300,
+  "lastCheck": "2026-06-04T21:51:43.229Z",
+  "nextCheck": "2026-06-04T21:52:43.365Z",
+  "lastPortalCheck": "2026-06-04T21:51:43.365Z",
+  "summary": {
+    "total": 120,
+    "active": 114,
+    "applied": 111,
+    "responded": 0,
+    "interviews": 0,
+    "offers": 0,
+    "discarded": 5
+  },
+  "alerts": [
+    "3 oferta(s) evaluadas pendientes de decision.",
+    "1 portal(es) requieren revision de sesion o acceso."
+  ],
+  "portalState": "error",
+  "portalChecks": [
+    {
+      "source": "Portales",
+      "state": "error",
+      "url": "",
+      "lastCheck": "2026-06-04T21:51:43.365Z",
+      "matches": [],
+      "matchCount": 0,
+      "summary": "browserType.connectOverCDP: connect ECONNREFUSED 127.0.0.1:9222\nCall log:\n\u001b[2m  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222\u001b[22m\n"
+    }
+  ],
+  "verifyOk": true,
+  "verifyTail": "\n📊 Checking 120 entries in applications.md\n\n✅ All statuses are canonical\n✅ No exact duplicates found\n✅ All report links valid\n✅ All scores valid\n✅ All rows properly formatted\n✅ No pending TSVs\n✅ No bold in scores\n\n==================================================\n📊 Pipeline Health: 0 errors, 0 warnings\n🟢 Pipeline is clean!\n"
+}
