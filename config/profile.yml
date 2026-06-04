@@ -23,7 +23,7 @@ target_roles:
     - "Desarrollador Full Stack Junior"
   archetypes:
     - name: "Programador Junior"
-      level: "Junior / Trainee"
+      level: "Junior"
       fit: "primary"
     - name: "Analista Programador"
       level: "Junior"
@@ -81,6 +81,7 @@ compensation:
   target_range: "$800.000 - $1.000.000 CLP líquidos o brutos según condiciones del cargo"
   currency: "CLP"
   minimum: "$800.000 CLP"
+  exclude_low_paid_practice_roles: true
   location_flexibility: "Preferencia por teletrabajo o modalidad semipresencial en Santiago."
 
 location:
@@ -89,6 +90,8 @@ location:
   timezone: "America/Santiago"
   visa_status: "No requiere patrocinio en Chile"
   onsite_availability: "Disponible para modalidad teletrabajo o semipresencial; presencial completo solo si el rol tiene alta proyección y buenas condiciones."
+  drivers_license: "Clase B vigente"
+  transport_notes: "Cuenta con licencia clase B, pero no tiene transporte propio para llegar rapidamente a cualquier ubicacion. No cuenta con zapatos de seguridad."
 
 cv:
   output_format: "html"

@@ -1,0 +1,162 @@
+[2026-06-04T14:43:38.633Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-soporte-tecnico-remoto-noc-800000-liquidos-stgo-centro-en-santiago-centro-3ABB4164459C32C261373E686DCF3405
+[2026-06-04T14:43:52.117Z] submitted: Computrabajo - Edad: A partir de 24 años (confirmation: Enviar mi CV)
+[2026-06-04T14:53:36.713Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-jr-inclusion-laboral-vitacura-en-santiago-vitacura-63DEBD8F03626BBA61373E686DCF3405
+[2026-06-04T14:53:50.189Z] paused: Computrabajo - años de experiencia (no confirmation)
+[2026-06-04T14:53:50.189Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-j2ee-springboot-y-poo-junior-en-santiago-providencia-C61A5888DB8C626761373E686DCF3405
+[2026-06-04T14:54:03.520Z] paused: Computrabajo - Trabajo de desarrollador java | Bolsa de Trabajo Chile (no confirmation)
+[2026-06-04T14:55:29.872Z] Computrabajo apply: https://cl.computrabajo.com/empleos-de-informatica-y-telecom-en-rmetropolitana-en-santiago---las-condes#BBA509586A017A3161373E686DCF3405&lc=OfferPostApply-Similars-1-O2Ov3.1
+[2026-06-04T14:55:36.962Z] ERROR page.waitForTimeout: Target page, context or browser has been closed
+    at submitOne (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:97:14)
+    at async main (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:125:20)
+[2026-06-04T14:56:17.828Z] Computrabajo apply: https://cl.computrabajo.com/empleos-de-informatica-y-telecom-en-rmetropolitana-en-santiago---las-condes#BBA509586A017A3161373E686DCF3405&lc=OfferPostApply-Similars-1-O2Ov3.1
+[2026-06-04T14:56:31.180Z] paused: Computrabajo - Trabajo de informatica y telecom en santiago las condes en R.Metropolitana | Bolsa Empleo (no confirmation)
+[2026-06-04T14:56:31.180Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-ingeniero-informatico-en-rmetropolitana-en-santiago---providencia#609B10660A1B7C7E61373E686DCF3405&lc=OfferPostApply-Similars-2-O2Ov3.1
+[2026-06-04T14:56:44.531Z] paused: Computrabajo - AGtec Servicios Informáticos (no confirmation)
+[2026-06-04T14:56:44.532Z] Computrabajo apply: https://cl.computrabajo.com/empleos-de-informatica-y-telecom-en-rmetropolitana-en-santiago---las-condes#433D02473315476461373E686DCF3405&lc=OfferPostApply-Similars-4-O2Ov3.1
+[2026-06-04T14:56:57.754Z] paused: Computrabajo - Trabajo de informatica y telecom en santiago las condes en R.Metropolitana | Bolsa Empleo (no confirmation)
+[2026-06-04T14:56:57.755Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-web-en-rmetropolitana-en-santiago-centro#EF1705FC7465859261373E686DCF3405&lc=OfferPostApply-Similars-5-O2Ov3.1
+[2026-06-04T14:57:10.945Z] paused: Computrabajo - Desarrollador Web Junior (no confirmation)
+[2026-06-04T14:57:10.946Z] ERROR TypeError: browser.disconnect is not a function
+    at main (file:///C:/Users/bodega%201/Desktop/workspace/career-ops/output/computrabajo-url-apply.mjs:130:17)
+[2026-06-04T15:11:53.543Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-web-php-junior-contrato-indefinido-en-santiago-providencia-3bef8578454e908061373e686dcf3405
+[2026-06-04T15:12:07.240Z] paused: Computrabajo - Trabajo de programador web | Bolsa de Trabajo Chile (no confirmation)
+[2026-06-04T15:15:23.496Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-full-stack-remoto-en-santiago-providencia-98f504df68355edc61373e686dcf3405
+[2026-06-04T15:15:37.193Z] paused: Computrabajo - Trabajo de desarrollador web | Bolsa de Trabajo Chile (no confirmation)
+[2026-06-04T15:15:37.194Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-programador-ti-desarrollador-backend-perfil-jr-remoto-en-santiago-providencia-8e5bab7debf24b5061373e686dcf3405
+[2026-06-04T15:15:50.565Z] paused: Computrabajo - Trabajo de consultor | Bolsa de Trabajo Chile (no confirmation)
+[2026-06-04T15:16:19.835Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=98f504df68355edc61373e686dcf3405
+[2026-06-04T15:16:32.936Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:16:32.936Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=8e5bab7debf24b5061373e686dcf3405
+[2026-06-04T15:16:46.048Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:16:46.049Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=3bef8578454e908061373e686dcf3405
+[2026-06-04T15:16:59.178Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:17:11.403Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=98F504DF68355EDC61373E686DCF3405
+[2026-06-04T15:17:24.534Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:17:24.535Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=8E5BAB7DEBF24B5061373E686DCF3405
+[2026-06-04T15:17:37.722Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:17:37.723Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=3BEF8578454E908061373E686DCF3405
+[2026-06-04T15:17:50.836Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:19:43.495Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-full-stack-remoto-en-santiago-providencia-98f504df68355edc61373e686dcf3405
+[2026-06-04T15:19:57.098Z] submitted: Computrabajo - Trabajo de desarrollador web | Bolsa de Trabajo Chile (confirmation: )
+[2026-06-04T15:19:57.099Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-programador-ti-desarrollador-backend-perfil-jr-remoto-en-santiago-providencia-8e5bab7debf24b5061373e686dcf3405
+[2026-06-04T15:20:10.473Z] paused: Computrabajo - Trabajo de consultor | Bolsa de Trabajo Chile (platform error)
+[2026-06-04T15:20:10.474Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-web-php-junior-contrato-indefinido-en-santiago-providencia-3bef8578454e908061373e686dcf3405
+[2026-06-04T15:20:24.098Z] submitted: Computrabajo - Trabajo de programador web | Bolsa de Trabajo Chile (confirmation: )
+[2026-06-04T15:25:59.457Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=433D02473315476461373E686DCF3405&p=280&idb=1&d=32
+[2026-06-04T15:26:12.876Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:26:12.877Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=BBA509586A017A3161373E686DCF3405&p=280&lc=OfferInactive-Similars-2-Base-null&d=32
+[2026-06-04T15:26:25.995Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:26:25.996Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=EF1705FC7465859261373E686DCF3405&p=280&idb=1&d=32
+[2026-06-04T15:26:39.124Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:26:39.125Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/apply/?oi=D798D53299ABFE9861373E686DCF3405&p=280&lc=OfferInactive-Similars-5-Base-null&d=32
+[2026-06-04T15:26:52.222Z] paused: Computrabajo - Computrabajo - 404 Página no encontrada (no confirmation)
+[2026-06-04T15:29:18.159Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-net-core-9-junior-en-santiago-las-condes-433D02473315476461373E686DCF3405#lc=ListOffers-Score4-1
+[2026-06-04T15:29:34.379Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T15:29:34.380Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-junior-en-santiago-centro-EF1705FC7465859261373E686DCF3405#lc=ListOffers-Score4-10
+[2026-06-04T15:29:50.572Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T15:29:50.573Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-backend-web-spring-boot-en-santiago-pudahuel-DF5EAABFC38AA1E961373E686DCF3405#lc=ListOffers-Score4-0
+[2026-06-04T15:30:06.795Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T15:30:06.796Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-inclusion-laboral-remoto-vitacura-en-santiago-vitacura-65E495B47FFE430B61373E686DCF3405#lc=ListOffers-Score4-5
+[2026-06-04T15:30:22.984Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T15:38:39.455Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-programador-ti-desarrollador-backend-perfil-jr-remoto-en-santiago-providencia-8e5bab7debf24b5061373e686dcf3405
+[2026-06-04T15:38:53.107Z] paused: Computrabajo - Trabajo de consultor | Bolsa de Trabajo Chile (platform error)
+[2026-06-04T15:41:37.376Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-generativa-jr-en-san-bernardo-109B16D64BF82E3C61373E686DCF3405
+[2026-06-04T15:41:53.692Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T15:41:53.693Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-java-juniorintermedio-en-santiago-las-condes-6BA23FF6634EFABD61373E686DCF3405
+[2026-06-04T15:42:09.886Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-04T15:42:09.886Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-python-ia-en-santiago-centro-D1960219C9C6A60B61373E686DCF3405
+[2026-06-04T15:42:26.271Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T15:55:27.541Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-angular-gcp-remoto-en-santiago-providencia-2F25E32D3C75864261373E686DCF3405
+[2026-06-04T15:55:43.831Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T15:55:43.832Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-proyecto-digitalizacion-en-santiago-las-condes-6BE00462F1F25E4C61373E686DCF3405
+[2026-06-04T15:56:00.067Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T15:56:00.067Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-automation-developer-python-rpa-playwright-cloud-en-santiago-las-condes-3B0A1D25DACD5B0B61373E686DCF3405
+[2026-06-04T15:56:16.229Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T15:56:16.230Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-remoto-en-santiago-las-condes-F5D5C636B82A072F61373E686DCF3405
+[2026-06-04T15:56:32.478Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T17:04:40.955Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-automation-developer-python-rpa-playwright-cloud-en-santiago-las-condes-3B0A1D25DACD5B0B61373E686DCF3405
+[2026-06-04T17:04:57.470Z] paused: Computrabajo - Alta de currículum - Computrabajo Chile (no confirmation)
+[2026-06-04T17:43:29.168Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operador-de-monitorieo-junior-en-santiago-centro-A6D42AD79227CDC661373E686DCF3405
+[2026-06-04T17:43:45.603Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T17:46:19.374Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-qa-junior-proyecto-hibrido-en-santiago-las-condes-543F29AEB69B88DC61373E686DCF3405
+[2026-06-04T17:46:35.878Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T17:46:35.878Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-junior-santiago-centro-en-santiago-centro-F14E04EC89BF564461373E686DCF3405
+[2026-06-04T17:46:52.041Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T17:50:47.505Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-analyst-junior-santiago-centro-en-santiago-centro-25269BC956D798A361373E686DCF3405
+[2026-06-04T17:51:03.702Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T17:51:03.702Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-santiago-centro-en-santiago-centro-FAKE
+[2026-06-04T17:51:17.095Z] paused: Computrabajo - Trabajo de analista de datos en R.Metropolitana | Bolsa Empleo (platform error)
+[2026-06-04T18:46:26.410Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-net-core-9-junior-en-santiago-las-condes-433D02473315476461373E686DCF3405
+[2026-06-04T18:46:39.611Z] paused: Computrabajo - Trabajos de Desarrollador Web .Net core 9 Junior en Abenis - Santiago - Las condes (no confirmation)
+[2026-06-04T18:46:39.612Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-generativa-jr-en-san-bernardo-109B16D64BF82E3C61373E686DCF3405
+[2026-06-04T18:46:52.877Z] paused: Computrabajo - Trabajos de Desarrollador IA Generativa Jr en Talentfinder - San Bernardo (no confirmation)
+[2026-06-04T18:52:28.457Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-junior-en-talcahuano-1B9ECB2937331ED261373E686DCF3405
+[2026-06-04T18:52:44.655Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T18:52:44.655Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-tecnico-ti-huechuraba-en-santiago-huechuraba-099CCA7EA560B33C61373E686DCF3405
+[2026-06-04T18:53:00.875Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T18:53:00.876Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-informatico-junior-modalidad-en-sitio-en-santiago-providencia-5F46F54DF59E1D3D61373E686DCF3405
+[2026-06-04T18:53:17.139Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T18:54:45.095Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practicante-area-ti-base-de-datos-las-condes-en-santiago-las-condes-FC4AC7B4BD71667861373E686DCF3405
+[2026-06-04T18:55:01.724Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T18:55:01.724Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administrador-de-sistema-juniorcontrato-indefinido-presencial-en-santiago-centro-07D60762639D8EA061373E686DCF3405
+[2026-06-04T18:55:14.919Z] paused: Computrabajo - Buscar trabajo Chile | Bolsa de trabajo | Portal del empleo (no confirmation)
+[2026-06-04T18:55:14.920Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-civil-informatico-recien-titulado-o-egresado-ingeniero-civil-informatico-en-santiago-providencia-609B10660A1B7C7E61373E686DCF3405
+[2026-06-04T18:55:31.167Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-04T19:06:11.171Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-qa-junior-proyecto-hibrido-en-santiago-providencia-C37123BAE357DDAB61373E686DCF3405
+[2026-06-04T19:06:27.395Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:06:27.396Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-business-analyst-junior-en-santiago-centro-C4C670BF958BC94761373E686DCF3405
+[2026-06-04T19:06:43.694Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-04T19:06:43.695Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-junior-logistico-manejo-bases-de-datos-en-santiago-centro-2627267D4BC4CC8061373E686DCF3405
+[2026-06-04T19:06:59.879Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-04T19:06:59.880Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-tecnico-ti-en-santiago-providencia-88EE7E7CF0F382B861373E686DCF3405
+[2026-06-04T19:07:16.125Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-04T19:13:02.555Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practica-tecnico-en-soporte-ti-tecnico-profesional-en-santiago-centro-0D13B47183B0279261373E686DCF3405
+[2026-06-04T19:13:18.979Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:13:18.980Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-tecnico-nivel-1-pudahuel-en-santiago-pudahuel-E4D2600A03A9402A61373E686DCF3405
+[2026-06-04T19:13:35.185Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:13:35.185Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-soporte-tecnico-remoto-noc-800000-liquidos-stgo-centro-en-santiago-centro-3ABB4164459C32C261373E686DCF3405
+[2026-06-04T19:13:48.368Z] paused: Computrabajo - Trabajos de Analista de Soporte Técnico Remoto (NOC) $800.000 liquidos en XinerLink - Santiago Centro (no confirmation)
+[2026-06-04T19:14:47.977Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-soporte-mesa-de-ayuda-corporativa-1-millon-liquidos-redes-y-telecomunicaciones-en-santiago-centro-2A6D830B657D46F561373E686DCF3405
+[2026-06-04T19:15:04.447Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:15:04.448Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-soporte-plataformas-ti-en-produccion-semipresencial-administracion-de-middlewaremonitoreobd-en-santiago-las-condes-7DD6FE859C81D7A461373E686DCF3405
+[2026-06-04T19:15:20.667Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:36:22.151Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-jr-en-santiago-las-condes-6F5CC5587AF8E13161373E686DCF3405
+[2026-06-04T19:36:38.360Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:36:38.361Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-junior-l-a-v-santiago-centro-en-santiago-centro-A552ADAB0236416461373E686DCF3405
+[2026-06-04T19:36:54.542Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:36:54.543Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-business-intelligence-junior-seguros-las-condes-modelo-hibrido-en-santiago-las-condes-B568E62085497C7E61373E686DCF3405
+[2026-06-04T19:37:10.707Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:37:10.708Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-rpa-qa-en-santiago-las-condes-997380C77FEE872761373E686DCF3405
+[2026-06-04T19:37:27.126Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-04T19:39:06.688Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista%C2%A0servicio%C2%A0batch-bancario-en-santiago-centro-AA639093ADE1B5C061373E686DCF3405
+[2026-06-04T19:39:16.489Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:39:16.490Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista%C2%A0juniorservicio%C2%A0batch-bancario-en-santiago-centro-9CE45E1A7873CFF261373E686DCF3405
+[2026-06-04T19:39:26.233Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:39:26.234Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-junior-analyst-customer-service-sap-sd-empresa-retail-de-accesorios-deportivos-en-santiago-vitacura-8FDF4022F86B68E661373E686DCF3405
+[2026-06-04T19:39:35.562Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:41:32.186Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-junior-de-servicio-al-cliente-sap-sd-empresa-retail-de-accesorios-deportivos-en-santiago-vitacura-9AC81DCB46FAEA8961373E686DCF3405
+[2026-06-04T19:41:41.884Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:41:41.885Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ecommerce-junior-las-condes-en-santiago-las-condes-3F096293E2931C0661373E686DCF3405
+[2026-06-04T19:41:51.232Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:41:51.233Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practicante-tecnico-informatico-para-area-adquisiciones-en-santiago-las-condes-D66894288F4E18DD61373E686DCF3405
+[2026-06-04T19:42:00.558Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:48:01.193Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-control-de-datos-hibrido-en-santiago-centro-9091E7D782AE93A761373E686DCF3405
+[2026-06-04T19:48:10.526Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:48:10.527Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-automaticacion-y-datos-en-santiago-las-condes-CB7B60B780E6C5AB61373E686DCF3405
+[2026-06-04T19:48:19.864Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:48:19.865Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-calidad-de-datos-sql-en-santiago-las-condes-648AA10EF3A2EEE461373E686DCF3405
+[2026-06-04T19:48:29.288Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:48:29.288Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practica-profesional-area-informatica-qa-en-santiago-macul-06CC69BE36C9433461373E686DCF3405
+[2026-06-04T19:48:38.755Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:48:38.755Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administrador-de-sistemas-junior-contrato-indefinido-en-santiago-centro-08C5E8FBB7AFF1EB61373E686DCF3405
+[2026-06-04T19:48:48.055Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:55:09.305Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-web-jr-inclusion-laboral-vitacura-en-santiago-vitacura-3CA34DDA896ECA0B61373E686DCF3405
+[2026-06-04T19:55:18.669Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:55:18.670Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-mesa-de-dinero-junior-proyecto-santiago-en-santiago-centro-A231DD78BCED82DF61373E686DCF3405
+[2026-06-04T19:55:27.984Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:55:27.985Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-analista-de-proveedores-sector-segurobancario-en-las-condes-en-santiago-las-condes-6D9954EC007C9E0761373E686DCF3405
+[2026-06-04T19:55:37.459Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:55:37.460Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-comercial-salesforce-en-santiago-las-condes-00B3E01F1BB6F92A61373E686DCF3405
+[2026-06-04T19:55:46.818Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)
+[2026-06-04T19:55:46.819Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-practica-ingenieria-comercial-o-civil-industrial-reporteria-bi-analisis-de-datos-en-santiago-centro-E9C8ACC4E9EFE01C61373E686DCF3405
+[2026-06-04T19:55:56.142Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (questions require manual reading)

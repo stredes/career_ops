@@ -1,4 +1,5 @@
-const modalSelector = '.jobs-easy-apply-modal, [role="dialog"]';
+const modalSelector = '.jobs-easy-apply-modal';
+const stretchApply = process.env.LINKEDIN_STRETCH_APPLY === '1';
 
 function normalizeText(value) {
   return String(value || '')
@@ -25,6 +26,11 @@ ${profile.fullName || ''}`;
 }
 
 function numericExperienceAnswer(question) {
+  const q = normalizeText(question);
+  if (stretchApply) return '1';
+  if (/5\s*(anos|años|years)|cinco\s*(anos|años)|senior|lider|lead|arquitect/.test(q)) return '';
+  if (/3\s*(anos|años|years)|tres\s*(anos|años)/.test(q)) return '';
+  if (/2\s*(anos|años|years)|dos\s*(anos|años)/.test(q)) return '';
   return '1';
 }
 
@@ -44,10 +50,18 @@ export function answerQuestion(question, profile, title = '') {
   if (/ciudad|city|ubicacion|location|comuna|region/.test(q)) return `${profile.city || 'Santiago'}, ${profile.country || 'Chile'}`;
   if (/disponibilidad|availability/.test(q)) return profile.availability || 'Inmediata o segun coordinacion';
   if (/modalidad|remoto|remote|hibrid|presencial/.test(q)) return profile.modality || 'Teletrabajo o modalidad semipresencial en Santiago.';
+  if (/advanced|professional|fluent|native|avanzado|fluido|nativo/.test(q) && /ingles|english|idioma|language/.test(q)) return stretchApply ? 'No' : '';
+  if (/intermediate|conversational|intermedio|conversacional/.test(q) && /ingles|english|idioma|language/.test(q)) {
+    return 'Basico-intermedio; puedo defenderme en conversaciones tecnicas simples y sigo mejorando.';
+  }
+  if (/ingles|english|idioma|language/.test(q)) return 'Basico (A2)';
   if (/visa|patrocinio|sponsor|autorizado|work authorization/.test(q)) return 'No requiero patrocinio para trabajar en Chile.';
   if (/2\s*anos|2\s*años|dos\s*anos|dos\s*años|minimo.*experiencia|experiencia.*similar/.test(q)) return 'No';
-  if (/formacion.*universitaria|ingenieria.*informatica|ingenieria.*datos|carrera.*afin|carrera.*af[ií]n/.test(q)) return 'Si';
-  if (/herramientas.*analisis.*datos|analisis.*datos|sql.*python|python.*sql|aws|r studio|rstudio/.test(q)) return 'Si';
+  if (/formacion.*universitaria|ingenieria.*informatica|ingenieria.*datos|carrera.*afin|carrera.*af[ií]n/.test(q)) {
+    return 'Analista Programador en curso; titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+  }
+  if (/r studio|rstudio/.test(q)) return '';
+  if (/herramientas.*analisis.*datos|analisis.*datos|sql.*python|python.*sql|aws/.test(q)) return 'Si';
   if (/data mesh|data lake/.test(q)) return 'No';
   if (/anos|años|years|experiencia/.test(q)) return numericExperienceAnswer(question);
   if (/por que|why|motivacion|cover letter|carta|mensaje|comentario|presentacion|about you|perfil/.test(q)) {
@@ -60,10 +74,14 @@ export function answerQuestion(question, profile, title = '') {
 export function answerYesNo(question) {
   const q = normalizeText(question);
   if (/2\s*anos|2\s*años|dos\s*anos|dos\s*años|minimo.*experiencia|experiencia.*similar/.test(q)) return 'No';
-  if (/formacion.*universitaria|ingenieria.*informatica|ingenieria.*datos|carrera.*afin|carrera.*af[ií]n/.test(q)) return 'Si';
-  if (/herramientas.*analisis.*datos|analisis.*datos|sql.*python|python.*sql|aws|r studio|rstudio/.test(q)) return 'Si';
+  if (/formacion.*universitaria|ingenieria.*informatica|ingenieria.*datos|carrera.*afin|carrera.*af[ií]n/.test(q)) return '';
+  if (/r studio|rstudio/.test(q)) return '';
+  if (/herramientas.*analisis.*datos|analisis.*datos|sql.*python|python.*sql|aws/.test(q)) return 'Si';
   if (/data mesh|data lake/.test(q)) return 'No';
   if (/visa|sponsor|patrocinio/.test(q)) return 'No';
+  if (/advanced|professional|fluent|native|avanzado|fluido|nativo/.test(q) && /ingles|english|idioma|language/.test(q)) return stretchApply ? 'No' : '';
+  if (/intermediate|conversational|intermedio|conversacional/.test(q) && /ingles|english|idioma|language/.test(q)) return 'Si';
+  if (/ingles|english|idioma|language/.test(q)) return '';
   if (/\.net|c#|csharp|angular|aws|docker|redis|kubernetes|go\b|golang/.test(q)) return 'No';
   if (/sql|base de datos|database|oracle|postgres|mysql|sqlite/.test(q)) return 'Si';
   if (/javascript|typescript|react|frontend|front-end|python|automatizacion|automation|git|github|api|rest/.test(q)) return 'Si';

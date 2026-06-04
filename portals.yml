@@ -1,6 +1,8 @@
 # Portal Scanner Configuration
-# Active channels only: LinkedIn and Get on Board.
-# Goal: Programador / Area TI junior, remote or semi-presential, Chile.
+# Active channels: LinkedIn, Get on Board, Chiletrabajos, Computrabajo,
+# Trabajando, and selected remote boards.
+# Goal: Programador / Area TI junior, remote or semi-presential, Chile + remote LATAM/worldwide.
+# Exclude practice/internship roles unless the user explicitly asks for them.
 
 title_filter:
   positive:
@@ -29,7 +31,6 @@ title_filter:
     - "Automatización"
     - "Automatizacion"
     - "Junior"
-    - "Trainee"
     - "Remote"
     - "Remoto"
     - "Teletrabajo"
@@ -50,15 +51,30 @@ title_filter:
     - "Tecnólogo Médico"
     - "No se aceptan solicitudes"
     - "Ya no se aceptan solicitudes"
+    - "Práctica"
+    - "Practica"
+    - "Practicante"
+    - "Alumno en práctica"
+    - "Alumno en practica"
+    - "Pasante"
+    - "Pasantía"
+    - "Pasantia"
+    - "Trainee"
+    - "Internship"
+    - "Intern"
+    - "Aprendiz"
+    - "Contrato de aprendizaje"
   seniority_boost:
     - "Junior"
-    - "Trainee"
     - "Entry Level"
     - "Sin experiencia"
 
 allowed_channels:
   - "LinkedIn"
   - "Get on Board"
+  - "Chiletrabajos"
+  - "Computrabajo"
+  - "Trabajando"
 
 search_queries:
   - name: LinkedIn - Programador Junior Chile Remoto
@@ -97,8 +113,32 @@ search_queries:
     query: 'site:cl.computrabajo.com ("Programador Junior" OR "Desarrollador Junior" OR "Analista Programador") Chile'
     enabled: true
 
+  - name: Computrabajo - Remoto Junior Developer Chile
+    query: 'site:cl.computrabajo.com (Desarrollador OR Programador OR "Analista Programador" OR "Fullstack" OR "Backend") (Junior OR Jr) (Remoto OR "Presencial y remoto") Chile'
+    enabled: true
+
+  - name: Computrabajo - QA Data Soporte Junior Chile
+    query: 'site:cl.computrabajo.com ("QA Junior" OR "Analista de Datos Junior" OR "Soporte Informático Junior" OR "Mesa de Ayuda") (Remoto OR "Presencial y remoto" OR Santiago)'
+    enabled: true
+
   - name: Trabajando - Analista Programador Junior Chile
     query: 'site:trabajando.cl ("Analista Programador Junior" OR "Programador Junior" OR "Desarrollador Junior") Chile'
+    enabled: true
+
+  - name: Trabajando - TI Junior Remoto Chile
+    query: 'site:trabajando.cl (Programador OR Desarrollador OR "Soporte TI" OR QA OR Datos) (Junior OR Jr OR "Entry Level") (Remoto OR Hibrido OR Santiago) -Practica -Práctica -Practicante -Pasante'
+    enabled: true
+
+  - name: Laborum - Desarrollo Junior Remoto Chile
+    query: 'site:laborum.cl (Desarrollador OR Programador OR "Analista Programador" OR QA OR "Soporte TI") (Junior OR Jr OR "Entry Level") (Remoto OR Hibrido OR Santiago) -Practica -Práctica -Practicante -Pasante'
+    enabled: true
+
+  - name: Bumeran - Desarrollo Junior Remoto Chile
+    query: 'site:bumeran.cl (Desarrollador OR Programador OR "Analista Programador" OR QA OR "Soporte TI") (Junior OR Jr OR "Entry Level") (Remoto OR Hibrido OR Santiago) -Practica -Práctica -Practicante -Pasante'
+    enabled: true
+
+  - name: Indeed Chile - Desarrollo Junior Remoto
+    query: 'site:cl.indeed.com/jobs (Desarrollador OR Programador OR "Analista Programador" OR QA OR "Soporte TI") (Junior OR Jr OR "Entry Level") (Remoto OR Hibrido OR Santiago) -Practica -Práctica -Practicante -Pasante'
     enabled: true
 
   - name: BeBee - Junior TI Chile
@@ -107,6 +147,30 @@ search_queries:
 
   - name: ATS directo - Chile junior software
     query: '(site:greenhouse.io OR site:lever.co OR site:ashbyhq.com OR site:workable.com) ("Junior Developer" OR "Software Engineer Junior" OR "QA Junior" OR "Support Engineer") Chile'
+    enabled: true
+
+  - name: LinkedIn - Junior Remote Latin America
+    query: 'site:linkedin.com/jobs/view ("Junior Software Engineer" OR "Junior Software Developer" OR "Junior Frontend Developer" OR "Junior Python Developer" OR "Junior Java Developer") ("Remote" OR "Trabajo Remoto") ("Latin America" OR LATAM OR Chile)'
+    enabled: true
+
+  - name: LinkedIn - Entry Level Remote Latin America
+    query: 'site:linkedin.com/jobs/view ("Entry Level" OR Junior) (Python OR JavaScript OR TypeScript OR React OR Java OR SQL) remote ("Latin America" OR LATAM OR Chile) -Internship -Intern -Trainee'
+    enabled: true
+
+  - name: Get on Board - Remote LATAM Junior
+    query: 'site:getonbrd.com/jobs OR site:getonbrd.com/empleos (Junior OR "Entry Level") (Remote OR Remoto) (LATAM OR "Latin America" OR Chile) -Practica -Práctica -Trainee'
+    enabled: true
+
+  - name: Wellfound - Remote LATAM Junior
+    query: 'site:wellfound.com/jobs (Junior OR "Entry Level") (Frontend OR Developer OR Software OR QA) "Remote" "Latin America"'
+    enabled: true
+
+  - name: RemoteOK - Junior Developer LATAM
+    query: 'site:remoteok.com (Junior OR Entry) (Developer OR Python OR JavaScript OR React OR QA) (LATAM OR "Latin America" OR worldwide)'
+    enabled: true
+
+  - name: ATS directo - Remote LATAM junior software
+    query: '(site:greenhouse.io OR site:lever.co OR site:ashbyhq.com OR site:workable.com OR site:jobs.lever.co) ("Junior Developer" OR "Junior Software Engineer" OR "QA Junior" OR "Support Engineer" OR "Entry Level") ("Remote" OR "Latin America" OR LATAM OR Chile)'
     enabled: true
 
 tracked_companies: []

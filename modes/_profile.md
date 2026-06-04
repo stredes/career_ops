@@ -63,8 +63,8 @@ If strengthening the portfolio, prioritize:
 ## Your Comp Targets
 
 **General guidance:**
-- Use current Chilean market data for junior programmer, trainee developer, support systems, and analyst programmer roles.
-- Compare salary by role type: trainee, junior developer, support TI, analyst programmer, data/reporting junior.
+- Use current Chilean market data for junior programmer, entry-level paid developer, support systems, and analyst programmer roles.
+- Compare salary by role type: junior developer, support TI, analyst programmer, data/reporting junior, and entry-level paid roles.
 - HealthTech and clinical systems can be positioned as a stronger domain fit, but still score based on junior technical expectations.
 - Target range: CLP $800.000 - $1.000.000. Treat roles below CLP $800.000 as weaker unless they offer exceptional learning, remote flexibility, or fast growth.
 
@@ -87,10 +87,16 @@ If strengthening the portfolio, prioritize:
 - For technology roles, prefer hybrid/remote when available. Do not reject on-site junior roles automatically if they offer strong learning, but score full on-site lower unless conditions are clearly strong.
 
 **In evaluations (scoring):**
-- Score highest for roles that are explicitly junior/trainee-friendly and include mentorship.
+- Score highest for roles that are explicitly junior/entry-level-friendly, paid at or above target, and include mentorship.
 - Score higher for teletrabajo or semipresencial roles.
 - Score lower for full presencial roles unless they offer clear mentorship, strong technical growth, or compensation at/above target.
 - Score higher when the role uses Python, JavaScript, SQL, React, FastAPI, Git, reporting, automation, or support systems.
 - Score higher when the company is in health, laboratories, clinics, operations, inventory, logistics, or regulated data, because the second career becomes an advantage.
 - Score lower when the role requires senior experience, production ownership alone, advanced cloud/devops, or technologies not present in the CV.
 - Score lower when the role is purely laboratory/clinical with no programming, systems, data, automation, or technology component.
+## Application Preferences
+
+- Do not search for or apply to practice/internship roles (`practica`, `practicante`, `pasante`, `internship`, `alumno en practica`, `contrato de aprendizaje`) because they are usually very poorly paid. Only consider one if the user explicitly asks for practices or if compensation is clearly at/above the minimum target.
+- English: CV remains `Basico (A2)`, but the candidate can defend himself in English. Do not discard roles only because they ask for intermediate/conversational English when the technical fit is strong. For free-text answers use `Basico-intermedio; puedo defenderme en conversaciones tecnicas simples y sigo mejorando`. Pause for advanced, professional, fluent, or native English requirements.
+- Remote international scope: include remote jobs from other countries when they allow work from Chile, Latin America, South America, Americas, or worldwide. Prioritize junior/entry-level paid software, support, QA, data, automation, and technical operations roles. Pause or discard roles that require relocation, local work authorization outside Chile, on-site presence abroad, advanced/native English, senior-level experience, or internship/practice terms.
+- Get on Board verification: only count a Get on Board application as sent when `Tus postulaciones` shows `ENVIADA` or `VISTA`. Treat `VISTA` as sent and viewed by the company. Never add or keep a tracker entry as `Applied` while Get on Board shows `POR ENVIAR`; continue the flow or mark it as pending instead.

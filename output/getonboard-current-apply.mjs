@@ -17,22 +17,42 @@ const profile = {
 
 const selectedJobs = [
   {
-    company: 'Subocol',
-    role: 'Automation Developer',
-    url: 'https://www.getonbrd.com/empleos/programacion/automation-developer-subocol-remote',
-    reason: `I am interested in this Automation Developer role because it matches my current path as an Analyst Programmer in training and my practical work with Python, JavaScript, SQL, automation and internal tools. I have built projects such as Exelcior Apolo, a Python desktop app for Excel automation and reporting, Inventario App for inventory workflows, and AMILAB Frontend/Backend with React, TypeScript, REST APIs and Firebase. My background in laboratory and logistics also helps me understand real processes, traceability, operational data and user needs.`,
+    company: 'Ameris Capital',
+    role: 'Developer QA Junior',
+    url: 'https://www.getonbrd.com/jobs/sysadmin-devops-qa/developer-qa-junior-ameris-capital-santiago',
+    reason: `Hola equipo de Ameris Capital:
+
+Me interesa postular al cargo de Developer QA Junior. Estoy en formacion como Analista Programador y cuento con base practica en Python, JavaScript, TypeScript, SQL, APIs REST, testing, validaciones y documentacion.
+
+Mi perfil combina desarrollo junior con experiencia previa en procesos regulados, registros, trazabilidad y control de calidad desde laboratorio clinico y logistica. Esa experiencia me ayuda a mirar los sistemas con atencion al detalle, validar datos, documentar hallazgos y entender el impacto operativo de los errores.
+
+Mis proyectos principales son AMILAB Frontend/Backend, Inventario App y Exelcior Apolo. En ellos he trabajado con frontend, backend serverless, bases de datos, reportes, validaciones, tests y automatizacion de procesos.
+
+Me interesa crecer en QA y desarrollo, aportando con orden, criterio tecnico y aprendizaje rapido.`,
   },
   {
-    company: 'BC Tecnologia',
-    role: 'Desarrollador/a Full-Stack Jr',
-    url: 'https://www.getonbrd.com/empleos/programacion/desarrollador-a-full-stack-jr-bc-tecnologia-remote',
-    reason: `Me interesa este rol Full-Stack Jr porque calza directamente con mi formacion como Analista Programador y con mis proyectos practicos. He desarrollado AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Vercel Functions, Firebase/Firestore, APIs REST, validaciones y tests. Tambien cuento con proyectos Python como Inventario App y Exelcior Apolo. Busco crecer como desarrollador junior aportando orden, aprendizaje rapido, documentacion y criterio operativo desde mi experiencia en laboratorio y logistica.`,
+    company: 'TCIT',
+    role: 'AI Engineer Junior',
+    url: 'https://www.getonbrd.cl/jobs/machine-learning-ai/ai-engineer-junior-tcit-santiago',
+    reason: `Hola equipo de TCIT:
+
+Me interesa postular al cargo de AI Engineer Junior. Estoy en formacion como Analista Programador y busco crecer en roles donde pueda unir programacion, automatizacion, APIs, datos e IA aplicada.
+
+Tengo proyectos practicos en Python, JavaScript, TypeScript, React, SQL y APIs REST. Destaco Exelcior Apolo, una app Python para automatizar transformacion, validacion e impresion de Excel; Inventario App, sistema Python con SQLAlchemy, SQLite/PostgreSQL y reportes; y AMILAB Frontend/Backend, con React, TypeScript, Firebase/Firestore, endpoints REST, validaciones y tests.
+
+Me interesa aprender y aportar en un equipo que trabaje con IA de forma aplicada, manteniendo criterio tecnico, documentacion y responsabilidad sobre los resultados.`,
   },
   {
-    company: 'Usercode SpA',
-    role: 'Ingeniero de Implementacion de IA e Hiperautomatizacion',
-    url: 'https://www.getonbrd.com/empleos/programacion/ingeniero-de-implementacion-de-ia-e-hiperautomatizacion-usercode-spa-remote',
-    reason: `Me interesa este rol porque combina automatizacion, implementacion de soluciones, procesos e IA, areas muy cercanas a mi perfil. Estoy en formacion como Analista Programador y he construido herramientas practicas para automatizar tareas, transformar datos, generar reportes y apoyar flujos operativos, como Exelcior Apolo, Inventario App y AMILAB. Mi experiencia previa en laboratorio y logistica me permite entender procesos reales, datos, trazabilidad, documentacion y necesidades de usuarios, lo que considero valioso para implementar soluciones utiles.`,
+    company: 'Norun SpA',
+    role: 'Desarrollador/a Full-Stack Junior',
+    url: 'https://www.getonbrd.com/jobs/programacion/desarrollador-a-full-stack-junior-norun-spa-santiago',
+    reason: `Hola equipo de Norun:
+
+Me interesa postular al cargo de Desarrollador/a Full-Stack Junior. Estoy en formacion como Analista Programador y cuento con proyectos practicos que conectan frontend, backend, datos y automatizacion.
+
+He desarrollado AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Vercel Functions, Firebase/Firestore, endpoints REST, validaciones con Zod, logging y tests. Tambien desarrollé Inventario App en Python con SQLAlchemy, SQLite/PostgreSQL, reportes PDF y arquitectura por capas, ademas de Exelcior Apolo para automatizar flujos con Excel.
+
+Busco una oportunidad junior donde pueda aprender, aportar con codigo, documentacion y responsabilidad, y seguir creciendo en desarrollo web full-stack.`,
   },
 ];
 
