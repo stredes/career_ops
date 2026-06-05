@@ -1,3 +1,5 @@
+import { findSimilarQuestionAnswer, recordApplicationQuestions } from './application-question-bank.mjs';
+
 const modalSelector = '.jobs-easy-apply-modal';
 const stretchApply = process.env.LINKEDIN_STRETCH_APPLY === '1';
 
@@ -35,6 +37,8 @@ function numericExperienceAnswer(question) {
 }
 
 export function answerQuestion(question, profile, title = '') {
+  const remembered = findSimilarQuestionAnswer(question, { platform: 'LinkedIn' });
+  if (remembered) return remembered.answer;
   const q = normalizeText(question);
 
   if (/pretension|renta|salario|sueldo|salary|compensacion/.test(q)) {
@@ -72,6 +76,10 @@ export function answerQuestion(question, profile, title = '') {
 }
 
 export function answerYesNo(question) {
+  const remembered = findSimilarQuestionAnswer(question, { platform: 'LinkedIn' });
+  if (remembered && /^(si|sí|yes|no)$/i.test(remembered.answer.trim())) {
+    return remembered.answer.trim().replace(/^sí$/i, 'Si').replace(/^yes$/i, 'Si');
+  }
   const q = normalizeText(question);
   if (/2\s*anos|2\s*años|dos\s*anos|dos\s*años|minimo.*experiencia|experiencia.*similar/.test(q)) return 'No';
   if (/formacion.*universitaria|ingenieria.*informatica|ingenieria.*datos|carrera.*afin|carrera.*af[ií]n/.test(q)) return '';
@@ -145,11 +153,12 @@ async function chooseYesNo(page, question, answer) {
   return false;
 }
 
-export async function answerDynamicQuestions(page, profile, title = '') {
+export async function answerDynamicQuestions(page, profile, title = '', context = {}) {
   const dialog = page.locator(modalSelector).last();
   const fields = dialog.locator('input:not([type="hidden"]):not([type="file"]), textarea, select');
   const count = await fields.count().catch(() => 0);
   let answered = 0;
+  const capturedAnswers = [];
 
   for (let i = 0; i < count; i += 1) {
     try {
@@ -167,10 +176,14 @@ export async function answerDynamicQuestions(page, profile, title = '') {
       if (current && tag !== 'select' && !/pretension|renta|salario|sueldo|salary|compensacion/i.test(question)) continue;
 
       if (tag === 'select') {
-        if (await chooseSelect(field, answer)) answered += 1;
+        if (await chooseSelect(field, answer)) {
+          answered += 1;
+          capturedAnswers.push({ question, answer });
+        }
       } else {
         await field.fill(answer, { timeout: 1500 });
         answered += 1;
+        capturedAnswers.push({ question, answer });
       }
       console.log(`Answered: ${question.slice(0, 90)} -> ${answer}`);
     } catch {}
@@ -185,10 +198,20 @@ export async function answerDynamicQuestions(page, profile, title = '') {
       if (!answer) continue;
       if (await chooseYesNo(page, text, answer)) {
         answered += 1;
+        capturedAnswers.push({ question: text, answer });
         console.log(`Selected: ${text.slice(0, 90)} -> ${answer}`);
       }
     } catch {}
   }
+
+  recordApplicationQuestions({
+    platform: 'LinkedIn',
+    company: context.company || '',
+    role: title,
+    url: page.url(),
+    status: 'answered',
+    answers: capturedAnswers,
+  });
 
   return answered;
 }

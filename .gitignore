@@ -22,6 +22,13 @@ batch/batch-input.tsv
 .apply-browser-profile/
 .real-chrome-apply-profile/
 .recording-browser-profile/
+.monitor-browser-profile/
+
+# Runtime dashboard/agent state
+dashboard-web/agent-monitor.log
+dashboard-web/agent-status.json
+output/*.log
+output/computrabajo-discovered.json
 
 # Claude Code local
 .claude/settings.local.json

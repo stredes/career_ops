@@ -52,6 +52,28 @@
         <article class="metric"><span>Descartadas</span><strong id="discardedCount">0</strong></article>
       </section>
 
+      <section class="qa-panel" aria-label="Preguntas y respuestas guardadas">
+        <div class="qa-panel-head">
+          <div>
+            <h2>Preguntas respondidas por el agente</h2>
+            <p id="questionsTableSummary">Cargando banco de respuestas...</p>
+          </div>
+          <a href="/api/questions" target="_blank" rel="noreferrer">Ver JSON completo</a>
+        </div>
+        <div class="qa-table-wrap">
+          <table class="qa-table">
+            <thead>
+              <tr>
+                <th>Portal</th>
+                <th>Pregunta</th>
+                <th>Respuesta enviada/guardada</th>
+              </tr>
+            </thead>
+            <tbody id="questionsTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
       <section class="workspace">
         <aside class="panel">
           <h2>Estado</h2>
@@ -114,6 +136,11 @@
             <div>
               <h2>Ultimas postulaciones</h2>
               <ul id="recentList" class="compact-list"></ul>
+            </div>
+            <div>
+              <h2>Banco de preguntas y respuestas</h2>
+              <p id="questionsSummary" class="portal-note">Sin preguntas y respuestas almacenadas todavia.</p>
+              <ul id="questionsList" class="compact-list"></ul>
             </div>
             <div>
               <h2>Log del agente</h2>

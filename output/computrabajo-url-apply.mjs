@@ -1,6 +1,7 @@
 import { chromium } from 'playwright';
 import { appendFileSync } from 'fs';
 import { resolve } from 'path';
+import { compactQuestionMemory, findSimilarQuestionAnswer, recordApplicationQuestions } from './application-question-bank.mjs';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
@@ -23,6 +24,8 @@ function normalize(value) {
 }
 
 function answer(question) {
+  const remembered = findSimilarQuestionAnswer(question, { platform: 'Computrabajo' });
+  if (remembered) return remembered.answer;
   const q = normalize(question);
   if (/licencia.*clase b|clase b|licencia de conducir/.test(q)) return 'Si, cuento con licencia clase B vigente.';
   if (/itil/.test(q)) return 'Tengo conocimiento basico de practicas ITIL para registro, priorizacion, seguimiento y escalamiento de incidentes. No cuento con certificacion ITIL vigente.';
@@ -47,6 +50,45 @@ function answer(question) {
   }
   if (/python.*entornos laborales|anos.*python/.test(q)) {
     return 'Tengo experiencia practica con Python en proyectos propios y academicos durante mi formacion como Analista Programador, especialmente en automatizacion, manejo de datos, reportes, SQL y aplicaciones de escritorio. No cuento con 2 anos laborales formales dedicados exclusivamente a Python, pero si con proyectos concretos como Inventario App y Exelcior Apolo, y buena base para aprender rapido.';
+  }
+  if (/versiones.*\.net|\.net.*productivos|netcore|net core/.test(q)) {
+    return 'No cuento con experiencia productiva formal en .NET. Tengo base en desarrollo web, APIs REST, SQL, JavaScript, TypeScript y React; puedo incorporarme como perfil junior y reforzar .NET/.NET Core segun el stack del equipo.';
+  }
+  if (/asp\.net|mvc|web api/.test(q)) {
+    return 'No tengo experiencia laboral directa con ASP.NET MVC o Web API. Si tengo experiencia practica construyendo y consumiendo APIs REST, validaciones, endpoints y documentacion en proyectos con TypeScript/JavaScript, y buena disposicion para aprender el framework requerido.';
+  }
+  if (/herramientas.*ia|ia.*utilizas|inteligencia artificial|ai tools/.test(q)) {
+    return 'Utilizo herramientas de IA como ChatGPT y GitHub Copilot para apoyo en analisis, documentacion, depuracion, generacion de ideas y automatizacion. Las uso como asistencia, validando siempre el resultado tecnico antes de aplicarlo.';
+  }
+  if (/cuantos anos lleva en desarrollo|a[nÃ±]os lleva en desarrollo|tiempo.*desarrollo/.test(q)) {
+    return 'Cuento con alrededor de 1 ano de experiencia practica en desarrollo mediante proyectos academicos y personales, con foco en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, documentacion y pruebas basicas.';
+  }
+  if (/stack tecnologico|stack tecnol[oÃ³]gico|node.*react|react.*node|\.net.*node.*react/.test(q)) {
+    return 'Mi stack principal practico es JavaScript, TypeScript, React, Python, SQL, APIs REST y Git/GitHub. Tengo base en Node/APIs y React mediante proyectos como AMILAB, y .NET lo manejo a nivel basico/en aprendizaje, con disposicion para reforzarlo.';
+  }
+  if (/cloud|devops|despliegue|deploy/.test(q)) {
+    return 'Tengo experiencia basica/practica en despliegues y herramientas cloud/devops mediante Vercel, Firebase/Firestore, Git/GitHub, variables de entorno, documentacion y control de versiones. No cuento aun con experiencia laboral profunda en cloud, pero tengo buena base para aprender.';
+  }
+  if (/desarrollador bi|experiencia.*bi|business intelligence|power bi/.test(q)) {
+    return 'Tengo experiencia practica con datos, SQL basico-intermedio, Python, Excel, reportes, validaciones y control de informacion. No cuento con experiencia laboral formal como desarrollador BI, pero mi base en datos y automatizacion me permite aportar como perfil junior/en aprendizaje.';
+  }
+  if (/herramientas descritas|herramientas.*aviso|manejas las herramientas|stack descrito/.test(q)) {
+    return 'Manejo parte de las herramientas asociadas a desarrollo web: JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, testing basico y documentacion. Si el aviso incluye herramientas especificas adicionales, las manejo a nivel basico/en aprendizaje y puedo reforzarlas rapidamente.';
+  }
+  if (/db2|jcl|vsam|sam|mainframe/.test(q)) {
+    return 'No cuento con experiencia laboral directa en DB2, JCL ni archivos VSAM/SAM. Tengo base en SQL, control de versiones, documentacion y desarrollo junior, y estoy disponible para aprender tecnologias Mainframe si el equipo lo permite.';
+  }
+  if (/rubro bancario|banca|bancario|financiero/.test(q)) {
+    return 'No tengo experiencia formal directa en proyectos del rubro bancario. Si tengo experiencia practica con datos, documentacion, validaciones, trazabilidad y procesos ordenados, ademas de buena disposicion para aprender reglas y flujos del negocio financiero.';
+  }
+  if (/gitlab|control de versiones|versionamiento/.test(q)) {
+    return 'Tengo experiencia practica con Git/GitHub para control de versiones, ramas, commits, repositorios y documentacion. GitLab lo manejo a nivel basico/en aprendizaje; puedo adaptarme al flujo de versionamiento del equipo.';
+  }
+  if (/carta de presentacion|carta de presentaci[oÃ³]n|cover letter|cuerpo de la carta/.test(q)) {
+    return 'Me interesa postular porque estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, reportes y documentacion. Mi experiencia previa en laboratorio y logistica me aporta orden, trazabilidad y criterio para trabajar con procesos reales. Busco aportar como perfil junior con aprendizaje rapido, responsabilidad y buena comunicacion.';
+  }
+  if (/actualmente.*trabajando|se encuentra trabajando|trabajo actual/.test(q)) {
+    return 'No, actualmente tengo disponibilidad inmediata para integrarme a un nuevo cargo.';
   }
   if (/soporte|cargo|experiencia/.test(q)) {
     return 'Tengo experiencia en soporte a usuarios, uso de sistemas operativos/administrativos, documentacion de incidencias, seguimiento de casos, manejo de datos y coordinacion con equipos operativos. Como Analista Programador en formacion tengo base en SQL, Python, Git/GitHub, APIs y resolucion de problemas tecnicos.';
@@ -120,10 +162,66 @@ async function resolveComputrabajoOffer(page, offerId) {
 }
 
 async function fillVisibleTextareas(page, pageText) {
-  return page.evaluate((pageText) => {
+  const memory = compactQuestionMemory('Computrabajo');
+  return page.evaluate(({ pageText, memory }) => {
     const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const tokens = (value) => normalize(value).replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter((word) => word.length > 2);
+    const similarity = (a, b) => {
+      const normalizedA = normalize(a);
+      const normalizedB = normalize(b);
+      if (!normalizedA || !normalizedB) return 0;
+      if (normalizedA === normalizedB) return 1;
+      if (normalizedA.includes(normalizedB) || normalizedB.includes(normalizedA)) return 0.92;
+      const setA = new Set(tokens(normalizedA));
+      const setB = new Set(tokens(normalizedB));
+      if (!setA.size || !setB.size) return 0;
+      let overlap = 0;
+      for (const token of setA) if (setB.has(token)) overlap += 1;
+      const union = new Set([...setA, ...setB]).size;
+      return Math.max(overlap / union, (overlap / Math.min(setA.size, setB.size)) * 0.86);
+    };
+    const remembered = (question) => {
+      if (/rut|discapacidad|compin|antecedentes|background|visa|patrocinio|sponsor/.test(normalize(question))) return '';
+      const categoryFor = (value) => {
+        const q = normalize(value);
+        if (/telefono|celular|phone|mobile|numero de contacto|contacto|correo|email|e-mail/.test(q)) return 'contact';
+        if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa/.test(q)) return 'salary';
+        if (/comuna|residencia|ciudad|ubicacion|location|city/.test(q)) return 'location';
+        if (/titulo|formacion|estudios|casa de estudios|academica/.test(q)) return 'education';
+        if (/disponibilidad/.test(q)) return 'availability';
+        if (/ingles|english/.test(q)) return 'english';
+        if (/licencia.*clase b|clase b|licencia de conducir/.test(q)) return 'license_b';
+        if (/vehiculo propio|movilizacion propia|transporte propio/.test(q)) return 'transport';
+        if (/zapatos? de seguridad|calzado de seguridad/.test(q)) return 'safety_shoes';
+        if (/python.*playwright|playwright.*python/.test(q)) return 'python_playwright';
+        if (/sql.*python.*excel|nivel.*sql|nivel.*python|nivel.*excel/.test(q)) return 'sql_python_excel';
+        if (/automatizacion|rpa/.test(q)) return 'automation';
+        return '';
+      };
+      const currentCategory = categoryFor(question);
+      let best = null;
+      for (const item of memory || []) {
+        let score = similarity(question, item.question);
+        if (currentCategory && currentCategory === (item.category || categoryFor(item.question))) score = Math.max(score, 0.78);
+        score += item.scoreBias || 0;
+        if (!best || score > best.score) best = { ...item, score };
+      }
+      if (!best || best.score < 0.72) return '';
+      const q = normalize(question);
+      if (/telefono|celular|phone|mobile|numero de contacto|contacto/.test(q) && /correo|email|e-mail/.test(q)) return 'Telefono: +56954764325. Correo: gianlucassanmartin@gmail.com.';
+      if (/telefono|celular|phone|mobile|numero de contacto|contacto/.test(q)) return '+56954764325';
+      if (/correo|email|e-mail/.test(q)) return 'gianlucassanmartin@gmail.com';
+      if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa/.test(q)) return /brut/.test(q)
+        ? 'Mis expectativas de renta bruta estan en torno a $1.100.000 CLP, conversable segun modalidad, beneficios y proyeccion.'
+        : 'Mis expectativas de renta liquida estan en torno a $900.000 CLP, conversable segun modalidad, beneficios y proyeccion.';
+      if (/comuna|residencia|ciudad|ubicacion|location|city/.test(q)) return 'Santiago, Region Metropolitana.';
+      if (/titulo|formacion|estudios|casa de estudios|academica/.test(q)) return 'Estudiante de Analista Programador en Duoc UC. Titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+      return best.answer;
+    };
     const answer = (question) => {
-      const q = normalize(`${question} ${pageText.slice(0, 1600)}`);
+      const previous = remembered(question);
+      if (previous) return previous;
+      const q = normalize(question);
       if (/licencia.*clase b|clase b|licencia de conducir/.test(q)) return 'Si, cuento con licencia clase B vigente.';
       if (/itil/.test(q)) return 'Tengo conocimiento basico de practicas ITIL para registro, priorizacion, seguimiento y escalamiento de incidentes. No cuento con certificacion ITIL vigente.';
       if (/microinformatica|hardware|software|redes basicas|redes b[aá]sicas/.test(q)) return 'Experiencia junior/en formacion en microinformatica: soporte a usuarios, sistemas operativos, software administrativo, revision inicial de hardware, redes basicas, documentacion y escalamiento.';
@@ -153,12 +251,66 @@ async function fillVisibleTextareas(page, pageText) {
       filled += 1;
     }
     return filled;
-  }, pageText).catch(() => 0);
+  }, { pageText, memory }).catch(() => 0);
 }
 
 async function fillComputrabajoQuestions(page) {
-  return page.evaluate(() => {
+  const memory = compactQuestionMemory('Computrabajo');
+  return page.evaluate((memory) => {
     const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const tokens = (value) => normalize(value).replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter((word) => word.length > 2);
+    const similarity = (a, b) => {
+      const normalizedA = normalize(a);
+      const normalizedB = normalize(b);
+      if (!normalizedA || !normalizedB) return 0;
+      if (normalizedA === normalizedB) return 1;
+      if (normalizedA.includes(normalizedB) || normalizedB.includes(normalizedA)) return 0.92;
+      const setA = new Set(tokens(normalizedA));
+      const setB = new Set(tokens(normalizedB));
+      if (!setA.size || !setB.size) return 0;
+      let overlap = 0;
+      for (const token of setA) if (setB.has(token)) overlap += 1;
+      const union = new Set([...setA, ...setB]).size;
+      return Math.max(overlap / union, (overlap / Math.min(setA.size, setB.size)) * 0.86);
+    };
+    const remembered = (question) => {
+      if (/rut|discapacidad|compin|antecedentes|background|visa|patrocinio|sponsor/.test(normalize(question))) return '';
+      const categoryFor = (value) => {
+        const q = normalize(value);
+        if (/telefono|celular|phone|mobile|numero de contacto|contacto|correo|email|e-mail/.test(q)) return 'contact';
+        if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa/.test(q)) return 'salary';
+        if (/comuna|residencia|ciudad|ubicacion|location|city/.test(q)) return 'location';
+        if (/titulo|formacion|estudios|casa de estudios|academica/.test(q)) return 'education';
+        if (/disponibilidad/.test(q)) return 'availability';
+        if (/ingles|english/.test(q)) return 'english';
+        if (/licencia.*clase b|clase b|licencia de conducir/.test(q)) return 'license_b';
+        if (/vehiculo propio|movilizacion propia|transporte propio/.test(q)) return 'transport';
+        if (/zapatos? de seguridad|calzado de seguridad/.test(q)) return 'safety_shoes';
+        if (/python.*playwright|playwright.*python/.test(q)) return 'python_playwright';
+        if (/sql.*python.*excel|nivel.*sql|nivel.*python|nivel.*excel/.test(q)) return 'sql_python_excel';
+        if (/automatizacion|rpa/.test(q)) return 'automation';
+        return '';
+      };
+      const currentCategory = categoryFor(question);
+      let best = null;
+      for (const item of memory || []) {
+        let score = similarity(question, item.question);
+        if (currentCategory && currentCategory === (item.category || categoryFor(item.question))) score = Math.max(score, 0.78);
+        score += item.scoreBias || 0;
+        if (!best || score > best.score) best = { ...item, score };
+      }
+      if (!best || best.score < 0.72) return '';
+      const q = normalize(question);
+      if (/telefono|celular|phone|mobile|numero de contacto|contacto/.test(q) && /correo|email|e-mail/.test(q)) return 'Telefono: +56954764325. Correo: gianlucassanmartin@gmail.com.';
+      if (/telefono|celular|phone|mobile|numero de contacto|contacto/.test(q)) return '+56954764325';
+      if (/correo|email|e-mail/.test(q)) return 'gianlucassanmartin@gmail.com';
+      if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa/.test(q)) return /brut/.test(q)
+        ? 'Mis expectativas de renta bruta estan en torno a $1.100.000 CLP, conversable segun modalidad, beneficios y proyeccion.'
+        : 'Mis expectativas de renta liquida estan en torno a $900.000 CLP, conversable segun modalidad, beneficios y proyeccion.';
+      if (/comuna|residencia|ciudad|ubicacion|location|city/.test(q)) return 'Santiago, Region Metropolitana.';
+      if (/titulo|formacion|estudios|casa de estudios|academica/.test(q)) return 'Estudiante de Analista Programador en Duoc UC. Titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+      return best.answer;
+    };
     const setValue = (field, value) => {
       const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value')?.set;
       if (setter) setter.call(field, value);
@@ -177,6 +329,8 @@ async function fillComputrabajoQuestions(page) {
     };
     const risky = (label) => /discapacidad|compin|antecedentes|background|visa|patrocinio|honorarios|eirl|licencia de conducir|vehiculo propio|zapatos de seguridad|traslado inmediato|movilizacion propia|senior|5 anos|5 a[nñ]os|3 anos profesionales|3 a[nñ]os profesionales/.test(normalize(label));
     const answerFor = (label) => {
+      const previous = remembered(label);
+      if (previous) return previous;
       const q = normalize(label);
       if (/licencia.*clase b|clase b|licencia de conducir/.test(q)) return 'Si, cuento con licencia clase B vigente.';
       if (/itil/.test(q)) return 'Tengo conocimiento basico de practicas ITIL para registro, priorizacion, seguimiento y escalamiento de incidentes. No cuento con certificacion ITIL vigente.';
@@ -191,10 +345,23 @@ async function fillComputrabajoQuestions(page) {
       if (/power automate/.test(q)) return 'He usado Power Automate a nivel basico/en aprendizaje. Mi experiencia principal en automatizacion ha sido con Python, scripts, validaciones de datos y flujos con Excel. Puedo adaptarme a Power Automate y aplicar la misma logica de procesos, condiciones y seguimiento.';
       if (/azure ai foundry|azure/.test(q)) return 'No cuento con experiencia laboral directa en Azure AI Foundry. Si tengo base en IA aplicada, APIs, automatizacion y proyectos con Python/JavaScript. Estoy disponible para aprender la herramienta y aportar desde mi base tecnica junior.';
       if (/python.*scripting|python.*automatizaci|python.*integraci|python.*apis|python/.test(q)) return 'Si, tengo experiencia practica con Python en proyectos academicos y propios para automatizacion, scripting, manejo de datos, reportes, SQL e integracion con APIs. Destaco Inventario App y Exelcior Apolo, donde use Python para procesos, validaciones y generacion de reportes.';
+      if (/versiones.*\.net|\.net.*productivos|netcore|net core/.test(q)) return 'No cuento con experiencia productiva formal en .NET. Tengo base en desarrollo web, APIs REST, SQL, JavaScript, TypeScript y React; puedo incorporarme como perfil junior y reforzar .NET/.NET Core segun el stack del equipo.';
+      if (/asp\.net|mvc|web api/.test(q)) return 'No tengo experiencia laboral directa con ASP.NET MVC o Web API. Si tengo experiencia practica construyendo y consumiendo APIs REST, validaciones, endpoints y documentacion en proyectos con TypeScript/JavaScript, y buena disposicion para aprender el framework requerido.';
+      if (/herramientas.*ia|ia.*utilizas|inteligencia artificial|ai tools/.test(q)) return 'Utilizo herramientas de IA como ChatGPT y GitHub Copilot para apoyo en analisis, documentacion, depuracion, generacion de ideas y automatizacion. Las uso como asistencia, validando siempre el resultado tecnico antes de aplicarlo.';
+      if (/cuantos anos lleva en desarrollo|a[nÃ±]os lleva en desarrollo|tiempo.*desarrollo/.test(q)) return 'Cuento con alrededor de 1 ano de experiencia practica en desarrollo mediante proyectos academicos y personales, con foco en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, documentacion y pruebas basicas.';
+      if (/stack tecnologico|stack tecnol[oÃ³]gico|node.*react|react.*node|\.net.*node.*react/.test(q)) return 'Mi stack principal practico es JavaScript, TypeScript, React, Python, SQL, APIs REST y Git/GitHub. Tengo base en Node/APIs y React mediante proyectos como AMILAB, y .NET lo manejo a nivel basico/en aprendizaje, con disposicion para reforzarlo.';
+      if (/cloud|devops|despliegue|deploy/.test(q)) return 'Tengo experiencia basica/practica en despliegues y herramientas cloud/devops mediante Vercel, Firebase/Firestore, Git/GitHub, variables de entorno, documentacion y control de versiones. No cuento aun con experiencia laboral profunda en cloud, pero tengo buena base para aprender.';
+      if (/desarrollador bi|experiencia.*bi|business intelligence|power bi/.test(q)) return 'Tengo experiencia practica con datos, SQL basico-intermedio, Python, Excel, reportes, validaciones y control de informacion. No cuento con experiencia laboral formal como desarrollador BI, pero mi base en datos y automatizacion me permite aportar como perfil junior/en aprendizaje.';
+      if (/herramientas descritas|herramientas.*aviso|manejas las herramientas|stack descrito/.test(q)) return 'Manejo parte de las herramientas asociadas a desarrollo web: JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, testing basico y documentacion. Si el aviso incluye herramientas especificas adicionales, las manejo a nivel basico/en aprendizaje y puedo reforzarlas rapidamente.';
+      if (/db2|jcl|vsam|sam|mainframe/.test(q)) return 'No cuento con experiencia laboral directa en DB2, JCL ni archivos VSAM/SAM. Tengo base en SQL, control de versiones, documentacion y desarrollo junior, y estoy disponible para aprender tecnologias Mainframe si el equipo lo permite.';
+      if (/rubro bancario|banca|bancario|financiero/.test(q)) return 'No tengo experiencia formal directa en proyectos del rubro bancario. Si tengo experiencia practica con datos, documentacion, validaciones, trazabilidad y procesos ordenados, ademas de buena disposicion para aprender reglas y flujos del negocio financiero.';
+      if (/gitlab|control de versiones|versionamiento/.test(q)) return 'Tengo experiencia practica con Git/GitHub para control de versiones, ramas, commits, repositorios y documentacion. GitLab lo manejo a nivel basico/en aprendizaje; puedo adaptarme al flujo de versionamiento del equipo.';
+      if (/carta de presentacion|carta de presentaci[oÃ³]n|cover letter|cuerpo de la carta/.test(q)) return 'Me interesa postular porque estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, reportes y documentacion. Mi experiencia previa en laboratorio y logistica me aporta orden, trazabilidad y criterio para trabajar con procesos reales. Busco aportar como perfil junior con aprendizaje rapido, responsabilidad y buena comunicacion.';
+      if (/actualmente.*trabajando|se encuentra trabajando|trabajo actual/.test(q)) return 'No, actualmente tengo disponibilidad inmediata para integrarme a un nuevo cargo.';
       if (/ingles|english/.test(q)) return 'Basico-intermedio; puedo defenderme en conversaciones tecnicas simples y sigo mejorando.';
       if (/experiencia reciente|funciones desempenadas|anos de experiencia|experiencia en el cargo|cargo/.test(q)) return 'Estoy orientando mi carrera a desarrollo e IA como Analista Programador en formacion. Tengo proyectos practicos con Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, documentacion y validaciones. Mi experiencia laboral formal en TI aun es junior/en formacion, pero cuento con proyectos concretos y aprendizaje rapido.';
       if (/soporte|mesa de ayuda|usuario/.test(q)) return 'Tengo experiencia en soporte a usuarios, uso de sistemas operativos/administrativos, documentacion de incidencias, seguimiento de casos, manejo de datos y coordinacion con equipos operativos. Como Analista Programador en formacion tengo base en SQL, Python, Git/GitHub, APIs y resolucion de problemas tecnicos.';
-      return 'Estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion y documentacion.';
+      return '';
     };
 
     const result = { filled: [], paused: [] };
@@ -218,7 +385,7 @@ async function fillComputrabajoQuestions(page) {
       result.filled.push({ label, value });
     }
     return result;
-  }).catch((error) => ({ filled: [], paused: [`fill-error: ${error.message || error}`] }));
+  }, memory).catch((error) => ({ filled: [], paused: [`fill-error: ${error.message || error}`] }));
 }
 
 async function extractComputrabajoQuestions(page) {
@@ -271,9 +438,26 @@ async function submitOne(context, url) {
   text = await page.locator('body').innerText({ timeout: 8000 }).catch(() => '');
   if (/Preguntas de selecci/i.test(text) && !autoAnswerQuestions) {
     const questions = await extractComputrabajoQuestions(page);
+    recordApplicationQuestions({
+      platform: 'Computrabajo',
+      company,
+      role,
+      url: page.url(),
+      status: 'paused',
+      questions,
+    });
     return { status: 'paused', reason: 'questions require manual reading', role, company, url: page.url(), questions };
   }
   const filledQuestions = await fillComputrabajoQuestions(page);
+  recordApplicationQuestions({
+    platform: 'Computrabajo',
+    company,
+    role,
+    url: page.url(),
+    status: filledQuestions.paused?.length ? 'paused' : 'answered',
+    questions: filledQuestions.paused || [],
+    answers: filledQuestions.filled || [],
+  });
   if (filledQuestions.paused?.length) {
     return { status: 'paused', reason: `needs review: ${filledQuestions.paused.join(' | ')}`, role, company, url: page.url() };
   }

@@ -10,7 +10,7 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const root = resolve(__dirname, '..');
 const intervalMs = Number(process.env.MONITOR_INTERVAL_SEC || 60) * 1000;
 const portalIntervalMs = Number(process.env.PORTAL_MONITOR_INTERVAL_SEC || 300) * 1000;
-const cdpUrl = process.env.CDP_URL || 'http://127.0.0.1:9222';
+const cdpUrl = process.env.CDP_URL || 'http://127.0.0.1:9223';
 const statusPath = join(__dirname, 'agent-status.json');
 const logPath = join(__dirname, 'agent-monitor.log');
 let lastPortalCheckAt = 0;
@@ -32,6 +32,84 @@ function parseApplications() {
       status: cols[5],
       notes: cols.slice(8).join(' | '),
     }));
+}
+
+function statusPriority(status) {
+  return {
+    Evaluated: 0,
+    Applied: 1,
+    Responded: 2,
+    Interview: 3,
+    Offer: 4,
+    Rejected: 5,
+  }[status] ?? -1;
+}
+
+function syncTrackerFromPortalChecks(portalChecks) {
+  const updates = [];
+  const file = join(root, 'data', 'applications.md');
+  const lines = readFileSync(file, 'utf8').split(/\r?\n/);
+  const bestByNumber = new Map();
+
+  const strongSignal = (match) => {
+    const source = String(match.source || '');
+    const evidence = normalize(match.evidence || '');
+    if (match.portalStatus !== 'Responded') return true;
+    if (source === 'Computrabajo') return match.companySeen === true;
+    if (source === 'LinkedIn') return match.companySeen === true && /solicitud vista|curriculum descargado|resume downloaded|application viewed/.test(evidence);
+    if (source.startsWith('Gmail')) {
+      return match.companySeen === true && /sigue avanzando|novedades|proceso de seleccion|mensaje|cuestionario|acceso a las preguntas|solicitud vista|curriculum descargado|resume downloaded|application viewed|te invitamos|prueba tecnica/.test(evidence);
+    }
+    if (source.startsWith('Get on Board')) {
+      return match.companySeen === true && /mensaje de|proceso finalizado|vista|cv visto/.test(evidence) && !/\b0 enviada\b/.test(evidence);
+    }
+    return match.companySeen === true;
+  };
+
+  for (const match of portalChecks.flatMap((check) => (check.matches || []).map((item) => ({ ...item, source: check.source })))) {
+    if (!['Responded', 'Interview', 'Offer', 'Rejected'].includes(match.portalStatus)) continue;
+    if (!strongSignal(match)) continue;
+    const existing = bestByNumber.get(match.number);
+    if (!existing || statusPriority(match.portalStatus) > statusPriority(existing.portalStatus)) {
+      bestByNumber.set(match.number, match);
+    }
+  }
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
+    if (!line.startsWith('|') || line.includes('---') || line.startsWith('| #')) continue;
+    const cols = line.slice(1, -1).split('|').map((cell) => cell.trim());
+    if (cols.length < 9) continue;
+    const number = Number(cols[0]);
+    const match = bestByNumber.get(number);
+    if (!match) continue;
+
+    const current = cols[5];
+    if (['Discarded', 'SKIP', 'Rejected'].includes(current)) continue;
+    if (statusPriority(match.portalStatus) <= statusPriority(current)) continue;
+
+    cols[5] = match.portalStatus;
+    const stamp = new Date().toISOString().slice(0, 10);
+    const evidence = match.portalStatus === 'Responded'
+      ? 'portal detecto CV visto/respuesta'
+      : `portal detecto ${match.portalStatus}`;
+    cols[8] = `${evidence} el ${stamp}. ${cols.slice(8).join(' | ')}`.trim();
+    lines[i] = `| ${cols.join(' | ')} |`;
+    updates.push({
+      number,
+      from: current,
+      to: match.portalStatus,
+      role: cols[3],
+      evidence: match.evidence,
+    });
+  }
+
+  if (updates.length) {
+    writeFileSync(file, lines.join('\n'), 'utf8');
+    appendFileSync(logPath, `[${new Date().toISOString()}] synced ${updates.length} portal status update(s): ${updates.map((item) => `#${item.number} ${item.from}->${item.to}`).join(', ')}\n`, 'utf8');
+  }
+
+  return updates;
 }
 
 function summarize(apps) {
@@ -63,7 +141,7 @@ function statusFromWindow(text, source) {
   const value = normalize(text);
   if (/proceso finalizado|no seleccionado|rechaz|descartad/.test(value)) return 'Rejected';
   if (/entrevista|interview|agenda|coordinar reunion|reunion tecnica/.test(value)) return 'Interview';
-  if (/sigue avanzando|avanzando en el proceso|novedades en tu postulacion|vista|cv visto|visto por la empresa|mensaje|contact/.test(value)) return 'Responded';
+  if (/sigue avanzando|avanzando en el proceso|novedades en tu postulacion|candidatura sigue|han visto|te han visto|solicitud vista|application viewed|vista|cv visto|visto por la empresa|curriculum descargado|curriculo descargado|resume downloaded|mensaje|message|contact/.test(value)) return 'Responded';
   if (/enviada|solicitud enviada|te postulaste|ya te postulaste|aplicaste|applied/.test(value)) return 'Applied';
   if (/por enviar|borrador|draft/.test(value)) return 'Evaluated';
   return source === 'Get on Board' && /vista/.test(value) ? 'Responded' : 'Unknown';
@@ -137,6 +215,7 @@ function computrabajoMatchRows(text, apps) {
 
 function matchApplicationsInText(text, apps, source) {
   const clean = normalize(text);
+  const isGmail = source.startsWith('Gmail');
   const matches = [];
   for (const app of apps) {
     if (!['Applied', 'Responded', 'Interview', 'Offer', 'Discarded'].includes(app.status)) continue;
@@ -146,7 +225,7 @@ function matchApplicationsInText(text, apps, source) {
     const tokens = role.split(' ').filter((word) => word.length > 3 && !['junior', 'proyecto', 'santiago', 'vitacura', 'condes'].includes(word)).slice(0, 8);
     const hits = tokens.filter((word) => clean.includes(word));
     const distinctHits = hits.filter((word) => !generic.has(word));
-    const enoughHits = source === 'Gmail' ? hits.length >= 3 && distinctHits.length >= 1 : hits.length >= 3;
+    const enoughHits = isGmail ? hits.length >= 3 && distinctHits.length >= 1 : hits.length >= 3;
     if (!tokens.length || !enoughHits) continue;
     const anchor = hits.find((word) => clean.includes(word)) || tokens[0];
     const index = Math.max(0, clean.indexOf(anchor));
@@ -165,15 +244,142 @@ function matchApplicationsInText(text, apps, source) {
   return matches;
 }
 
+async function clickVisibleByText(page, regex) {
+  return page.evaluate((source) => {
+    const pattern = new RegExp(source, 'i');
+    const normalizeText = (value) => String(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim();
+    const controls = [...document.querySelectorAll('button,a,[role="button"],input[type="button"],input[type="submit"]')];
+    const item = controls.find((element) => {
+      const style = getComputedStyle(element);
+      if (style.display === 'none' || style.visibility === 'hidden' || !element.getClientRects().length) return false;
+      const text = [element.textContent, element.value, element.getAttribute('aria-label'), element.getAttribute('title')]
+        .filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+      return pattern.test(text) || pattern.test(normalizeText(text));
+    });
+    if (!item) return '';
+    item.scrollIntoView({ block: 'center' });
+    item.click();
+    return item.textContent || item.value || item.getAttribute('aria-label') || 'clicked';
+  }, regex.source).catch(() => '');
+}
+
+async function deepReadPage(page, source) {
+  const stats = { scrolls: 0, clicks: 0, tabs: 0 };
+  const sourceKey = normalize(source);
+
+  if (sourceKey.includes('get on board')) {
+    for (const tab of [/todas las fases|todos/i, /enviada|enviadas/i, /vista|vistas/i, /proceso finalizado/i]) {
+      const clicked = await clickVisibleByText(page, tab);
+      if (clicked) {
+        stats.tabs += 1;
+        await page.waitForTimeout(1200);
+      }
+    }
+  }
+
+  for (let i = 0; i < 8; i += 1) {
+    const before = await page.evaluate(() => ({
+      y: window.scrollY,
+      h: document.body.scrollHeight,
+      text: document.body.innerText.length,
+    })).catch(() => ({ y: 0, h: 0, text: 0 }));
+
+    const clickedMore = await clickVisibleByText(page, /ver mas|ver m[aá]s|cargar mas|cargar m[aá]s|mostrar mas|mostrar m[aá]s|siguiente|next|older|m[aá]s resultados|mas resultados/);
+    if (clickedMore) {
+      stats.clicks += 1;
+      await page.waitForTimeout(1500);
+    }
+
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
+    await page.waitForTimeout(1200);
+    stats.scrolls += 1;
+
+    const after = await page.evaluate(() => ({
+      y: window.scrollY,
+      h: document.body.scrollHeight,
+      text: document.body.innerText.length,
+    })).catch(() => before);
+
+    if (!clickedMore && after.h === before.h && after.text === before.text) break;
+  }
+
+  await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
+  const text = await page.locator('body').innerText({ timeout: 10000 }).catch(() => '');
+  return { text, stats };
+}
+
+async function deepReadPageV2(page, source) {
+  const stats = { scrolls: 0, clicks: 0, tabs: 0 };
+  const sourceKey = normalize(source);
+  const snapshots = [];
+
+  const capture = async () => {
+    const text = await page.locator('body').innerText({ timeout: 10000 }).catch(() => '');
+    if (text) snapshots.push(text);
+  };
+
+  const scrollAndLoad = async () => {
+    for (let i = 0; i < 8; i += 1) {
+      const before = await page.evaluate(() => ({
+        h: document.body.scrollHeight,
+        text: document.body.innerText.length,
+      })).catch(() => ({ h: 0, text: 0 }));
+
+      const clickedMore = await clickVisibleByText(page, /ver mas|cargar mas|mostrar mas|siguiente|next|older|mas resultados|load more/);
+      if (clickedMore) {
+        stats.clicks += 1;
+        await page.waitForTimeout(1500);
+      }
+
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
+      await page.waitForTimeout(1200);
+      stats.scrolls += 1;
+      await capture();
+
+      const after = await page.evaluate(() => ({
+        h: document.body.scrollHeight,
+        text: document.body.innerText.length,
+      })).catch(() => before);
+
+      if (!clickedMore && after.h === before.h && after.text === before.text) break;
+    }
+  };
+
+  await capture();
+  if (sourceKey.includes('get on board')) {
+    for (const tab of [/todas las fases|todos/i, /enviada|enviadas/i, /vista|vistas/i, /proceso finalizado/i]) {
+      const clicked = await clickVisibleByText(page, tab);
+      if (clicked) {
+        stats.tabs += 1;
+        await page.waitForTimeout(1200);
+        await scrollAndLoad();
+        await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
+      }
+    }
+  }
+
+  await scrollAndLoad();
+  await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
+  await capture();
+  const text = [...new Set(snapshots)].join('\n\n--- snapshot ---\n\n');
+  return { text, stats };
+}
+
 async function readPortalPage(context, source, url, apps) {
   const page = await context.newPage();
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
-    await page.waitForTimeout(source === 'Gmail' ? 6500 : 2500);
-    const text = await page.locator('body').innerText({ timeout: 10000 }).catch(() => '');
+    await page.waitForTimeout(source.startsWith('Gmail') ? 6500 : 2500);
+    const { text, stats } = await deepReadPageV2(page, source);
     const loginRequired = /inicia sesi|login|sign in|acceder|no puedes acceder/i.test(text) && !/postul|empleo|solicitud|mis empleos/i.test(text);
     const matches = loginRequired ? [] : (source === 'Computrabajo' ? computrabajoMatchRows(text, apps) : matchApplicationsInText(text, apps, source));
     const portalSummary = source === 'Computrabajo' && !loginRequired ? computrabajoSummary(text, matches) : '';
+    const depthSummary = `Lectura profunda: ${stats.scrolls} scroll(s), ${stats.clicks} carga(s), ${stats.tabs} filtro(s).`;
     return {
       source,
       state: loginRequired ? 'needs-login' : 'checked',
@@ -181,7 +387,7 @@ async function readPortalPage(context, source, url, apps) {
       lastCheck: new Date().toISOString(),
       matches,
       matchCount: matches.length,
-      summary: loginRequired ? 'Sesion no disponible o login requerido.' : portalSummary || `${matches.length} postulacion(es) reconocidas en portal.`,
+      summary: loginRequired ? 'Sesion no disponible o login requerido.' : `${portalSummary || `${matches.length} postulacion(es) reconocidas en portal.`} ${depthSummary}`,
     };
   } catch (error) {
     return {
@@ -196,6 +402,10 @@ async function readPortalPage(context, source, url, apps) {
   } finally {
     await page.close().catch(() => {});
   }
+}
+
+function gmailSearchUrl(query) {
+  return `https://mail.google.com/mail/u/0/#search/${encodeURIComponent(query)}`;
 }
 
 function computrabajoSummary(text, matches = []) {
@@ -223,9 +433,15 @@ async function checkPortals(apps) {
 
   const checks = [];
   checks.push(await readPortalPage(context, 'Computrabajo', 'https://candidato.cl.computrabajo.com/Candidate/Match/?utm_source=auto_cand_MatchVisto&utm_campaign=auto_cand_MatchVisto&utm_medium=email&lc=MailHanVistoTuCV-Over-NoPosition-Button&fgoa=True', apps));
-  checks.push(await readPortalPage(context, 'Get on Board', 'https://www.getonbrd.com/misempleos', apps));
+  checks.push(await readPortalPage(context, 'Get on Board', 'https://www.getonbrd.com/applications?ref=sidebar_nav', apps));
+  checks.push(await readPortalPage(context, 'Get on Board Empleos', 'https://www.getonbrd.com/misempleos', apps));
   checks.push(await readPortalPage(context, 'LinkedIn', 'https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED', apps));
-  checks.push(await readPortalPage(context, 'Gmail', 'https://mail.google.com/mail/u/0/#search/%22sigue+avanzando%22', apps));
+  checks.push(await readPortalPage(context, 'Chiletrabajos', 'https://www.chiletrabajos.cl/dashboard/postulaciones', apps));
+  checks.push(await readPortalPage(context, 'Gmail Computrabajo', gmailSearchUrl('"sigue avanzando" OR "novedades en tu postulacion" OR "Postulaciones Compu"'), apps));
+  checks.push(await readPortalPage(context, 'Gmail Get on Board', gmailSearchUrl('"Get on Board" OR getonbrd OR "Solicitud con Get on Board"'), apps));
+  checks.push(await readPortalPage(context, 'Gmail LinkedIn', gmailSearchUrl('"solicitud vista" OR "curriculum descargado" OR "currículum descargado" OR "application viewed" OR "resume downloaded"'), apps));
+  checks.push(await readPortalPage(context, 'Gmail Cuestionarios', gmailSearchUrl('pandape OR bizneo OR cuestionario OR "Acceso a las preguntas"'), apps));
+  checks.push(await readPortalPage(context, 'Gmail Trabajando Chiletrabajos', gmailSearchUrl('trabajando OR chiletrabajos OR "tu postulacion" OR "tu postulación"'), apps));
   return checks;
 }
 
@@ -285,12 +501,15 @@ async function checkOnce() {
     verifyOutput = `${error.stdout || ''}\n${error.stderr || ''}\n${error.message || error}`.slice(-1200);
   }
 
-  const apps = parseApplications();
+  let apps = parseApplications();
   let portalChecks = lastPortalChecks;
   let portalState = 'cached';
+  let trackerUpdates = [];
   if (Date.now() - lastPortalCheckAt >= portalIntervalMs) {
     try {
       portalChecks = await checkPortals(apps);
+      trackerUpdates = syncTrackerFromPortalChecks(portalChecks);
+      if (trackerUpdates.length) apps = parseApplications();
       lastPortalChecks = portalChecks;
       lastPortalCheckAt = Date.now();
       portalState = 'checked';
@@ -320,6 +539,7 @@ async function checkOnce() {
     lastPortalCheck: lastPortalCheckAt ? new Date(lastPortalCheckAt).toISOString() : null,
     summary,
     alerts: buildAlerts(apps, verifyOk, portalChecks),
+    trackerUpdates,
     portalState,
     portalChecks,
     verifyOk,

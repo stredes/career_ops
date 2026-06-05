@@ -124,7 +124,7 @@ async function applyLinkedInUrl(context, rawUrl, profile) {
       return { status: 'paused', reason: 'modal not found after opening', title, company, url: page.url() };
     }
 
-    const answered = await answerDynamicQuestions(page, profile, title);
+    const answered = await answerDynamicQuestions(page, profile, title, { company });
     const uploaded = await uploadCv(page);
     const text = await modalText(page);
     const activeHardStop = stretchApply ? stretchHardStop : hardStop;

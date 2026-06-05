@@ -99,6 +99,9 @@ async function loadAgentStatus() {
   byId('agentInterval').textContent = data.intervalSec ? `${data.intervalSec}s` : '-';
   byId('agentAlerts').innerHTML = (data.alerts || []).map((alert) => `<li>${escapeHtml(alert)}</li>`).join('');
   renderPortalChecks(data);
+  if (data.trackerUpdates?.length) {
+    byId('agentAlerts').innerHTML += data.trackerUpdates.map((item) => `<li>Tracker actualizado: #${item.number} ${escapeHtml(item.from)} -> ${escapeHtml(item.to)}</li>`).join('');
+  }
 }
 
 function renderPortalChecks(data) {
@@ -138,6 +141,7 @@ async function loadControl() {
   renderPolicy(data.policy);
   renderAttention(data);
   renderRecent(data.recent || []);
+  renderQuestions(data.questions || { total: 0, recent: [] });
   byId('agentLog').textContent = (data.logTail || []).join('\n') || 'Sin registros aun.';
 }
 
@@ -183,6 +187,33 @@ function renderRecent(recent) {
     <li><strong>#${app.number}</strong> ${escapeHtml(app.company)} - ${escapeHtml(app.role)}
     <span class="status ${statusClass(app.status)}">${escapeHtml(app.status)}</span></li>
   `).join('');
+}
+
+function renderQuestions(data) {
+  byId('questionsSummary').textContent = `${data.total || 0} pregunta(s) y respuesta(s) almacenadas`;
+  byId('questionsTableSummary').textContent = `${data.total || 0} pregunta(s) almacenada(s). Mostrando respuestas recientes con contenido.`;
+  const answered = (data.recent || []).filter((item) => String(item.answer || '').trim());
+  byId('questionsTableBody').innerHTML = answered.map((item) => `
+    <tr>
+      <td>
+        <strong>${escapeHtml(item.platform || 'Portal')}</strong>
+        <span>${escapeHtml(item.company || '')}</span>
+      </td>
+      <td>${escapeHtml(item.question || '')}</td>
+      <td>${escapeHtml(item.answer || '')}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="3">Sin respuestas con contenido para mostrar.</td></tr>';
+
+  byId('questionsList').innerHTML = (data.recent || []).map((item) => `
+    <li class="qa-item">
+      <div class="qa-meta">
+        <strong>${escapeHtml(item.platform || 'Portal')}</strong>
+        <span>${escapeHtml(item.company || '')} ${escapeHtml(item.role || '')}</span>
+      </div>
+      <div class="qa-question"><span>P</span>${escapeHtml(item.question || '')}</div>
+      <div class="qa-answer"><span>R</span>${escapeHtml(item.answer || 'Sin respuesta guardada')}</div>
+    </li>
+  `).join('') || '<li>Sin preguntas y respuestas almacenadas todavia.</li>';
 }
 
 byId('refreshBtn').addEventListener('click', loadData);

@@ -5,6 +5,7 @@ import { resolve } from 'path';
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const logPath = resolve(ROOT, 'output/direct-apply-agent.log');
 const cvPath = resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
+const CDP = process.env.CDP_URL || 'http://127.0.0.1:9223';
 const autoSubmit = process.env.AUTO_SUBMIT_DIRECT === '1';
 
 const profile = {
@@ -205,7 +206,7 @@ async function resolveApplication(page, job) {
 }
 
 async function main() {
-  const browser = await chromium.connectOverCDP('http://127.0.0.1:9222');
+  const browser = await chromium.connectOverCDP(CDP);
   const context = browser.contexts()[0] || await browser.newContext();
   const page = context.pages().find((item) => item.url().includes('getonbrd.com')) || await context.newPage();
   log('Starting Get on Board matched visible jobs apply run.');

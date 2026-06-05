@@ -66,6 +66,23 @@ function tailFile(file, lines = 30) {
   return readFileSync(file, 'utf8').trim().split(/\r?\n/).slice(-lines);
 }
 
+function parseQuestions() {
+  const file = join(root, 'data', 'application-questions.jsonl');
+  if (!existsSync(file)) return [];
+  return readFileSync(file, 'utf8')
+    .split(/\r?\n/)
+    .filter(Boolean)
+    .map((line) => {
+      try {
+        return JSON.parse(line);
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .sort((a, b) => String(b.timestamp || '').localeCompare(String(a.timestamp || '')));
+}
+
 function fileInfo(relativePath) {
   const file = join(root, relativePath);
   if (!existsSync(file)) return { path: relativePath, exists: false };
@@ -87,6 +104,7 @@ function controlSnapshot() {
   const practicesDiscarded = apps.filter((app) => app.status === 'Discarded' && /practica|practicante|pasant/i.test(`${app.role} ${app.notes}`)).length;
   const policyText = existsSync(join(root, 'modes', '_profile.md')) ? readFileSync(join(root, 'modes', '_profile.md'), 'utf8') : '';
   const noPracticePolicy = /Do not search for or apply to practice\/internship roles/i.test(policyText);
+  const questions = parseQuestions();
 
   return {
     generatedAt: new Date().toISOString(),
@@ -110,11 +128,17 @@ function controlSnapshot() {
     needsAttention,
     files: [
       fileInfo('data/applications.md'),
+      fileInfo('data/application-questions.jsonl'),
+      fileInfo('data/application-questions.md'),
       fileInfo('config/profile.yml'),
       fileInfo('portals.yml'),
       fileInfo('modes/_profile.md'),
       fileInfo('dashboard-web/agent-status.json'),
     ],
+    questions: {
+      total: questions.length,
+      recent: questions.slice(0, 24),
+    },
     logTail: tailFile(join(__dirname, 'agent-monitor.log'), 20),
   };
 }
@@ -145,6 +169,15 @@ const server = http.createServer((req, res) => {
 
   if (url.pathname === '/api/control') {
     return send(res, 200, JSON.stringify(controlSnapshot()), mime['.json']);
+  }
+
+  if (url.pathname === '/api/questions') {
+    const questions = parseQuestions();
+    return send(res, 200, JSON.stringify({
+      generatedAt: new Date().toISOString(),
+      total: questions.length,
+      questions,
+    }), mime['.json']);
   }
 
   const path = url.pathname === '/' ? '/index.html' : url.pathname;

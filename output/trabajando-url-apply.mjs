@@ -1,6 +1,7 @@
 import { chromium } from 'playwright';
 import { appendFileSync } from 'fs';
 import { resolve } from 'path';
+import { findSimilarQuestionAnswer, recordApplicationQuestions } from './application-question-bank.mjs';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
@@ -22,7 +23,9 @@ function normalize(value) {
 }
 
 function answer(question, pageText = '') {
-  const q = normalize(`${question} ${pageText.slice(0, 1200)}`);
+  const remembered = findSimilarQuestionAnswer(question, { platform: 'Trabajando' });
+  if (remembered) return remembered.answer;
+  const q = normalize(question);
   if (/renta|sueldo|pretensi|expectativa/.test(q)) {
     return 'Mis pretensiones de renta liquida estan en torno a $900.000 CLP, conversable segun beneficios, condiciones del cargo, aprendizaje y proyeccion dentro del equipo.';
   }
@@ -41,7 +44,7 @@ function answer(question, pageText = '') {
   if (/soporte|ticket|usuario|mesa/.test(q)) {
     return 'Tengo experiencia en soporte a usuarios, uso de sistemas operativos/administrativos, documentacion de incidencias, seguimiento de casos, manejo de datos y coordinacion con equipos operativos. Como Analista Programador en formacion, tengo base en SQL, Python, Git/GitHub, APIs y resolucion de problemas tecnicos.';
   }
-  return 'Estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion y documentacion. Mi experiencia previa en laboratorio y logistica me aporta orden, trazabilidad y criterio para trabajar con procesos reales.';
+  return '';
 }
 
 async function controls(page) {
@@ -91,6 +94,7 @@ async function submitOne(context, url) {
   text = await page.locator('body').innerText({ timeout: 8000 }).catch(() => '');
 
   const areas = await page.locator('textarea').all();
+  const capturedAnswers = [];
   for (let i = 0; i < areas.length; i += 1) {
     const area = areas[i];
     const current = await area.inputValue().catch(() => '');
@@ -99,8 +103,31 @@ async function submitOne(context, url) {
       const parent = node.closest('label, div, section, fieldset')?.textContent || '';
       return parent.replace(/\s+/g, ' ').trim();
     }).catch(() => '');
-    await area.fill(answer(question, text), { timeout: 3000 }).catch(() => {});
+    const value = answer(question, text);
+    if (!value) {
+      recordApplicationQuestions({
+        platform: 'Trabajando',
+        company,
+        role,
+        url: page.url(),
+        status: 'paused',
+        questions: [question],
+        answers: capturedAnswers,
+      });
+      return { status: 'paused', reason: `unknown question: ${question}`, role, company, url: page.url() };
+    }
+    await area.fill(value, { timeout: 3000 }).catch(() => {});
+    capturedAnswers.push({ question, answer: value });
   }
+
+  recordApplicationQuestions({
+    platform: 'Trabajando',
+    company,
+    role,
+    url: page.url(),
+    status: 'answered',
+    answers: capturedAnswers,
+  });
 
   if (!autoSubmit) return { status: 'prepared', reason: 'autoSubmit off', role, company, url: page.url() };
   const clicked = await clickVisible(page, /^Postular$|Enviar|Finalizar/);

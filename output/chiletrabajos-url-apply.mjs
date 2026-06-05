@@ -2,6 +2,7 @@ import { chromium } from 'playwright';
 import { existsSync, readFileSync, appendFileSync } from 'fs';
 import { resolve } from 'path';
 import yaml from 'js-yaml';
+import { findSimilarQuestionAnswer, recordApplicationQuestions } from './application-question-bank.mjs';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
@@ -52,8 +53,10 @@ Gian Lucas San Martin Agurto`;
 }
 
 function answer(question) {
+  const remembered = findSimilarQuestionAnswer(question, { platform: 'Chiletrabajos' });
+  if (remembered) return remembered.answer;
   const q = String(question || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  if (/numero.*correo|correo.*numero|telefono.*correo|contacto/.test(q)) return '+56 9 5476 4325 / gianlucassanmartin@gmail.com';
+  if (/numero.*correo|correo.*numero|telefono.*correo|contacto/.test(q)) return '+56954764325 / gianlucassanmartin@gmail.com';
   if (/comuna/.test(q)) return 'Santiago';
   if (/pretensiones de renta|pretension de renta|pretensi/.test(q)) return '1100000';
   if (/disponibilidad/.test(q)) return 'Disponibilidad inmediata';
@@ -94,6 +97,7 @@ async function fillAndSubmit(page, meta, profile) {
   await page.locator('select[name="situacion_laboral"]').selectOption('no_responde', { timeout: 1500 }).catch(() => {});
 
   const questions = await page.locator('textarea[name^="q"]').all();
+  const capturedAnswers = [];
   for (const field of questions) {
     const q = await field.evaluate((node) => {
       const id = node.id;
@@ -101,11 +105,43 @@ async function fillAndSubmit(page, meta, profile) {
       const parent = node.closest('div, label, fieldset')?.textContent || '';
       return `${label || ''} ${parent}`.replace(/\s+/g, ' ').trim();
     }).catch(() => '');
-    if (hardQuestion.test(q)) return { status: 'paused', reason: `hard question: ${q}` };
+    if (hardQuestion.test(q)) {
+      recordApplicationQuestions({
+        platform: 'Chiletrabajos',
+        company: meta.company,
+        role: meta.role,
+        url: page.url(),
+        status: 'paused-hard-question',
+        questions: [q],
+        answers: capturedAnswers,
+      });
+      return { status: 'paused', reason: `hard question: ${q}` };
+    }
     const value = answer(q);
-    if (!value) return { status: 'paused', reason: `unknown question: ${q}` };
+    if (!value) {
+      recordApplicationQuestions({
+        platform: 'Chiletrabajos',
+        company: meta.company,
+        role: meta.role,
+        url: page.url(),
+        status: 'paused-unknown-question',
+        questions: [q],
+        answers: capturedAnswers,
+      });
+      return { status: 'paused', reason: `unknown question: ${q}` };
+    }
     await field.fill(value, { timeout: 1500 });
+    capturedAnswers.push({ question: q, answer: value });
   }
+
+  recordApplicationQuestions({
+    platform: 'Chiletrabajos',
+    company: meta.company,
+    role: meta.role,
+    url: page.url(),
+    status: 'answered',
+    answers: capturedAnswers,
+  });
 
   if (existsSync(cvPath)) {
     await page.locator('input[type="file"]').first().setInputFiles(cvPath).catch(() => {});
