@@ -1,36 +1,2867 @@
 {
-  "state": "attention",
-  "pid": 16644,
+  "state": "running",
+  "pid": 24252,
   "intervalSec": 60,
   "portalIntervalSec": 300,
-  "lastCheck": "2026-06-04T21:51:43.229Z",
-  "nextCheck": "2026-06-04T21:52:43.365Z",
-  "lastPortalCheck": "2026-06-04T21:51:43.365Z",
+  "lastCheck": "2026-06-05T17:49:52.864Z",
+  "nextCheck": "2026-06-05T17:55:02.478Z",
+  "lastPortalCheck": "2026-06-05T17:54:02.477Z",
   "summary": {
-    "total": 120,
-    "active": 114,
-    "applied": 111,
-    "responded": 0,
+    "total": 146,
+    "active": 138,
+    "applied": 121,
+    "responded": 14,
     "interviews": 0,
     "offers": 0,
     "discarded": 5
   },
   "alerts": [
+    "14 postulacion(es) requieren seguimiento por respuesta/entrevista/oferta.",
     "3 oferta(s) evaluadas pendientes de decision.",
-    "1 portal(es) requieren revision de sesion o acceso."
+    "65 cambio(s) potencial(es) detectados en portales. Revisar panel Portales."
   ],
-  "portalState": "error",
+  "trackerUpdates": [],
+  "portalState": "checked",
   "portalChecks": [
     {
-      "source": "Portales",
-      "state": "error",
-      "url": "",
-      "lastCheck": "2026-06-04T21:51:43.365Z",
+      "source": "Computrabajo",
+      "state": "checked",
+      "url": "https://candidato.cl.computrabajo.com/Candidate/Match/?utm_source=auto_cand_MatchVisto&utm_campaign=auto_cand_MatchVisto&utm_medium=email&lc=MailHanVistoTuCV-Over-NoPosition-Button&fgoa=True",
+      "lastCheck": "2026-06-05T17:50:00.863Z",
+      "matches": [
+        {
+          "number": 153,
+          "company": "BCTecnologia",
+          "role": "Desarrollador Mainframe",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador Mainframe | BCTecnología  4,6 | Santiago Centro, R.Metropolitana | Postulado | Hace 2 horas | 54 candidatos postulados | Desarrollador Full Stack"
+        },
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador Full Stack | Importante empresa del sector servicios | Santiago - Las condes, R.Metropolitana | Postulado | Hace 2 horas | + 100 candidatos postulados | Desarrollador Full Stack"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador Full Stack | TicMoAI  4,1 | Santiago - Providencia, R.Metropolitana | Postulado | Hace 3 horas | + 100 candidatos postulados | Desarrollador BI"
+        },
+        {
+          "number": 149,
+          "company": "Empresa del sector asesorias tecnologicas",
+          "role": "Desarrollador BI",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador BI | Empresa del sector asesorias tecnológicas | Santiago Centro, R.Metropolitana | Postulado | Hace 3 horas | 49 candidatos postulados | Analista desarrollador"
+        },
+        {
+          "number": 147,
+          "company": "XinerLink",
+          "role": "Programador/a Taller proyecto Pudahuel",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Programador/a Taller proyecto Pudahuel | XinerLink  3,9 | Santiago - Pudahuel, R.Metropolitana | Postulado | Hace 3 horas | 13 candidatos postulados | Desarrollador Fullstack"
+        },
+        {
+          "number": 146,
+          "company": "Ingenieria informatica Kibernum S.A.",
+          "role": "Desarrollador Fullstack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador Fullstack | Ingenieria informatica Kibernum S.A. | Santiago - Las condes, R.Metropolitana | Postulado | Hace 3 horas | + 100 candidatos postulados | Desarrollador NetCore"
+        },
+        {
+          "number": 145,
+          "company": "BCTecnologia",
+          "role": "Desarrollador NetCore",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador NetCore | BCTecnología  4,6 | Santiago Centro, R.Metropolitana | Postulado | Hace 3 horas | 60 candidatos postulados | Desarrollador Dynamics 365"
+        },
+        {
+          "number": 148,
+          "company": "Avos Tech",
+          "role": "Desarrollador Dynamics 365",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador Dynamics 365 | Avos Tech  4,0 | Santiago Centro, R.Metropolitana | Postulado | Hace 3 horas | 17 candidatos postulados | Desarrollador automatizador"
+        },
+        {
+          "number": 143,
+          "company": "Ingenieria informatica Kibernum S.A.",
+          "role": "Desarrollador automatizador - Python Playwright",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "evidence": "Desarrollador automatizador | Ingenieria informatica Kibernum S.A. | Santiago - Las condes, R.Metropolitana | Postulado | Hace 4 horas | 43 candidatos postulados | 1"
+        }
+      ],
+      "matchCount": 9,
+      "summary": "Estados visibles: 9 coincidencia(s), 9 postulado(s), 0 CV visto(s), 0 finalista(s), 0 finalizado(s). Lectura profunda: 1 scroll(s), 0 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Get on Board",
+      "state": "checked",
+      "url": "https://www.getonbrd.com/applications?ref=sidebar_nav#27085d7f20851ef85f633d5ded285f4a",
+      "lastCheck": "2026-06-05T17:50:23.983Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 138,
+          "company": "Kibernum",
+          "role": "Analista de Soporte de Aplicaciones Produccion Dynamics Azure SQL",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "aplicaciones"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 140,
+          "company": "ACERCARSE",
+          "role": "Automation Developer Python RPA Playwright Cloud",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "automation",
+            "developer",
+            "python"
+          ],
+          "evidence": "nior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualquier ubicacion 5 may ai automation qa engineer full time tcit 0 vista santiago hibrido 1300 2100 mes 4 j"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "meses"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 128,
+          "company": "Prosegur",
+          "role": "Tecnico Junior en Mantenimiento y Soporte ATM y Cash Today",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "mantenimiento",
+            "soporte"
+          ],
+          "evidence": "escript java sql react node js fastapi git github firebase firestore consumo y diseno de apis rest testing automatizacion y generacion de reportes como complemento soy titulado de tecnico en laboratorio clinico y banco de sangre por instituto profesional duoc "
+        },
+        {
+          "number": 124,
+          "company": "Computrabajo",
+          "role": "Practica Ingenieria Comercial o Civil Industrial Reporteria BI Analisis de Datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "analisis",
+            "datos"
+          ],
+          "evidence": "eresa trabajar en tcit me interesa tcit porque combina tecnologia automatizacion y trabajo con equipos de desarrollo areas donde quiero crecer como analista programador tengo base practica en python javascript typescript sql apis rest git github testing y docu"
+        },
+        {
+          "number": 119,
+          "company": "ACTIVOS CHILE",
+          "role": "Analista de control de Datos Hibrido",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "control",
+            "datos",
+            "hibrido"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 117,
+          "company": "Empresa datos SQL Las Condes",
+          "role": "Analista Calidad Datos SQL",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "calidad",
+            "datos"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 116,
+          "company": "Tricot S.A.",
+          "role": "Practica profesional area informatica QA",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "profesional",
+            "area",
+            "informatica"
+          ],
+          "evidence": "eresa trabajar en tcit me interesa tcit porque combina tecnologia automatizacion y trabajo con equipos de desarrollo areas donde quiero crecer como analista programador tengo base practica en python javascript typescript sql apis rest git github testing y docu"
+        },
+        {
+          "number": 113,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Tecnico Informatico para area Adquisiciones",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "informatico",
+            "para",
+            "area"
+          ],
+          "evidence": "escript java sql react node js fastapi git github firebase firestore consumo y diseno de apis rest testing automatizacion y generacion de reportes como complemento soy titulado de tecnico en laboratorio clinico y banco de sangre por instituto profesional duoc "
+        },
+        {
+          "number": 101,
+          "company": "Pick Up Consultores SPA",
+          "role": "Tecnico Soporte Mesa de Ayuda Corporativa",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "ayuda"
+          ],
+          "evidence": "escript java sql react node js fastapi git github firebase firestore consumo y diseno de apis rest testing automatizacion y generacion de reportes como complemento soy titulado de tecnico en laboratorio clinico y banco de sangre por instituto profesional duoc "
+        },
+        {
+          "number": 99,
+          "company": "Computrabajo",
+          "role": "Practica Tecnico en Soporte TI Tecnico Profesional",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "tecnico",
+            "soporte",
+            "tecnico",
+            "profesional"
+          ],
+          "evidence": "eresa trabajar en tcit me interesa tcit porque combina tecnologia automatizacion y trabajo con equipos de desarrollo areas donde quiero crecer como analista programador tengo base practica en python javascript typescript sql apis rest git github testing y docu"
+        },
+        {
+          "number": 97,
+          "company": "Computrabajo",
+          "role": "Analista Junior logistico - Manejo bases de datos",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "manejo",
+            "bases",
+            "datos"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 93,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Area TI Base de datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "area",
+            "base",
+            "datos"
+          ],
+          "evidence": " enviada hace 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en fronte"
+        },
+        {
+          "number": 94,
+          "company": "AGtec Servicios Informaticos",
+          "role": "Ingeniero Civil Informatico recien titulado o egresado",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "informatico",
+            "titulado"
+          ],
+          "evidence": "t end angularjs por proyecto 3it santiago hibrido postular front end developer react lisit santiago hibrido postular front end and mobile developer lisit santiago hibrido postular ingeniero a full stack gcp lisit santiago hibrido postular back end developer ja"
+        },
+        {
+          "number": 87,
+          "company": "Del Mar Technology Group",
+          "role": "Ingeniero de Desarrollo Java y Oracle",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "desarrollo",
+            "java"
+          ],
+          "evidence": "t end angularjs por proyecto 3it santiago hibrido postular front end developer react lisit santiago hibrido postular front end and mobile developer lisit santiago hibrido postular ingeniero a full stack gcp lisit santiago hibrido postular back end developer ja"
+        },
+        {
+          "number": 83,
+          "company": "Actionhub Chile",
+          "role": "Ingeniero/a de IA Generativa y Automatizacion GenAI Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "automatizacion",
+            "engineer"
+          ],
+          "evidence": "t end angularjs por proyecto 3it santiago hibrido postular front end developer react lisit santiago hibrido postular front end and mobile developer lisit santiago hibrido postular ingeniero a full stack gcp lisit santiago hibrido postular back end developer ja"
+        },
+        {
+          "number": 81,
+          "company": "Grupo Falabella",
+          "role": "Senior Full Stack Software Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "senior",
+            "full",
+            "stack",
+            "software",
+            "engineer"
+          ],
+          "evidence": "0 mes postula a mas empleos y maximiza tus oportunidades engineering manager rankmi santiago hibrido postular desarrollador back end python ssr tcit santiago hibrido postular semi senior software engineer unholster santiago hibrido postular prestashop odoo int"
+        },
+        {
+          "number": 78,
+          "company": "Getronics",
+          "role": "Ingeniero Analista de Datos",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "analista",
+            "datos"
+          ],
+          "evidence": "t end angularjs por proyecto 3it santiago hibrido postular front end developer react lisit santiago hibrido postular front end and mobile developer lisit santiago hibrido postular ingeniero a full stack gcp lisit santiago hibrido postular back end developer ja"
+        },
+        {
+          "number": 72,
+          "company": "Importante empresa",
+          "role": "Desarrollador Python/ Angular/ GCP",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "angular"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 68,
+          "company": "GRAN AMERICAS SANTIAGO CHILE S.A.",
+          "role": "Desarrollador Backend / Web (Spring Boot)",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "backend",
+            "spring",
+            "boot"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "remoto"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico",
+            "remoto"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 60,
+          "company": "Empresa Confidencial",
+          "role": "Analista QA Testing - Providencia (Hibrido)",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "testing",
+            "hibrido"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 58,
+          "company": "Magnet",
+          "role": "Back-end Developer Node.js con React",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "back",
+            "developer",
+            "node",
+            "react"
+          ],
+          "evidence": "itar mi perfil tus cvs nuevo eventos siguiendo tests beneficios espanol ayuda alertas tus postulaciones tablero lista todas las fases titulo mensajes estado ciudad salario enviada back end developer node js con react full time magnet 0 enviada remoto cualquier"
+        },
+        {
+          "number": 52,
+          "company": "Haibu Solutions",
+          "role": "Ingeniero PMO con experiencia en desarrollo Python",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "experiencia",
+            "desarrollo",
+            "python"
+          ],
+          "evidence": "t end angularjs por proyecto 3it santiago hibrido postular front end developer react lisit santiago hibrido postular front end and mobile developer lisit santiago hibrido postular ingeniero a full stack gcp lisit santiago hibrido postular back end developer ja"
+        },
+        {
+          "number": 50,
+          "company": "Chiletrabajos",
+          "role": "Programador Analista de software",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "programador",
+            "analista",
+            "software"
+          ],
+          "evidence": "rfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend automatizac"
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "commerce"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 40,
+          "company": "RANDSTAD",
+          "role": "Analista de datos y automatizacion",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 41,
+          "company": "Grupo Falabella",
+          "role": "Analista de Procesos y Mejora Continua",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "procesos",
+            "mejora"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 34,
+          "company": "Infinito Consultores",
+          "role": "Analista / Desarrollador Junior de Automatizacion",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "desarrollador",
+            "automatizacion"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 24,
+          "company": "RyC Consultores",
+          "role": "Analista Junior Datos y Automatización",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 32,
+          "company": "ALFASERV LTDA",
+          "role": "Tecnico Soporte Informático",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "informatico"
+          ],
+          "evidence": "escript java sql react node js fastapi git github firebase firestore consumo y diseno de apis rest testing automatizacion y generacion de reportes como complemento soy titulado de tecnico en laboratorio clinico y banco de sangre por instituto profesional duoc "
+        },
+        {
+          "number": 16,
+          "company": "Consistor Chile",
+          "role": "Analista QA Testing junior 100% remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "testing",
+            "remoto"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 18,
+          "company": "GrupoExpro",
+          "role": "Analista QA Testing Providencia Híbrido",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "testing",
+            "hibrido"
+          ],
+          "evidence": " 1 dia perfil profesional y experiencia laboral mi experiencia profesional combina operacion datos y desarrollo de software actualmente estoy orientando mi carrera al area ti como analista programador en formacion con proyectos practicos en frontend backend au"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "experiencia",
+            "java",
+            "spring",
+            "boot"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "00 1800 mes 4 jun software engineer i full time wherex 0 enviada santiago hibrido 4 jun developer qa junior full time ameris capital 0 enviada santiago hibrido 1500 2300 mes 4 jun desarrollador a de automatizaciones e ia part time zesty 2 enviada remoto cualqu"
+        }
+      ],
+      "matchCount": 38,
+      "summary": "38 postulacion(es) reconocidas en portal. Lectura profunda: 5 scroll(s), 0 carga(s), 4 filtro(s)."
+    },
+    {
+      "source": "Get on Board Empleos",
+      "state": "checked",
+      "url": "https://www.getonbrd.com/misempleos",
+      "lastCheck": "2026-06-05T17:50:32.517Z",
+      "matches": [
+        {
+          "number": 140,
+          "company": "ACERCARSE",
+          "role": "Automation Developer Python RPA Playwright Cloud",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "automation",
+            "developer",
+            "python"
+          ],
+          "evidence": " junior todos los paises full time rango de sueldo mas cualquier termino todos los terminos filtra requerimientos utilizando tags como javascript photoshop python filtrar por tags automation developerjuniorfull time subocolremoto colombia 02 de junio de 2026 g"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "importante"
+          ],
+          "evidence": "tags automation developerjuniorfull time subocolremoto colombia 02 de junio de 2026 gtm engineerjuniorfull time puente talent partnersremoto cualquier ubicacion 19 de mayo de 2026 desarrollador salesforcejuniorfull time bc tecnologiasantiago hibrido 17 de abri"
+        },
+        {
+          "number": 83,
+          "company": "Actionhub Chile",
+          "role": "Ingeniero/a de IA Generativa y Automatizacion GenAI Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "automatizacion",
+            "engineer"
+          ],
+          "evidence": "gineerjuniorfull time puente talent partnersremoto cualquier ubicacion 19 de mayo de 2026 desarrollador salesforcejuniorfull time bc tecnologiasantiago hibrido 17 de abril de 2026 ingeniero de implementacion de ia e hiperautomatizacionjuniorfull time usercode "
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "remoto"
+          ],
+          "evidence": "tags automation developerjuniorfull time subocolremoto colombia 02 de junio de 2026 gtm engineerjuniorfull time puente talent partnersremoto cualquier ubicacion 19 de mayo de 2026 desarrollador salesforcejuniorfull time bc tecnologiasantiago hibrido 17 de abri"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "java"
+          ],
+          "evidence": "tags automation developerjuniorfull time subocolremoto colombia 02 de junio de 2026 gtm engineerjuniorfull time puente talent partnersremoto cualquier ubicacion 19 de mayo de 2026 desarrollador salesforcejuniorfull time bc tecnologiasantiago hibrido 17 de abri"
+        }
+      ],
+      "matchCount": 5,
+      "summary": "5 postulacion(es) reconocidas en portal. Lectura profunda: 2 scroll(s), 0 carga(s), 1 filtro(s)."
+    },
+    {
+      "source": "LinkedIn",
+      "state": "checked",
+      "url": "https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED&start=80",
+      "lastCheck": "2026-06-05T17:51:13.698Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 140,
+          "company": "ACERCARSE",
+          "role": "Automation Developer Python RPA Playwright Cloud",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "automation",
+            "developer",
+            "python"
+          ],
+          "evidence": "argado hace 21 h backend software engineer verificado grupo falabella santiago hibrido solicitado hace 22 h ingeniero de software acl santiago hibrido solicitud vista hace 22 h qa automation engineer verificado stefanini latam chile en remoto solicitado hace 2"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "meses"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 131,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador/a Ecosistema Digital - Providencia",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "digital",
+            "providencia"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 119,
+          "company": "ACTIVOS CHILE",
+          "role": "Analista de control de Datos Hibrido",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "control",
+            "datos",
+            "hibrido"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 117,
+          "company": "Empresa datos SQL Las Condes",
+          "role": "Analista Calidad Datos SQL",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "calidad",
+            "datos"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 118,
+          "company": "Perceptual Sistemas",
+          "role": "Administrador Sistemas Junior Contrato Indefinido",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "sistemas",
+            "contrato",
+            "indefinido"
+          ],
+          "evidence": "otificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado analista de sistemas desarrollo soporte verificado deloitte las condes hibrido solicitado ha"
+        },
+        {
+          "number": 116,
+          "company": "Tricot S.A.",
+          "role": "Practica profesional area informatica QA",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "profesional",
+            "area"
+          ],
+          "evidence": "ck developer react node js verificado claire joster people first chile en remoto solicitado hace 2 dias desarrollador frontend angular nisum chile en remoto solicitado hace 2 dias practica estrategia 2do semestre 2026 verificado grupo falabella las condes pres"
+        },
+        {
+          "number": 113,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Tecnico Informatico para area Adquisiciones",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "informatico",
+            "para",
+            "area"
+          ],
+          "evidence": "cado nisum chile en remoto solicitud vista hace 5 meses arquitecto de software junior seguros sura santiago metropolitan region chile presencial solicitud vista hace 5 meses lider tecnico de ingeniero de software senior verificado kibernum las condes hibrido s"
+        },
+        {
+          "number": 104,
+          "company": "Computrabajo",
+          "role": "Analista de Datos Junior - L a V Santiago Centro",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "centro"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 105,
+          "company": "Manpower",
+          "role": "Analista Business Intelligence Junior Seguros",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "business",
+            "intelligence",
+            "seguros"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 101,
+          "company": "Pick Up Consultores SPA",
+          "role": "Tecnico Soporte Mesa de Ayuda Corporativa",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "ayuda"
+          ],
+          "evidence": "cado nisum chile en remoto solicitud vista hace 5 meses arquitecto de software junior seguros sura santiago metropolitan region chile presencial solicitud vista hace 5 meses lider tecnico de ingeniero de software senior verificado kibernum las condes hibrido s"
+        },
+        {
+          "number": 99,
+          "company": "Computrabajo",
+          "role": "Practica Tecnico en Soporte TI Tecnico Profesional",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "tecnico",
+            "soporte",
+            "tecnico",
+            "profesional"
+          ],
+          "evidence": "ck developer react node js verificado claire joster people first chile en remoto solicitado hace 2 dias desarrollador frontend angular nisum chile en remoto solicitado hace 2 dias practica estrategia 2do semestre 2026 verificado grupo falabella las condes pres"
+        },
+        {
+          "number": 100,
+          "company": "Computrabajo",
+          "role": "Soporte Tecnico Nivel 1 Pudahuel",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "soporte",
+            "tecnico",
+            "pudahuel"
+          ],
+          "evidence": "a negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado analista de sistemas desarrollo soporte verificado deloitte las condes hibrido solicitado hace 3 meses product o"
+        },
+        {
+          "number": 93,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Area TI Base de datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "area",
+            "base",
+            "datos"
+          ],
+          "evidence": "ucion de incidentes junior acl santiago hibrido solicitado hace 1 dia desarrollador a full stack ai native edtech e commerce hibrido chile editorial moraleja santiago metropolitan area hibrido solicitado hace 1 dia desarrollador de front end experis chile sant"
+        },
+        {
+          "number": 92,
+          "company": "Importante empresa del sector",
+          "role": "Soporte Informatico Junior modalidad en Sitio",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "soporte",
+            "informatico",
+            "sitio"
+          ],
+          "evidence": "a negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado analista de sistemas desarrollo soporte verificado deloitte las condes hibrido solicitado hace 3 meses product o"
+        },
+        {
+          "number": 89,
+          "company": "Criogas",
+          "role": "Encargado(a) de Calidad y Trazabilidad",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "encargado",
+            "calidad",
+            "trazabilidad"
+          ],
+          "evidence": "os de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile santiago en remoto curriculum descargado hace 4 h encargado a de calidad y trazabilidad criogas valparaiso presencial curriculum d"
+        },
+        {
+          "number": 87,
+          "company": "Del Mar Technology Group",
+          "role": "Ingeniero de Desarrollo Java y Oracle",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "ingeniero",
+            "desarrollo",
+            "java",
+            "oracle"
+          ],
+          "evidence": "nes nuevas notificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile san"
+        },
+        {
+          "number": 83,
+          "company": "Actionhub Chile",
+          "role": "Ingeniero/a de IA Generativa y Automatizacion GenAI Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "ingeniero",
+            "generativa",
+            "automatizacion",
+            "genai",
+            "engineer"
+          ],
+          "evidence": "nes nuevas notificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile san"
+        },
+        {
+          "number": 81,
+          "company": "Grupo Falabella",
+          "role": "Senior Full Stack Software Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "senior",
+            "full",
+            "stack",
+            "software",
+            "engineer"
+          ],
+          "evidence": "citado hace 22 h ingeniero de software acl santiago hibrido solicitud vista hace 22 h qa automation engineer verificado stefanini latam chile en remoto solicitado hace 23 h remote senior developer experience devex engineer ai platform verificado hirelatam lati"
+        },
+        {
+          "number": 79,
+          "company": "Customer Intelligence Inc.",
+          "role": "Ingeniero de Datos temporal",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "ingeniero",
+            "datos",
+            "temporal"
+          ],
+          "evidence": "nes nuevas notificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile san"
+        },
+        {
+          "number": 78,
+          "company": "Getronics",
+          "role": "Ingeniero Analista de Datos",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "ingeniero",
+            "analista",
+            "datos"
+          ],
+          "evidence": "nes nuevas notificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile san"
+        },
+        {
+          "number": 76,
+          "company": "Importante empresa sector Salud",
+          "role": "Analista de datos Junior - Santiago centro",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "centro"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 72,
+          "company": "Importante empresa",
+          "role": "Desarrollador Python/ Angular/ GCP",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "angular"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 73,
+          "company": "Kibernum",
+          "role": "Desarrollador Fullstack Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "fullstack",
+            "remoto"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 69,
+          "company": "ACOSTA Y AGUAYO SPA",
+          "role": "Desarrollador Fullstack Java Junior/Intermedio",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "fullstack",
+            "java"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 68,
+          "company": "GRAN AMERICAS SANTIAGO CHILE S.A.",
+          "role": "Desarrollador Backend / Web (Spring Boot)",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "backend",
+            "spring",
+            "boot"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "remoto"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 64,
+          "company": "Perceptual Consultores Ltda.",
+          "role": "Programador Web PHP Junior Contrato Indefinido",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "programador",
+            "contrato",
+            "indefinido"
+          ],
+          "evidence": "nini latam chile en remoto solicitado hace 1 dia analista de procesos y mejora continua verificado grupo falabella santiago metropolitan region chile hibrido solicitado hace 1 dia programador full stack net react angular verificado sii group chile santiago hib"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico",
+            "remoto"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 60,
+          "company": "Empresa Confidencial",
+          "role": "Analista QA Testing - Providencia (Hibrido)",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "providencia",
+            "hibrido"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 58,
+          "company": "Magnet",
+          "role": "Back-end Developer Node.js con React",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "back",
+            "developer",
+            "node",
+            "react"
+          ],
+          "evidence": "erificado audienceview chile en remoto solicitud vista hace 21 h ingeniero de desarrollo java y oracle del mar technology group santiago presencial curriculum descargado hace 21 h backend software engineer verificado grupo falabella santiago hibrido solicitado"
+        },
+        {
+          "number": 52,
+          "company": "Haibu Solutions",
+          "role": "Ingeniero PMO con experiencia en desarrollo Python",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "experiencia",
+            "desarrollo",
+            "python"
+          ],
+          "evidence": "nes nuevas notificaciones yo para negocios empieza a contratar por 0 clp mis cosas registro de empleos mi learning 1 mis anuncios de empleo guardado en curso solicitados archivado ingeniero a de ia generativa y automatizacion genai engineer actionhub chile san"
+        },
+        {
+          "number": 50,
+          "company": "Chiletrabajos",
+          "role": "Programador Analista de software",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "programador",
+            "analista",
+            "software"
+          ],
+          "evidence": "nini latam chile en remoto solicitado hace 1 dia analista de procesos y mejora continua verificado grupo falabella santiago metropolitan region chile hibrido solicitado hace 1 dia programador full stack net react angular verificado sii group chile santiago hib"
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "native",
+            "edtech",
+            "commerce"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 40,
+          "company": "RANDSTAD",
+          "role": "Analista de datos y automatizacion",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 41,
+          "company": "Grupo Falabella",
+          "role": "Analista de Procesos y Mejora Continua",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "procesos",
+            "mejora",
+            "continua"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 34,
+          "company": "Infinito Consultores",
+          "role": "Analista / Desarrollador Junior de Automatizacion",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "desarrollador",
+            "automatizacion"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 36,
+          "company": "Kibernum",
+          "role": "Analista de control de inversiones Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "control",
+            "inversiones"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 24,
+          "company": "RyC Consultores",
+          "role": "Analista Junior Datos y Automatización",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 25,
+          "company": "Uno Salud Dental",
+          "role": "Analista de Datos Providencia",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "providencia"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 32,
+          "company": "ALFASERV LTDA",
+          "role": "Tecnico Soporte Informático",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "informatico"
+          ],
+          "evidence": "cado nisum chile en remoto solicitud vista hace 5 meses arquitecto de software junior seguros sura santiago metropolitan region chile presencial solicitud vista hace 5 meses lider tecnico de ingeniero de software senior verificado kibernum las condes hibrido s"
+        },
+        {
+          "number": 18,
+          "company": "GrupoExpro",
+          "role": "Analista QA Testing Providencia Híbrido",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "providencia",
+            "hibrido"
+          ],
+          "evidence": "ineer ai platform verificado hirelatam latin america en remoto solicitado hace 23 h computer vision engineer verificado insight global latin america en remoto solicitado hace 23 h analista onboarding verificado scotiabank santiago presencial solicitado hace 23"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "experiencia",
+            "java",
+            "spring",
+            "boot"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "veloper 55 hr remote crossing hurdles latin america en remoto solicitado hace 23 h dba verificado avos tech chile santiago metropolitan region chile en remoto solicitado hace 23 h desarrollador verificado avos tech chile santiago metropolitan region chile hibr"
+        },
+        {
+          "number": 2,
+          "company": "Consistor Chile",
+          "role": "Programador junior fullstack JavaScript",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "programador",
+            "fullstack",
+            "javascript"
+          ],
+          "evidence": "nini latam chile en remoto solicitado hace 1 dia analista de procesos y mejora continua verificado grupo falabella santiago metropolitan region chile hibrido solicitado hace 1 dia programador full stack net react angular verificado sii group chile santiago hib"
+        }
+      ],
+      "matchCount": 47,
+      "summary": "47 postulacion(es) reconocidas en portal. Lectura profunda: 8 scroll(s), 8 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Chiletrabajos",
+      "state": "checked",
+      "url": "https://www.chiletrabajos.cl/dashboard/postulaciones",
+      "lastCheck": "2026-06-05T17:51:21.336Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        },
+        {
+          "number": 119,
+          "company": "ACTIVOS CHILE",
+          "role": "Analista de control de Datos Hibrido",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "control",
+            "datos"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 111,
+          "company": "Empresa retail accesorios deportivos",
+          "role": "Analista Junior de Servicio al Cliente SAP SD",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "cliente"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 101,
+          "company": "Pick Up Consultores SPA",
+          "role": "Tecnico Soporte Mesa de Ayuda Corporativa",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": "ologia empresa multinacional 3815831 analista soporte ti importante empresa 3815766 operador mesa de ayuda confidencial 3843277 analista de datos y automatizacion randstad 3840880 tecnico soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista "
+        },
+        {
+          "number": 99,
+          "company": "Computrabajo",
+          "role": "Practica Tecnico en Soporte TI Tecnico Profesional",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "tecnico"
+          ],
+          "evidence": "ologia empresa multinacional 3815831 analista soporte ti importante empresa 3815766 operador mesa de ayuda confidencial 3843277 analista de datos y automatizacion randstad 3840880 tecnico soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista "
+        },
+        {
+          "number": 100,
+          "company": "Computrabajo",
+          "role": "Soporte Tecnico Nivel 1 Pudahuel",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "soporte",
+            "tecnico",
+            "nivel"
+          ],
+          "evidence": "1 analista qa automatizador technology solutions 3085357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador analista de software chiletrabajos 3837584 soporte mesa de ayuda nivel 1 grupo avanza 3804283 consultor mesa de ayuda tecno"
+        },
+        {
+          "number": 81,
+          "company": "Grupo Falabella",
+          "role": "Senior Full Stack Software Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "full",
+            "stack",
+            "software"
+          ],
+          "evidence": " n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador junior de aut"
+        },
+        {
+          "number": 78,
+          "company": "Getronics",
+          "role": "Ingeniero Analista de Datos",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "analista",
+            "datos"
+          ],
+          "evidence": "tudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador "
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 52,
+          "company": "Haibu Solutions",
+          "role": "Ingeniero PMO con experiencia en desarrollo Python",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "ingeniero",
+            "experiencia",
+            "desarrollo"
+          ],
+          "evidence": "tudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador "
+        },
+        {
+          "number": 50,
+          "company": "Chiletrabajos",
+          "role": "Programador Analista de software",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "programador",
+            "analista",
+            "software"
+          ],
+          "evidence": "mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador analista de software chiletrabajos 3837584 soporte mesa de ayuda niv"
+        },
+        {
+          "number": 49,
+          "company": "Grupo Avanza",
+          "role": "Soporte Mesa de Ayuda Nivel 1- Santiago",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "soporte",
+            "mesa",
+            "ayuda",
+            "nivel"
+          ],
+          "evidence": "1 analista qa automatizador technology solutions 3085357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador analista de software chiletrabajos 3837584 soporte mesa de ayuda nivel 1 grupo avanza 3804283 consultor mesa de ayuda tecno"
+        },
+        {
+          "number": 45,
+          "company": "Confidencial",
+          "role": "Operador Mesa de Ayuda",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "operador",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": "el 1 grupo avanza 3804283 consultor mesa de ayuda tecnologia 3843128 analista de activos de tecnologia empresa multinacional 3815831 analista soporte ti importante empresa 3815766 operador mesa de ayuda confidencial 3843277 analista de datos y automatizacion r"
+        },
+        {
+          "number": 47,
+          "company": "Empresa multinacional",
+          "role": "Analista de activos de tecnología",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "activos",
+            "tecnologia"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 48,
+          "company": "Tecnología",
+          "role": "Consultor Mesa de Ayuda",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "consultor",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": "85357 ingeniero pmo con experiencia en desarrollo haibu solutions 3790678 programador analista de software chiletrabajos 3837584 soporte mesa de ayuda nivel 1 grupo avanza 3804283 consultor mesa de ayuda tecnologia 3843128 analista de activos de tecnologia emp"
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        },
+        {
+          "number": 40,
+          "company": "RANDSTAD",
+          "role": "Analista de datos y automatizacion",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 34,
+          "company": "Infinito Consultores",
+          "role": "Analista / Desarrollador Junior de Automatizacion",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "desarrollador",
+            "automatizacion"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 36,
+          "company": "Kibernum",
+          "role": "Analista de control de inversiones Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "control",
+            "inversiones"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 37,
+          "company": "Gestion Vial/ Grupo Costanera",
+          "role": "Analista de Inteligencia de Datos y Operaciones (junior)",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "inteligencia",
+            "datos"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 24,
+          "company": "RyC Consultores",
+          "role": "Analista Junior Datos y Automatización",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 30,
+          "company": "Melon S.A",
+          "role": "Analista de TI Servicio al Cliente Las Condes",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "cliente"
+          ],
+          "evidence": "cuando el empleador vio tu cv recuerda que estas solicitudes se mostraran durante un maximo de 30 dias sigue tu progreso y mantente al tanto de tus oportunidades laborales 3815451 analista qa automatizador technology solutions 3085357 ingeniero pmo con experie"
+        },
+        {
+          "number": 32,
+          "company": "ALFASERV LTDA",
+          "role": "Tecnico Soporte Informático",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "informatico"
+          ],
+          "evidence": "ologia empresa multinacional 3815831 analista soporte ti importante empresa 3815766 operador mesa de ayuda confidencial 3843277 analista de datos y automatizacion randstad 3840880 tecnico soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista "
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "experiencia"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": " soporte ti n1 n2 3it 3843978 planner junior asiamerica 3823250 analista de inteligencia de datos y gestion vial 3822541 analista de control de inversiones junior kibernum 3825764 desarrollador fullstack junior importante empresa 3814861 analista desarrollador"
+        }
+      ],
+      "matchCount": 27,
+      "summary": "27 postulacion(es) reconocidas en portal. Lectura profunda: 1 scroll(s), 0 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Gmail Computrabajo",
+      "state": "checked",
+      "url": "https://mail.google.com/mail/u/0/#search/%22sigue+avanzando%22+OR+%22novedades+en+tu+postulacion%22+OR+%22Postulaciones+Compu%22",
+      "lastCheck": "2026-06-05T17:51:56.054Z",
+      "matches": [
+        {
+          "number": 120,
+          "company": "Computrabajo",
+          "role": "Desarrollador Web Jr Inclusion Laboral - Vitacura",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "inclusion",
+            "laboral"
+          ],
+          "evidence": "ra nuevo estado en analista servicio batch ver mi postulacion 4 jun postulaciones compu recibidos postulaciones gian tu candidatura sigue avanzando en el proceso de seleccion para desarrollador web inclusion laboral remoto novedades en tu postulacion computrab"
+        },
+        {
+          "number": 124,
+          "company": "Computrabajo",
+          "role": "Practica Ingenieria Comercial o Civil Industrial Reporteria BI Analisis de Datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "practica",
+            "ingenieria",
+            "comercial",
+            "civil",
+            "industrial",
+            "reporteria",
+            "analisis",
+            "datos"
+          ],
+          "evidence": "ra nuevo estado en desarrollador web inclusion laboral remoto 4 jun postulaciones compu recibidos postulaciones gian tu candidatura sigue avanzando en el proceso de seleccion para practica profesional tecnico en soporte ti tecnico profesional novedades en tu p"
+        },
+        {
+          "number": 108,
+          "company": "Computrabajo",
+          "role": "Analista servicio Batch - Bancario",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "batch"
+          ],
+          "evidence": "adjuntos para no leidos busqueda avanzada mas relevantes 1 8 de 8 conversaciones postulaciones compu 3 recibidos postulaciones gian hay una actualizacion en tu solicitud de empleo analista mesa de dinero junior proyecto novedades en tu postulacion computrabajo"
+        },
+        {
+          "number": 109,
+          "company": "Avos Tech",
+          "role": "Analista junior/servicio Batch - Bancario",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "batch"
+          ],
+          "evidence": "adjuntos para no leidos busqueda avanzada mas relevantes 1 8 de 8 conversaciones postulaciones compu 3 recibidos postulaciones gian hay una actualizacion en tu solicitud de empleo analista mesa de dinero junior proyecto novedades en tu postulacion computrabajo"
+        },
+        {
+          "number": 101,
+          "company": "Pick Up Consultores SPA",
+          "role": "Tecnico Soporte Mesa de Ayuda Corporativa",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "mesa"
+          ],
+          "evidence": "sarrollador web inclusion laboral remoto 4 jun postulaciones compu recibidos postulaciones gian tu candidatura sigue avanzando en el proceso de seleccion para practica profesional tecnico en soporte ti tecnico profesional novedades en tu postulacion computraba"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico",
+            "remoto"
+          ],
+          "evidence": "adjuntos para no leidos busqueda avanzada mas relevantes 1 8 de 8 conversaciones postulaciones compu 3 recibidos postulaciones gian hay una actualizacion en tu solicitud de empleo analista mesa de dinero junior proyecto novedades en tu postulacion computrabajo"
+        }
+      ],
+      "matchCount": 6,
+      "summary": "6 postulacion(es) reconocidas en portal. Lectura profunda: 8 scroll(s), 8 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Gmail Get on Board",
+      "state": "checked",
+      "url": "https://mail.google.com/mail/u/0/#search/%22Get+on+Board%22+OR+getonbrd+OR+%22Solicitud+con+Get+on+Board%22",
+      "lastCheck": "2026-06-05T17:52:35.007Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "meses"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 83,
+          "company": "Actionhub Chile",
+          "role": "Ingeniero/a de IA Generativa y Automatizacion GenAI Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "automatizacion",
+            "engineer"
+          ],
+          "evidence": "ard recibidos postulaciones quizas este es el empleo que estabas buscando get on board hey gian lucas creemos que estos empleos hacen buen match contigo maquintel robotic services ingeniero a junior de software y 18 ene get on board recibidos postulaciones des"
+        },
+        {
+          "number": 81,
+          "company": "Grupo Falabella",
+          "role": "Senior Full Stack Software Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "full",
+            "stack",
+            "software",
+            "engineer"
+          ],
+          "evidence": " on board recibidos postulaciones empleo nuevo vida nueva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automat"
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "remoto"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "remoto"
+          ],
+          "evidence": "board hola como parte del proceso de postulacion a desarrollador a back end python django te invitaremos a una prueba tecnica en 9 7 25 alertas de empleo d recibidos postulaciones analista analista qa full time get on board remote jobs y mas analista qa full t"
+        },
+        {
+          "number": 58,
+          "company": "Magnet",
+          "role": "Back-end Developer Node.js con React",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": true,
+          "tokenHits": [
+            "back",
+            "developer",
+            "node",
+            "react"
+          ],
+          "evidence": "anzada mas relevantes 1 49 de 49 conversaciones get on board recibidos postulaciones completa tu aplicacion get on board hola gian lucas te recordamos que tienes una postulacion a back end developer node js con react pendiente te invitamos a completarla y 6 ma"
+        },
+        {
+          "number": 52,
+          "company": "Haibu Solutions",
+          "role": "Ingeniero PMO con experiencia en desarrollo Python",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "ingeniero",
+            "desarrollo",
+            "python"
+          ],
+          "evidence": "ard recibidos postulaciones quizas este es el empleo que estabas buscando get on board hey gian lucas creemos que estos empleos hacen buen match contigo maquintel robotic services ingeniero a junior de software y 18 ene get on board recibidos postulaciones des"
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack",
+            "commerce"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 34,
+          "company": "Infinito Consultores",
+          "role": "Analista / Desarrollador Junior de Automatizacion",
+          "trackerStatus": "Applied",
+          "portalStatus": "Unknown",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "desarrollador",
+            "automatizacion"
+          ],
+          "evidence": "board hola como parte del proceso de postulacion a desarrollador a back end python django te invitaremos a una prueba tecnica en 9 7 25 alertas de empleo d recibidos postulaciones analista analista qa full time get on board remote jobs y mas analista qa full t"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "eva get on board hey gian lucas creemos que estos empleos hacen buen match contigo puente talent partners gtm engineer junior full time 24 may get on board recibidos postulaciones desarrollador a de automatizaciones e ia mensaje de zesty get on board hola gian"
+        }
+      ],
+      "matchCount": 13,
+      "summary": "13 postulacion(es) reconocidas en portal. Lectura profunda: 8 scroll(s), 8 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Gmail LinkedIn",
+      "state": "checked",
+      "url": "https://mail.google.com/mail/u/0/#search/%22solicitud+vista%22+OR+%22curriculum+descargado%22+OR+%22curr%C3%ADculum+descargado%22+OR+%22application+viewed%22+OR+%22resume+downloaded%22",
+      "lastCheck": "2026-06-05T17:52:43.273Z",
       "matches": [],
       "matchCount": 0,
-      "summary": "browserType.connectOverCDP: connect ECONNREFUSED 127.0.0.1:9222\nCall log:\n\u001b[2m  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222\u001b[22m\n"
+      "summary": "0 postulacion(es) reconocidas en portal. Lectura profunda: 1 scroll(s), 0 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Gmail Cuestionarios",
+      "state": "checked",
+      "url": "https://mail.google.com/mail/u/0/#search/pandape+OR+bizneo+OR+cuestionario+OR+%22Acceso+a+las+preguntas%22",
+      "lastCheck": "2026-06-05T17:53:16.578Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "importante"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 72,
+          "company": "Importante empresa",
+          "role": "Desarrollador Python/ Angular/ GCP",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "angular"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico"
+          ],
+          "evidence": "moai pandape 9 40 grupo sms chile spa recibidos bienvenido a al proceso de seleccion por favor no responda al remitente de este email grupo sms chile spa proceso de seleccion para analista de datos jr 4 jun pandape recibidos proceso de seleccion desarrollador "
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Responded",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "lan superior de cualquier fecha contiene archivos adjuntos para excluir promociones busqueda avanzada mas relevantes 1 9 de 9 conversaciones ticmoai recibidos proceso de seleccion desarrollador full stack por favor no responda al remitente de este email ticmoa"
+        }
+      ],
+      "matchCount": 9,
+      "summary": "9 postulacion(es) reconocidas en portal. Lectura profunda: 8 scroll(s), 8 carga(s), 0 filtro(s)."
+    },
+    {
+      "source": "Gmail Trabajando Chiletrabajos",
+      "state": "checked",
+      "url": "https://mail.google.com/mail/u/0/#search/trabajando+OR+chiletrabajos+OR+%22tu+postulacion%22+OR+%22tu+postulaci%C3%B3n%22",
+      "lastCheck": "2026-06-05T17:54:02.428Z",
+      "matches": [
+        {
+          "number": 152,
+          "company": "Importante empresa del sector servicios",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 151,
+          "company": "TicMoAI",
+          "role": "Desarrollador Full Stack",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 147,
+          "company": "XinerLink",
+          "role": "Programador/a Taller proyecto Pudahuel",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "programador",
+            "taller",
+            "pudahuel"
+          ],
+          "evidence": "utrabajo enhorabuena te postulaste con exito tu cv ya esta en manos de la 10 57 postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto analista programador tu cv esta a la espera de revision por parte de abenis computrabajo "
+        },
+        {
+          "number": 143,
+          "company": "Ingenieria informatica Kibernum S.A.",
+          "role": "Desarrollador automatizador - Python Playwright",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "automatizador",
+            "python",
+            "playwright"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 138,
+          "company": "Kibernum",
+          "role": "Analista de Soporte de Aplicaciones Produccion Dynamics Azure SQL",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "aplicaciones",
+            "produccion",
+            "dynamics",
+            "azure"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 139,
+          "company": "Empresas Rayu Ltda",
+          "role": "Analista de BackOffice SQL Python",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "backoffice",
+            "python"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 140,
+          "company": "ACERCARSE",
+          "role": "Automation Developer Python RPA Playwright Cloud",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "automation",
+            "developer",
+            "python",
+            "playwright",
+            "cloud"
+          ],
+          "evidence": "rrectamente https www chiletrabajos cl trabajo 3840143 te recomendamos siempre tener 3 jun postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto automation developer python rpa playwright cloud tu cv esta a la espera de revis"
+        },
+        {
+          "number": 141,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador RPA o Python Importante AFP - Proyecto 6 meses",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "python",
+            "importante"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 131,
+          "company": "Esencial Consultores SPA",
+          "role": "Desarrollador/a Ecosistema Digital - Providencia",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "ecosistema",
+            "digital",
+            "providencia"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 132,
+          "company": "XinerLink",
+          "role": "Analista Programador - Quilicura",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "programador",
+            "quilicura"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 133,
+          "company": "Team-Work",
+          "role": "Urgente Analista Programador Quilicura",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "urgente",
+            "analista",
+            "programador",
+            "quilicura"
+          ],
+          "evidence": "ingenieria informatica kibernum s a computrabajo enhorabuena te postulaste con exito 10 26 postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto urgente analista programador quilicura tu cv esta a la espera de revision por pa"
+        },
+        {
+          "number": 134,
+          "company": "Abenis",
+          "role": "Analista Programador Computacional",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "programador",
+            "computacional"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 124,
+          "company": "Computrabajo",
+          "role": "Practica Ingenieria Comercial o Civil Industrial Reporteria BI Analisis de Datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "practica",
+            "ingenieria",
+            "datos"
+          ],
+          "evidence": "arte de perceptual consultores ltda computrabajo enhorabuena te postulaste con exito 4 jun postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto practicante tecnico informatico para area adquisiciones tu cv esta a la espera d"
+        },
+        {
+          "number": 116,
+          "company": "Tricot S.A.",
+          "role": "Practica profesional area informatica QA",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "practica",
+            "area",
+            "informatica"
+          ],
+          "evidence": "arte de perceptual consultores ltda computrabajo enhorabuena te postulaste con exito 4 jun postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto practicante tecnico informatico para area adquisiciones tu cv esta a la espera d"
+        },
+        {
+          "number": 111,
+          "company": "Empresa retail accesorios deportivos",
+          "role": "Analista Junior de Servicio al Cliente SAP SD",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "cliente"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 113,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Tecnico Informatico para area Adquisiciones",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "practicante",
+            "tecnico",
+            "informatico",
+            "para",
+            "area",
+            "adquisiciones"
+          ],
+          "evidence": "arte de perceptual consultores ltda computrabajo enhorabuena te postulaste con exito 4 jun postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto practicante tecnico informatico para area adquisiciones tu cv esta a la espera d"
+        },
+        {
+          "number": 108,
+          "company": "Computrabajo",
+          "role": "Analista servicio Batch - Bancario",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "batch"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 109,
+          "company": "Avos Tech",
+          "role": "Analista junior/servicio Batch - Bancario",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "batch"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 101,
+          "company": "Pick Up Consultores SPA",
+          "role": "Tecnico Soporte Mesa de Ayuda Corporativa",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": " cv esta a la espera de revision por parte de ingenieria informatica kibernum s a computrabajo enhorabuena te postulaste con exito 9 36 chiletrabajos emple recibidos postulaciones tecnico soporte ti n1 n2 2026 05 25 11 40 02 tu postulacion a tecnico soporte ti"
+        },
+        {
+          "number": 102,
+          "company": "Valor Unico",
+          "role": "Tecnico Soporte Plataformas TI en produccion Semipresencial",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "produccion"
+          ],
+          "evidence": " cv esta a la espera de revision por parte de ingenieria informatica kibernum s a computrabajo enhorabuena te postulaste con exito 9 36 chiletrabajos emple recibidos postulaciones tecnico soporte ti n1 n2 2026 05 25 11 40 02 tu postulacion a tecnico soporte ti"
+        },
+        {
+          "number": 100,
+          "company": "Computrabajo",
+          "role": "Soporte Tecnico Nivel 1 Pudahuel",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "soporte",
+            "tecnico",
+            "nivel",
+            "pudahuel"
+          ],
+          "evidence": "or de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a importante"
+        },
+        {
+          "number": 93,
+          "company": "Importante empresa del sector",
+          "role": "Practicante Area TI Base de datos",
+          "trackerStatus": "Discarded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "practicante",
+            "area",
+            "datos"
+          ],
+          "evidence": "arte de perceptual consultores ltda computrabajo enhorabuena te postulaste con exito 4 jun postulaciones compu recibidos postulaciones seguimiento de tu postulacion para el puesto practicante tecnico informatico para area adquisiciones tu cv esta a la espera d"
+        },
+        {
+          "number": 81,
+          "company": "Grupo Falabella",
+          "role": "Senior Full Stack Software Engineer",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "full",
+            "stack",
+            "software"
+          ],
+          "evidence": "dro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empresa computraba"
+        },
+        {
+          "number": 63,
+          "company": "Team-Work",
+          "role": "Desarrollador Web Full Stack Junior / Remoto",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 61,
+          "company": "XinerLink",
+          "role": "Analista de Soporte Técnico Remoto (NOC)",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "analista",
+            "soporte",
+            "tecnico"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 50,
+          "company": "Chiletrabajos",
+          "role": "Programador Analista de software",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "programador",
+            "analista",
+            "software"
+          ],
+          "evidence": "utrabajo enhorabuena te postulaste con exito tu cv ya esta en manos de la 10 57 postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto analista programador tu cv esta a la espera de revision por parte de abenis computrabajo "
+        },
+        {
+          "number": 49,
+          "company": "Grupo Avanza",
+          "role": "Soporte Mesa de Ayuda Nivel 1- Santiago",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "soporte",
+            "mesa",
+            "ayuda",
+            "nivel"
+          ],
+          "evidence": "or de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a importante"
+        },
+        {
+          "number": 45,
+          "company": "Confidencial",
+          "role": "Operador Mesa de Ayuda",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "operador",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": "sta a la espera de revision por parte de la empresa computrabajo enhorabuena te postulaste con exito tu cv ya esta en manos de la 4 jun chiletrabajos emple recibidos postulaciones operador mesa de ayuda 2026 04 08 12 15 52 tu postulacion a operador mesa de ayu"
+        },
+        {
+          "number": 47,
+          "company": "Empresa multinacional",
+          "role": "Analista de activos de tecnología",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "activos",
+            "tecnologia"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 48,
+          "company": "Tecnología",
+          "role": "Consultor Mesa de Ayuda",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": true,
+          "tokenHits": [
+            "consultor",
+            "mesa",
+            "ayuda"
+          ],
+          "evidence": "iones compu recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador rpa o python importante afp tu cv esta a la espera de revision por parte de esencial consultores spa computrabajo enhorabuena te postulaste con exito 9 42 postulacio"
+        },
+        {
+          "number": 44,
+          "company": "Editorial Moraleja",
+          "role": "Desarrollador/a Full-Stack AI-Native - Edtech / E-commerce",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 40,
+          "company": "RANDSTAD",
+          "role": "Analista de datos y automatizacion",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 34,
+          "company": "Infinito Consultores",
+          "role": "Analista / Desarrollador Junior de Automatizacion",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "desarrollador",
+            "automatizacion"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 24,
+          "company": "RyC Consultores",
+          "role": "Analista Junior Datos y Automatización",
+          "trackerStatus": "Responded",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "automatizacion"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 25,
+          "company": "Uno Salud Dental",
+          "role": "Analista de Datos Providencia",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "datos",
+            "providencia"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 29,
+          "company": "MMasesorias",
+          "role": "Analista QA Automatizador Providencia",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "automatizador",
+            "providencia"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 30,
+          "company": "Melon S.A",
+          "role": "Analista de TI Servicio al Cliente Las Condes",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "analista",
+            "servicio",
+            "cliente"
+          ],
+          "evidence": "an superior de cualquier fecha contiene archivos adjuntos para no leidos busqueda avanzada mas relevantes 1 50 de muchas conversaciones chiletrabajos emple recibidos postulaciones analista soporte ti 2026 04 07 15 16 48 04 06 2026 image postulacion enviada a i"
+        },
+        {
+          "number": 32,
+          "company": "ALFASERV LTDA",
+          "role": "Tecnico Soporte Informático",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "tecnico",
+            "soporte",
+            "informatico"
+          ],
+          "evidence": " cv esta a la espera de revision por parte de ingenieria informatica kibernum s a computrabajo enhorabuena te postulaste con exito 9 36 chiletrabajos emple recibidos postulaciones tecnico soporte ti n1 n2 2026 05 25 11 40 02 tu postulacion a tecnico soporte ti"
+        },
+        {
+          "number": 7,
+          "company": "Consistor Chile",
+          "role": "Desarrollador Junior full stack experiencia en Next.js y Java Spring Boot",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        },
+        {
+          "number": 9,
+          "company": "Empresa comercial de Lampa",
+          "role": "Desarrollador Full Stack Junior",
+          "trackerStatus": "Applied",
+          "portalStatus": "Applied",
+          "companySeen": false,
+          "tokenHits": [
+            "desarrollador",
+            "full",
+            "stack"
+          ],
+          "evidence": "n lucas alejandro san martin agurto postulaste correctamente a la oferta de empleo 4 jun postulaciones compu 2 recibidos postulaciones seguimiento de tu postulacion para el puesto desarrollador full stack tu cv esta a la espera de revision por parte de la empr"
+        }
+      ],
+      "matchCount": 40,
+      "summary": "40 postulacion(es) reconocidas en portal. Lectura profunda: 8 scroll(s), 8 carga(s), 0 filtro(s)."
     }
   ],
   "verifyOk": true,
-  "verifyTail": "\n📊 Checking 120 entries in applications.md\n\n✅ All statuses are canonical\n✅ No exact duplicates found\n✅ All report links valid\n✅ All scores valid\n✅ All rows properly formatted\n✅ No pending TSVs\n✅ No bold in scores\n\n==================================================\n📊 Pipeline Health: 0 errors, 0 warnings\n🟢 Pipeline is clean!\n"
+  "verifyTail": "\n📊 Checking 146 entries in applications.md\n\n✅ All statuses are canonical\n✅ No exact duplicates found\n✅ All report links valid\n✅ All scores valid\n✅ All rows properly formatted\n✅ No pending TSVs\n✅ No bold in scores\n\n==================================================\n📊 Pipeline Health: 0 errors, 0 warnings\n🟢 Pipeline is clean!\n"
 }
