@@ -3,7 +3,7 @@
   "pid": null,
   "intervalSec": null,
   "portalIntervalSec": null,
-  "lastCheck": "2026-06-19T17:19:51.600Z",
+  "lastCheck": "2026-06-19T19:15:45.374Z",
   "nextCheck": null,
   "lastPortalCheck": "2026-06-17T18:40:30.832Z",
   "summary": {
@@ -19,6 +19,9 @@
     "skip": 0
   },
   "alerts": [
+    "Get on Board mejorado: el flujo ahora guarda preguntas/respuestas en data/application-questions.* y reutiliza respuestas similares adaptadas.",
+    "Get on Board ahora distingue numeros, selects, datos personales, renta y texto libre antes de responder.",
+    "Get on Board evita marcar exito si no existe confirmacion visible de postulacion enviada/postulacion ya enviada.",
     "Continuacion 2026-06-19 completa: Gmail leido y sincronizado; luego 3 envios Computrabajo confirmados, 2 filas nuevas y 1 variante anexada.",
     "Nuevas: #302 Tecnova Desarrollador C# y #304 Michael Page Desarrollador Fullstack Proyecto 3 meses.",
     "Variante anexada: #200 Genesys Desarrollador Full Stack oferta E046A2854BD4FDD961373E686DCF3405.",
@@ -35,6 +38,8 @@
     "Variante anexada en #158 BCTecnologia: Full Stack PHP Laravel React Native PostgreSQL, oferta 0F41A690A86F605361373E686DCF3405."
   ],
   "trackerUpdates": [
+    "Script actualizado: output/getonboard-url-apply.mjs.",
+    "Validacion: node --check OK y verify-pipeline limpio.",
     "Applied nueva: #302 Tecnova Soluciones Informaticas Desarrollador C#.",
     "Applied nueva: #304 Michael Page Desarrollador Fullstack Proyecto 3 meses.",
     "Actualizada #200 Genesys con variante Desarrollador Full Stack confirmada.",
@@ -50,8 +55,17 @@
     "Actualizada #158 BCTecnologia con variante Full Stack PHP Laravel React Native PostgreSQL.",
     "Pipeline verificado limpio: 0 errores, 0 warnings."
   ],
-  "portalState": "manual-continue-2026-06-19-email-sync-and-apply-complete",
+  "portalState": "manual-continue-2026-06-19-getonboard-flow-improved",
   "portalChecks": [
+    {
+      "source": "Get on Board",
+      "state": "improved",
+      "url": "output/getonboard-url-apply.mjs",
+      "lastCheck": "2026-06-19T19:15:45.374Z",
+      "matches": [],
+      "matchCount": 0,
+      "summary": "Flujo mejorado para leer preguntas, responder segun tipo de campo, guardar banco de preguntas/respuestas y exigir confirmacion visible antes de registrar exito."
+    },
     {
       "source": "Computrabajo",
       "state": "checked",
