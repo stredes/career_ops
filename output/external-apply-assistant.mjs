@@ -6,7 +6,7 @@ import yaml from 'js-yaml';
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
 const profilePath = resolve(ROOT, 'config/profile.yml');
-const cvPath = resolve(ROOT, process.env.CV_PATH || 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const logPath = resolve(ROOT, 'output/external-apply-agent.log');
 const autoSubmit = process.env.AUTO_SUBMIT_EXTERNAL !== '0';
 const waitForUser = process.env.WAIT_FOR_USER !== '0';
@@ -58,7 +58,7 @@ function coverLetter({ company = 'la empresa', role = 'este cargo' }) {
 
 Me interesa postular al cargo de ${role}. Actualmente curso Analista Programador en Duoc UC y estoy orientando mi carrera al area TI, con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion y manejo de datos.
 
-He desarrollado proyectos como AMILAB Frontend/Backend, Inventario App y Exelcior Apolo, donde trabaje con frontend, backend serverless, bases de datos, validaciones, reportes, testing y automatizacion de procesos. Mi experiencia previa en laboratorio clinico y logistica tambien me aporta orden, trazabilidad, documentacion y criterio para entender procesos reales de usuarios.
+He desarrollado proyectos como AMILAB Frontend/Backend, Inventario App, Exelcior Apolo y una app movil para HC Soluciones, donde trabaje con frontend, backend serverless, bases de datos, validaciones, reportes, testing, Git/GitHub y automatizacion de procesos.
 
 Busco una oportunidad junior donde pueda aportar con responsabilidad, aprendizaje rapido y buena comunicacion tecnica.
 
@@ -73,7 +73,7 @@ function englishCoverLetter({ company = 'the company', role = 'this role' }) {
 
 I am interested in the ${role} role. I am currently studying Analista Programador and I am focused on growing in software development and IT, with practical foundations in Python, JavaScript, TypeScript, React, SQL, REST APIs, Git/GitHub, automation, and data handling.
 
-My projects include AMILAB Frontend/Backend, Inventario App, and Exelcior Apolo, where I worked with frontend, backend APIs, databases, validations, reports, testing, and process automation. My previous experience in clinical laboratory and logistics also gives me discipline with records, traceability, documentation, and real operational workflows.
+My projects include AMILAB Frontend/Backend, Exelcior Apolo, Inventario App, and a private mobile app for HC Soluciones. I have worked with frontend, backend APIs, Firebase/Firestore, SQL, validations, reports, testing, Git/GitHub, Arch Linux, Debian, and process automation.
 
 I am based in Chile, available for remote work, and able to coordinate with EST core hours.
 
@@ -109,7 +109,7 @@ function answerFor(question, profile, meta) {
   }
   if (/public git|git repo|github/.test(q)) return profile.github;
   if (/summary|resumen/.test(q)) {
-    return 'Analista Programador en formacion, orientado al area TI, con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, automatizacion y manejo de datos. Experiencia previa en laboratorio clinico y logistica, con disciplina en procesos, trazabilidad, documentacion y trabajo con usuarios reales.';
+    return 'Analista Programador en formacion, orientado al area TI, con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, Firebase/Firestore, automatizacion, manejo de datos, Arch Linux y Debian.';
   }
   if (/por que|motivacion|carta|presentacion|cover|comentario|mensaje|perfil|cuentanos|cuentanos/.test(q)) {
     return /cover|english|remote|software engineer|developer|united states|background check/i.test(question)
@@ -117,10 +117,10 @@ function answerFor(question, profile, meta) {
       : coverLetter(meta);
   }
   if (/experiencia|herramientas|skills|habilidades/.test(q)) {
-    return 'Tengo experiencia practica en proyectos con Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, automatizacion, reportes y manejo de datos. Ademas cuento con experiencia operativa en laboratorio y logistica, con foco en trazabilidad, registros y documentacion.';
+    return 'Tengo experiencia practica en proyectos con Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, Firebase/Firestore, automatizacion, reportes y manejo de datos. Destaco AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y una app movil para HC Soluciones.';
   }
   if (/formacion|educacion|estudios|titulo|degree/.test(q)) {
-    return 'Analista Programador en curso en Duoc UC. Titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+    return 'Analista Programador en formacion en Duoc UC, orientado a desarrollo de software, automatizacion y datos. Proyectos activos: AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y app movil para HC Soluciones.';
   }
   return '';
 }

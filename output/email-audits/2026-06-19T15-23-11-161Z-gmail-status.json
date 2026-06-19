@@ -1,0 +1,248 @@
+{
+  "query": "newer_than:14d (postulacion OR postulación OR candidatura OR solicitud OR empleo OR entrevista OR LinkedIn OR Computrabajo OR Getonbrd OR \"Get on Board\" OR Trabajando OR Chiletrabajos)",
+  "scannedAt": "2026-06-19T15:23:11.162Z",
+  "items": [
+    {
+      "index": 0,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo desarrollador .net",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo desarrollador .net",
+      "date": "10:47",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu solicitud de empleo desarrollador"
+    },
+    {
+      "index": 1,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "MKC Spa ha visto tu solicitud",
+      "snippet": "MKC Spa ha visto tu solicitud",
+      "date": "10:38",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 2,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Analista de Datos",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Analista de Datos",
+      "date": "10:37",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu solicitud de empleo analista de datos"
+    },
+    {
+      "index": 3,
+      "from": "no-reply@getonbrd.com",
+      "subject": "Completa tu aplicación",
+      "snippet": "Completa tu aplicación",
+      "date": "10:15",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 4,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Completa tu candidatura a QA Automatizador",
+      "snippet": "Completa tu candidatura a QA Automatizador",
+      "date": "10:05",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 5,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Tu candidatura para QA Automatizador",
+      "snippet": "Tu candidatura para QA Automatizador",
+      "date": "10:05",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "qa automatizador tu candidatura para qa automatizador"
+    },
+    {
+      "index": 6,
+      "from": "info@chiletrabajos.cl",
+      "subject": "Gian lucas , te informamos que Tecnova ha visto tu Perfil #3847142",
+      "snippet": "Gian lucas , te informamos que Tecnova ha visto tu Perfil #3847142",
+      "date": "10:04",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 7,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Desarrollador FullStack Net",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Desarrollador FullStack Net",
+      "date": "9:47",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu solicitud de empleo desarrollador fullstack net"
+    },
+    {
+      "index": 8,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Completa tu candidatura a Desarrollador Full Stack .Net Angular (E)",
+      "snippet": "Completa tu candidatura a Desarrollador Full Stack .Net Angular (E)",
+      "date": "9:44",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 9,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Tu candidatura para Desarrollador Full Stack .Net Angular (E)",
+      "snippet": "Tu candidatura para Desarrollador Full Stack .Net Angular (E)",
+      "date": "9:44",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "desarrollador full stack"
+    },
+    {
+      "index": 10,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Blueprint",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Blueprint",
+      "date": "9:40",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 11,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador FullStack",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador FullStack",
+      "date": "9:40",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador fullstack seguimiento de"
+    },
+    {
+      "index": 12,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador RPA",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador RPA",
+      "date": "9:19",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador rpa seguimiento de"
+    },
+    {
+      "index": 13,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Frontend developer React/Vue3/TypeScript/SASS/CSS/GraphQL, AWS",
+      "snippet": "Seguimiento de tu postulación para el puesto Frontend developer React/Vue3/TypeScript/SASS/CSS/GraphQL, AWS",
+      "date": "9:17",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 14,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack PHP Laravel + React Native + PostgreSQL",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack PHP Laravel + React Native + PostgreSQL",
+      "date": "9:16",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 15,
+      "from": "noreply@jobsora.com",
+      "subject": "30+ nuevas vacantes para el 19-06-26: Programador Junior, Chile y otros",
+      "snippet": "30+ nuevas vacantes para el 19-06-26: Programador Junior, Chile y otros",
+      "date": "8:40",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 16,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Desarrollador Prestashop",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Desarrollador Prestashop",
+      "date": "8:27",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu solicitud de empleo desarrollador prestashop"
+    },
+    {
+      "index": 17,
+      "from": "noreply@bnovus.cl",
+      "subject": "Registro de asistencia",
+      "snippet": "Registro de asistencia",
+      "date": "8:27",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "asistencia registro de asistencia"
+    },
+    {
+      "index": 18,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Analista de proveedores",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Analista de proveedores",
+      "date": "8:24",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu solicitud de empleo analista de proveedores"
+    },
+    {
+      "index": 19,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Ingeniero Analista de proveedores",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Ingeniero Analista de proveedores",
+      "date": "8:18",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "empleo ingeniero analista de proveedores"
+    },
+    {
+      "index": 20,
+      "from": "insideoutlier@outlier.ai",
+      "subject": "Inside Outlier: Your Community homepage looks a little different today",
+      "snippet": "Inside Outlier: Your Community homepage looks a little different today",
+      "date": "5:24",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 21,
+      "from": "updates-noreply@linkedin.com",
+      "subject": "Tamara Salgado y otras personas comparten sus ideas en LinkedIn",
+      "snippet": "Tamara Salgado y otras personas comparten sus ideas en LinkedIn",
+      "date": "0:20",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "sus ideas en linkedin"
+    },
+    {
+      "index": 22,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Actionhub Chile ha visto tu solicitud",
+      "snippet": "Actionhub Chile ha visto tu solicitud",
+      "date": "18 jun",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 23,
+      "from": "aeug-member-benefits13@deals.aliexpress.com",
+      "subject": "Gian lucas.San martin, tu pasión te espera ya",
+      "snippet": "Gian lucas.San martin, tu pasión te espera ya",
+      "date": "18 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 24,
+      "from": "email@market.temuemail.com",
+      "subject": "¡Oye, Gian luc...! ¡Fuiste elegido!",
+      "snippet": "¡Oye, Gian luc...! ¡Fuiste elegido!",
+      "date": "18 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    }
+  ],
+  "bodies": []
+}

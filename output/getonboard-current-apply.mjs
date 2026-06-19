@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const logPath = resolve(ROOT, 'output/direct-apply-agent.log');
-const cvPath = resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9223';
 const autoSubmit = process.env.AUTO_SUBMIT_DIRECT === '1';
 
@@ -18,6 +18,78 @@ const profile = {
 
 const selectedJobs = [
   {
+    company: 'Magnet',
+    role: 'Back-end Developer Node.js con React',
+    url: 'https://www.getonbrd.com/jobs/programming/back-end-node-js-developer-react-magnet-remote',
+    reason: `Hola equipo de Magnet:
+
+Me interesa postular al cargo de Back-end Developer Node.js con React. Estoy en formacion como Analista Programador y cuento con proyectos practicos en React, TypeScript, APIs REST, bases de datos, validaciones y automatizacion.
+
+He trabajado en AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Firebase/Firestore, endpoints REST, validaciones con Zod, logging y tests. Tambien desarrolle Inventario App en Python con SQLAlchemy, SQLite/PostgreSQL, reportes PDF y arquitectura por capas.
+
+Me interesa crecer en un rol remoto donde pueda aportar con codigo, orden, documentacion y aprendizaje rapido, conectando desarrollo web con problemas reales de negocio.`,
+  },
+  {
+    company: 'Factor IT',
+    role: 'Desarrollador Front-end React Modyo',
+    url: 'https://www.getonbrd.com/empleos/programacion/desarrollador-frontend-react-factor-it-remote',
+    reason: `Hola equipo de Factor IT:
+
+Me interesa postular al cargo de Desarrollador Front-end React Modyo. Estoy en formacion como Analista Programador y mi experiencia practica reciente esta muy conectada con React, TypeScript, componentes, rutas, consumo de APIs y despliegues web.
+
+En AMILAB Frontend he trabajado con React, TypeScript y Vite para un catalogo B2B/e-commerce. Tambien he desarrollado backend serverless, validaciones, datos y automatizaciones en proyectos como AMILAB Backend, Inventario App y Exelcior Apolo.
+
+Busco aportar como perfil junior en crecimiento, con foco en aprender rapido, escribir codigo ordenado y entender bien las necesidades reales del usuario final.`,
+  },
+  {
+    company: 'MATCH Agencia-consultora',
+    role: 'Desarrollador Front-end',
+    url: 'https://www.getonbrd.com/empleos/programacion/desarrollador-front-end-match-agencia-consultora-remote',
+    reason: `Hola equipo de MATCH:
+
+Me interesa postular al cargo de Desarrollador Front-end. Estoy orientando mi carrera al desarrollo TI y cuento con base practica en React, TypeScript, JavaScript, CSS, consumo de APIs y trabajo con proyectos reales.
+
+Mi mejor evidencia es AMILAB Frontend, donde he trabajado con React, TypeScript y Vite para construir una experiencia web tipo catalogo B2B/e-commerce. Tambien cuento con proyectos complementarios de backend, datos y automatizacion, lo que me ayuda a colaborar mejor con equipos full-stack.
+
+Me interesa una oportunidad remota donde pueda aportar con responsabilidad, orden y aprendizaje constante.`,
+  },
+  {
+    company: 'BC Tecnologia',
+    role: 'Soporte Operativo Junior',
+    url: 'https://www.getonbrd.com/jobs/programming/soporte-operativo-junior-bc-tecnologia-remote',
+    reason: `Hola equipo de BC Tecnologia:
+
+Me interesa postular al cargo de Soporte Operativo Junior. Estoy en formacion como Analista Programador y cuento con base en Python, SQL, Git/GitHub, sistemas, datos y automatizacion.
+
+Mantengo proyectos tecnicos activos como AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y una app movil para HC Soluciones, donde he trabajado con datos, reportes, automatizacion, desarrollo web, documentacion, Git/GitHub y resolucion de problemas.
+
+Me interesa crecer en soporte operativo/sistemas aportando orden, criterio tecnico y aprendizaje rapido.`,
+  },
+  {
+    company: 'WiTi',
+    role: 'Full-Stack NestJS/React',
+    url: 'https://www.getonbrd.com/jobs/programming/desarrollador-a-full-stack-witi-remote-3725',
+    reason: `Hola equipo de WiTi:
+
+Me interesa postular al cargo Full-Stack NestJS/React. Estoy en formacion como Analista Programador y cuento con proyectos practicos en React, TypeScript, APIs REST, Firebase/Firestore, validaciones, datos y automatizacion.
+
+He desarrollado AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Vercel Functions, Firebase/Firestore, endpoints REST, Zod, logging y tests. Aunque NestJS es un punto de crecimiento para mi, ya tengo base en TypeScript, estructura backend y consumo/diseno de APIs.
+
+Busco una oportunidad donde pueda crecer en full-stack aportando con aprendizaje rapido, orden y responsabilidad.`,
+  },
+  {
+    company: 'TCIT',
+    role: 'Desarrollador React Python',
+    url: 'https://www.getonbrd.com/jobs/programming/desarrollador-react-python-tcit-remote',
+    reason: `Hola equipo de TCIT:
+
+Me interesa postular al cargo de Desarrollador React Python. Estoy en formacion como Analista Programador y el rol conecta muy bien con mi base practica en React, Python, SQL, APIs REST, datos y automatizacion.
+
+He trabajado en AMILAB Frontend con React, TypeScript y Vite, y tambien en proyectos Python como Inventario App, con SQLAlchemy, SQLite/PostgreSQL, reportes PDF y arquitectura por capas, y Exelcior Apolo, una app para automatizar transformacion, validacion e impresion de Excel.
+
+Me interesa aportar como perfil junior en crecimiento, con foco en aprender rapido, escribir codigo claro y resolver problemas reales.`,
+  },
+  {
     company: 'Ameris Capital',
     role: 'Developer QA Junior',
     url: 'https://www.getonbrd.com/jobs/sysadmin-devops-qa/developer-qa-junior-ameris-capital-santiago',
@@ -25,7 +97,7 @@ const selectedJobs = [
 
 Me interesa postular al cargo de Developer QA Junior. Estoy en formacion como Analista Programador y cuento con base practica en Python, JavaScript, TypeScript, SQL, APIs REST, testing, validaciones y documentacion.
 
-Mi perfil combina desarrollo junior con experiencia previa en procesos regulados, registros, trazabilidad y control de calidad desde laboratorio clinico y logistica. Esa experiencia me ayuda a mirar los sistemas con atencion al detalle, validar datos, documentar hallazgos y entender el impacto operativo de los errores.
+Mi perfil combina desarrollo junior con proyectos activos de software, automatizacion y datos. En AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y HC Soluciones he trabajado con validaciones, reportes, documentacion, pruebas basicas, Git/GitHub y seguimiento de problemas tecnicos.
 
 Mis proyectos principales son AMILAB Frontend/Backend, Inventario App y Exelcior Apolo. En ellos he trabajado con frontend, backend serverless, bases de datos, reportes, validaciones, tests y automatizacion de procesos.
 
@@ -68,7 +140,7 @@ async function visibleText(page) {
 }
 
 function reasonFor(pageText, job) {
-  if (/ingl[eé]s|english/i.test(pageText)) return job.reason.startsWith('I am') ? job.reason : `I am interested in this role because it matches my current path as an Analyst Programmer in training and my practical work with Python, JavaScript, SQL, React, REST APIs and automation. I have built projects such as AMILAB Frontend/Backend, Inventario App and Exelcior Apolo, where I worked with software development, data workflows, reporting and process automation. My previous experience in laboratory and logistics also gives me strong attention to detail, traceability, documentation and understanding of real operational needs.`;
+  if (/ingl[eé]s|english/i.test(pageText)) return job.reason.startsWith('I am') ? job.reason : `I am interested in this role because it matches my current path as an Analyst Programmer in training and my practical work with Python, JavaScript, SQL, React, REST APIs and automation. I have built active projects such as AMILAB Frontend/Backend, Exelcior Apolo, Inventario App, and a private mobile app for HC Soluciones, where I worked with software development, data workflows, reporting, Git/GitHub, Linux, and process automation.`;
   return job.reason;
 }
 

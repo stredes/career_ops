@@ -39,7 +39,7 @@ function answer(question, pageText = '') {
     return 'He desarrollado proyectos practicos con Python, JavaScript, TypeScript, React, SQL y APIs REST. AMILAB Frontend usa React, TypeScript y Vite; AMILAB Backend usa TypeScript, Vercel Functions, Firebase/Firestore, endpoints REST, validaciones y tests. Inventario App esta desarrollado en Python con SQLite/PostgreSQL, reportes PDF y arquitectura por capas. Tambien manejo Git/GitHub para versionamiento y documentacion.';
   }
   if (/formacion|profesional|estudios|experiencia.*cargo|funciones similares/.test(q)) {
-    return 'Actualmente curso Analista Programador en Duoc UC y soy titulado de Tecnico en Laboratorio Clinico y Banco de Sangre. Estoy orientando mi carrera al area TI, con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, testing, documentacion y automatizacion. Mi experiencia previa en laboratorio clinico y logistica me aporta orden, trazabilidad, control de calidad, manejo de registros y trabajo con procesos regulados.';
+    return 'Actualmente curso Analista Programador en Duoc UC y estoy orientando mi carrera al area TI. Cuento con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, Firebase/Firestore, Git/GitHub, testing, documentacion, automatizacion, Arch Linux y Debian. Mantengo proyectos activos en AMILAB, Tamapal y HC Soluciones.';
   }
   if (/soporte|ticket|usuario|mesa/.test(q)) {
     return 'Tengo experiencia en soporte a usuarios, uso de sistemas operativos/administrativos, documentacion de incidencias, seguimiento de casos, manejo de datos y coordinacion con equipos operativos. Como Analista Programador en formacion, tengo base en SQL, Python, Git/GitHub, APIs y resolucion de problemas tecnicos.';

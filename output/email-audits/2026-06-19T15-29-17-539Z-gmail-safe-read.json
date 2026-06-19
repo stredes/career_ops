@@ -1,0 +1,255 @@
+{
+  "query": "newer_than:14d (postulacion OR postulacion OR candidatura OR solicitud OR empleo OR entrevista OR LinkedIn OR Computrabajo OR Getonbrd OR \"Get on Board\" OR Trabajando OR Chiletrabajos)",
+  "scannedAt": "2026-06-19T15:29:17.541Z",
+  "bodyLimit": 6,
+  "items": [
+    {
+      "index": 0,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo desarrollador .net",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo desarrollador .net",
+      "date": "10:47",
+      "unread": true,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).first()\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":2d\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":2e\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; 1:WyIjdGhyZWFkLWY6MTg2ODQzNzA2MzAwODg5ODA0NiIsMSxudWxsLDExNjEzNTgxOTMsW251bGwsWzQwNTEwNDA3LDQwNTEwMzcyXV0sMCxudWxsLDAsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLDE3ODE4ODA2NDcwODMsbnVsbCxudWxsLG51bGwsbn…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 1,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "MKC Spa ha visto tu solicitud",
+      "snippet": "MKC Spa ha visto tu solicitud",
+      "date": "10:38",
+      "unread": true,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(1)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":2q\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":2r\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:1; 1:WyIjdGhyZWFkLWY6MTg2ODQzNjUxMTQwODc2MzI5NyIsMSxudWxsLC0xOTY2OTMyODI4LFtudWxsLFs0MDUxMDQwNyw0MDUxMDM3Ml1dLDAsbnVsbCwwLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbM10sbnVsbCxudWxsLG51bGwsbnVsbCwxNzgxODc5OTUwOTcyLG51bGwsbnVs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 2,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Analista de Datos",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Analista de Datos",
+      "date": "10:37",
+      "unread": true,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":33\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":34\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:2; 1:WyIjdGhyZWFkLWY6MTg2ODQzNjQ1NTcwODIyODE5NyIsMSxudWxsLDMwODQ1MDc2NyxbbnVsbCxbNDA1MTA0MDcsNDA1MTAzNzJdXSwwLG51bGwsMCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzNdLG51bGwsbnVsbCxudWxsLG51bGwsMTc4MTg3OTk1MDA1OCxudWxsLG51bGws…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 3,
+      "from": "no-reply@getonbrd.com",
+      "subject": "Completa tu aplicación",
+      "snippet": "Completa tu aplicación",
+      "date": "10:15",
+      "unread": true,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(3)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":3g\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":3h\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:3; 1:WyIjdGhyZWFkLWY6MTg2ODQzNTA4MTAwNDM1ODkxOCIsMSxudWxsLDE2NzM1Mjc5ODQsW251bGwsWzQwNTEwNDA3LDQwNTEwMzcyXV0sMCxudWxsLDAsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLDE3ODE4Nzg5OTkzNTEsbnVsbCxudWxs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 4,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Completa tu candidatura a QA Automatizador",
+      "snippet": "Completa tu candidatura a QA Automatizador",
+      "date": "10:05",
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(4)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":3t\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA yO s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":3u\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:4; 1:WyIjdGhyZWFkLWY6MTg2ODQzNDQyMDQ4NTg2MjQ2NiIsMCxudWxsLDk5MzE5MTE0MSxbbnVsbCxbNDA1MTA0MDcsNDA1MTAzNzJdXSwwLG51bGwsMCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzNdLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 5,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Tu candidatura para QA Automatizador",
+      "snippet": "Tu candidatura para QA Automatizador",
+      "date": "10:05",
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":46\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA yO s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":47\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:5; 1:WyIjdGhyZWFkLWY6MTg2ODQzNDQwNTk3NTg1NTk0MyIsMCxudWxsLDc2MDU1MTIzLFtudWxsLFs0MDUxMDQwNyw0MDUxMDM3Ml1dLDAsbnVsbCwwLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbM10sbnVsbCxudWxsLG51bGwsbnVsbCwxNzgxODc4MDAyNzk2LG51bGwsbnVsbCxu…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 6,
+      "from": "info@chiletrabajos.cl",
+      "subject": "Gian lucas , te informamos que Tecnova ha visto tu Perfil #3847142",
+      "snippet": "Gian lucas , te informamos que Tecnova ha visto tu Perfil #3847142",
+      "date": "10:04",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 7,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Desarrollador FullStack Net",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Desarrollador FullStack Net",
+      "date": "9:47",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 8,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Completa tu candidatura a Desarrollador Full Stack .Net Angular (E)",
+      "snippet": "Completa tu candidatura a Desarrollador Full Stack .Net Angular (E)",
+      "date": "9:44",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 9,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Tu candidatura para Desarrollador Full Stack .Net Angular (E)",
+      "snippet": "Tu candidatura para Desarrollador Full Stack .Net Angular (E)",
+      "date": "9:44",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 10,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Blueprint",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Blueprint",
+      "date": "9:40",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 11,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador FullStack",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador FullStack",
+      "date": "9:40",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 12,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador RPA",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador RPA",
+      "date": "9:19",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 13,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Frontend developer React/Vue3/TypeScript/SASS/CSS/GraphQL, AWS",
+      "snippet": "Seguimiento de tu postulación para el puesto Frontend developer React/Vue3/TypeScript/SASS/CSS/GraphQL, AWS",
+      "date": "9:17",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 14,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack PHP Laravel + React Native + PostgreSQL",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack PHP Laravel + React Native + PostgreSQL",
+      "date": "9:16",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 15,
+      "from": "noreply@jobsora.com",
+      "subject": "30+ nuevas vacantes para el 19-06-26: Programador Junior, Chile y otros",
+      "snippet": "30+ nuevas vacantes para el 19-06-26: Programador Junior, Chile y otros",
+      "date": "8:40",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 16,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Desarrollador Prestashop",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Desarrollador Prestashop",
+      "date": "8:27",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 17,
+      "from": "noreply@bnovus.cl",
+      "subject": "Registro de asistencia",
+      "snippet": "Registro de asistencia",
+      "date": "8:27",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 18,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Analista de proveedores",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Analista de proveedores",
+      "date": "8:24",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 19,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Ingeniero Analista de proveedores",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Ingeniero Analista de proveedores",
+      "date": "8:18",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 20,
+      "from": "insideoutlier@outlier.ai",
+      "subject": "Inside Outlier: Your Community homepage looks a little different today",
+      "snippet": "Inside Outlier: Your Community homepage looks a little different today",
+      "date": "5:24",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 21,
+      "from": "updates-noreply@linkedin.com",
+      "subject": "Tamara Salgado y otras personas comparten sus ideas en LinkedIn",
+      "snippet": "Tamara Salgado y otras personas comparten sus ideas en LinkedIn",
+      "date": "0:20",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 22,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Actionhub Chile ha visto tu solicitud",
+      "snippet": "Actionhub Chile ha visto tu solicitud",
+      "date": "18 jun",
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 23,
+      "from": "aeug-member-benefits13@deals.aliexpress.com",
+      "subject": "Gian lucas.San martin, tu pasión te espera ya",
+      "snippet": "Gian lucas.San martin, tu pasión te espera ya",
+      "date": "18 jun",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    },
+    {
+      "index": 24,
+      "from": "email@market.temuemail.com",
+      "subject": "¡Oye, Gian luc...! ¡Fuiste elegido!",
+      "snippet": "¡Oye, Gian luc...! ¡Fuiste elegido!",
+      "date": "18 jun",
+      "unread": true,
+      "inferredStatus": "Unknown"
+    }
+  ],
+  "bodies": [
+    {
+      "index": 0,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).first()\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":2d\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":2e\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; 1:WyIjdGhyZWFkLWY6MTg2ODQzNzA2MzAwODg5ODA0NiIsMSxudWxsLDExNjEzNTgxOTMsW251bGwsWzQwNTEwNDA3LDQwNTEwMzcyXV0sMCxudWxsLDAsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLDE3ODE4ODA2NDcwODMsbnVsbCxudWxsLG51bGwsbn…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "index": 1,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(1)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":2q\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":2r\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:1; 1:WyIjdGhyZWFkLWY6MTg2ODQzNjUxMTQwODc2MzI5NyIsMSxudWxsLC0xOTY2OTMyODI4LFtudWxsLFs0MDUxMDQwNyw0MDUxMDM3Ml1dLDAsbnVsbCwwLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbM10sbnVsbCxudWxsLG51bGwsbnVsbCwxNzgxODc5OTUwOTcyLG51bGwsbnVs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "index": 2,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":33\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":34\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:2; 1:WyIjdGhyZWFkLWY6MTg2ODQzNjQ1NTcwODIyODE5NyIsMSxudWxsLDMwODQ1MDc2NyxbbnVsbCxbNDA1MTA0MDcsNDA1MTAzNzJdXSwwLG51bGwsMCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzNdLG51bGwsbnVsbCxudWxsLG51bGwsMTc4MTg3OTk1MDA1OCxudWxsLG51bGws…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "index": 3,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(3)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":3g\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA zE s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":3h\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:3; 1:WyIjdGhyZWFkLWY6MTg2ODQzNTA4MTAwNDM1ODkxOCIsMSxudWxsLDE2NzM1Mjc5ODQsW251bGwsWzQwNTEwNDA3LDQwNTEwMzcyXV0sMCxudWxsLDAsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFszXSxudWxsLG51bGwsbnVsbCxudWxsLDE3ODE4Nzg5OTkzNTEsbnVsbCxudWxs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+    },
+    {
+      "index": 4,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(4)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":3t\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA yO s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":3u\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:4; 1:WyIjdGhyZWFkLWY6MTg2ODQzNDQyMDQ4NTg2MjQ2NiIsMCxudWxsLDk5MzE5MTE0MSxbbnVsbCxbNDA1MTA0MDcsNDA1MTAzNzJdXSwwLG51bGwsMCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzNdLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxs…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "index": 5,
+      "error": "click-failed: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr[role=\"row\"]').filter({ has: locator('.bog, .y6, [email]') }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <tr id=\":46\" role=\"row\" tabindex=\"-1\" jsmodel=\"nXDxbd\" draggable=\"false\" class=\"zA yO s00Hgd\" jscontroller=\"ZdOxDb\" aria-labelledby=\":47\" jsaction=\"Tnvr6c:RNc9jf;PG1zDd:eyrEaf;WGbBt:iplnUc;nVvxM:iplnUc;\" jslog=\"18406; u014N:xr6bB,SYhH9d; cQYSPc:5; 1:WyIjdGhyZWFkLWY6MTg2ODQzNDQwNTk3NTg1NTk0MyIsMCxudWxsLDc2MDU1MTIzLFtudWxsLFs0MDUxMDQwNyw0MDUxMDM3Ml1dLDAsbnVsbCwwLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbM10sbnVsbCxudWxsLG51bGwsbnVsbCwxNzgxODc4MDAyNzk2LG51bGwsbnVsbCxu…>…</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    9 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    }
+  ]
+}

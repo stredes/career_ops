@@ -8,8 +8,8 @@ const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const USER_DATA_DIR = resolve(ROOT, process.env.LINKEDIN_PROFILE || '.recording-browser-profile');
 const profilePath = resolve(ROOT, 'config/profile.yml');
 const cvPath = process.env.CV_PATH
-  ? resolve(ROOT, process.env.CV_PATH)
-  : resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
+  ? resolve(process.env.CV_PATH)
+  : resolve('C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 
 const maxApplications = Number(process.env.MAX_APPLICATIONS || 5);
 const autoAdvance = process.env.AUTO_ADVANCE === '1';
@@ -70,11 +70,11 @@ function loadProfile() {
 function buildApplicationText(profile, title = 'este cargo') {
   return `Hola:
 
-Me interesa postular a ${title}. Estoy orientando mi carrera hacia programacion en el area TI y cuento con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion y manejo de datos.
+Me interesa postular a ${title}. Estoy orientando mi carrera hacia programacion en el area TI y cuento con base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion, Linux, Arch Linux y Debian.
 
-Mis proyectos principales son AMILAB Frontend, AMILAB Backend, Inventario App y Exelcior Apolo. En ellos he trabajado con frontend, backend serverless, Firebase/Firestore, SQL, generacion de reportes, validaciones, tests y automatizacion de procesos.
+Mis proyectos principales son AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y una aplicacion movil para HC Soluciones. En ellos he trabajado con frontend, backend serverless, Firebase/Firestore, SQL, reportes, validaciones, Git/GitHub, documentacion, testing basico y automatizacion de procesos.
 
-Ademas, mi experiencia previa en laboratorio clinico y logistica me dio disciplina con datos, trazabilidad, documentacion, inventario y trabajo con usuarios reales. Esa combinacion me ayuda a entender procesos operativos y convertirlos en soluciones digitales utiles.
+Busco aportar como perfil junior en crecimiento, con aprendizaje rapido, orden tecnico y foco en resolver problemas reales con software util.
 
 Quedo atento.
 ${profile.fullName}`;

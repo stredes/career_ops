@@ -146,16 +146,21 @@ async function loadControl() {
 }
 
 function renderHealth(health) {
-  const ok = health.dashboard === 'running' && health.agent === 'running' && health.verifyOk;
+  const ok = health.dashboard === 'running' && health.agent === 'running' && health.verifyOk && health.portalState !== 'disconnected';
   const badge = byId('healthBadge');
   badge.textContent = ok ? 'OK' : 'revisar';
   badge.className = `agent-badge ${ok ? 'running' : 'attention'}`;
+  const lastApplied = health.lastApplied
+    ? `#${health.lastApplied.number} ${health.lastApplied.company} - ${health.lastApplied.role}`
+    : '-';
   byId('healthList').innerHTML = [
     ['Dashboard', health.dashboard],
-    ['Agente', health.agent],
+    ['Agente', `${health.agent}${health.agentPid ? ` PID ${health.agentPid}` : ''}`],
+    ['Proceso agente', health.agentProcessAlive ? 'vivo' : 'no detectado'],
     ['Pipeline', health.verifyOk ? 'limpio' : 'revisar'],
     ['Portales', health.portalState],
     ['Tracker', `${health.trackerRows} filas / ${health.activeApplications} activas`],
+    ['Ultima aplicada', lastApplied],
   ].map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
 }
 

@@ -3,7 +3,7 @@ import { appendFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
-const cvPath = resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const logPath = resolve(ROOT, 'output/direct-apply-agent.log');
 const autoSubmit = process.env.AUTO_SUBMIT_DIRECT === '1';
 

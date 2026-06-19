@@ -1,6 +1,11 @@
 # Secrets
 .env
 
+# User personalization layer
+config/profile.yml
+modes/_profile.md
+portals.yml
+
 # Dependencies / generated tool state
 node_modules/
 bun.lock

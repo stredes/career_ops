@@ -53,6 +53,26 @@ function memoryBlocked(question) {
     .test(normalize(question));
 }
 
+function expectedAnswerShape(question) {
+  const q = normalize(question);
+  if (/selecciona una opcion|yes\s+no|si\s+no|radio|dropdown/.test(q)) return 'yesno';
+  if (/cuantos anos|cuantos años|cuanto tiempo|how many years|years of|tiempo de experiencia|nivel.*1.*6|1.*6|a1.*c2|c2/.test(q)) return 'number';
+  if (/usd|dolar|dolares/.test(q) && /salary|salario|sueldo|renta|expectativa|pretension|remuneracion/.test(q)) return 'number';
+  if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa|remuneracion/.test(q) && /numero|indicar|ingrese|input/.test(q)) return 'number';
+  if (/telefono|celular|phone|mobile|correo|email|github|linkedin|portfolio|portafolio|website|sitio/.test(q)) return 'short';
+  return 'text';
+}
+
+function answerShapeCompatible(question, answer) {
+  const shape = expectedAnswerShape(question);
+  const value = clean(answer);
+  if (!value) return false;
+  if (shape === 'number') return /^\d+([.,]\d+)?$/.test(value);
+  if (shape === 'yesno') return /^(si|sí|sÃ­|yes|no)$/i.test(value);
+  if (shape === 'short') return value.length <= 160;
+  return true;
+}
+
 function questionCategory(question) {
   const q = normalize(question);
   if (/telefono|tel[eé]fono|celular|phone|mobile|numero de contacto|contacto|correo|email|e-mail/.test(q)) return 'contact';
@@ -86,13 +106,14 @@ export function adaptAnswerToQuestion(question, answer) {
   }
 
   if (/pretension|pretensi|renta|sueldo|salario|salary|expectativa/.test(q)) {
+    if (expectedAnswerShape(question) === 'number') return /usd|dolar|d[oÃ³]lar/.test(q) ? '900' : '800000';
     if (/brut/.test(q)) return 'Mis expectativas de renta bruta estan en torno a $1.100.000 CLP, conversable segun modalidad, beneficios y proyeccion.';
     if (/usd|dolar|d[oó]lar/.test(q)) return '900 USD mensuales, conversable segun modalidad, beneficios y proyeccion.';
     return 'Mis expectativas de renta liquida estan en torno a $900.000 CLP, conversable segun modalidad, beneficios y proyeccion.';
   }
 
   if (/titulo|t[ií]tulo|formacion|formaci[oó]n|estudios|casa de estudios|academica|acad[eé]mica/.test(q)) {
-    return 'Estudiante de Analista Programador en Duoc UC. Titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+    return 'Analista Programador en formacion en Duoc UC, orientado a desarrollo de software, automatizacion y datos. Proyectos activos: AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y app movil para HC Soluciones.';
   }
 
   if (/disponibilidad/.test(q)) return 'Disponibilidad inmediata o segun coordinacion.';
@@ -114,7 +135,7 @@ export function adaptAnswerToQuestion(question, answer) {
   }
 
   if (/automatizacion|automatizaci[oó]n|rpa/.test(q)) {
-    return 'Tengo experiencia practica automatizando procesos con Python: transformacion y validacion de archivos, reportes, control de inventario, flujos de datos y documentacion. Proyectos: Inventario App, Exelcior Apolo y AMILAB.';
+    return 'Tengo experiencia practica automatizando procesos con Python, React, TypeScript, SQL y Firebase/Firestore. Proyectos activos: AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y app movil para HC Soluciones.';
   }
 
   return original;
@@ -244,6 +265,7 @@ export function findSimilarQuestionAnswer(question, {
   let best = null;
   for (const item of memory) {
     if (!item.answer || memoryBlocked(item.question)) continue;
+    if (!answerShapeCompatible(question, item.answer)) continue;
     let score = similarity(question, item.question);
     const category = questionCategory(question);
     if (category && category === questionCategory(item.question)) score = Math.max(score, 0.78);

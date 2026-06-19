@@ -3,7 +3,7 @@ import { existsSync } from 'fs';
 import { resolve } from 'path';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
-const cvPath = resolve(ROOT, 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 
 const profileBlocks = {
   experience: `Mi experiencia profesional combina operación, datos y desarrollo de software. Actualmente estoy orientando mi carrera al área TI como Analista Programador en formación, con proyectos prácticos en frontend, backend, automatización y gestión de datos. He desarrollado AMILAB Frontend con React, TypeScript y Vite, y AMILAB Backend con TypeScript, Vercel Functions, Firebase/Firestore, endpoints REST, validaciones con Zod, logging y tests. También desarrollé Inventario App, un sistema en Python con SQLAlchemy, SQLite/PostgreSQL, generación de PDFs, exportación CSV y arquitectura por capas, además de Exelcior Apolo, una aplicación Python para automatizar transformación, validación e impresión de archivos Excel.

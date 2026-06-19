@@ -13,7 +13,7 @@ const portalIntervalMs = Number(process.env.PORTAL_MONITOR_INTERVAL_SEC || 300) 
 const cdpUrl = process.env.CDP_URL || 'http://127.0.0.1:9223';
 const statusPath = join(__dirname, 'agent-status.json');
 const logPath = join(__dirname, 'agent-monitor.log');
-let lastPortalCheckAt = 0;
+let lastPortalCheckAt = Date.now();
 let lastPortalChecks = [];
 
 function parseApplications() {
@@ -54,12 +54,22 @@ function syncTrackerFromPortalChecks(portalChecks) {
   const strongSignal = (match) => {
     const source = String(match.source || '');
     const evidence = normalize(match.evidence || '');
+    const company = normalize(match.company || '');
+    const roleTokens = normalize(match.role || '')
+      .split(' ')
+      .filter((word) => word.length > 4 && !['junior', 'senior', 'proyecto', 'santiago', 'remoto', 'hibrido', 'analista', 'desarrollador'].includes(word));
+    const roleHits = roleTokens.filter((word) => evidence.includes(word)).length;
+    const genericCompany = /^(computrabajo|importante empresa|empresa|confidencial)/.test(company);
+    if (source.startsWith('Gmail')) {
+      const statusEvidence = match.portalStatus === 'Rejected'
+        ? /no seguir|no continu|no avanzar|no seleccionado|rechaz|decidido avanzar sin|not moving forward/.test(evidence)
+        : /sigue avanzando|novedades|proceso de seleccion|mensaje|cuestionario|acceso a las preguntas|solicitud vista|curriculum descargado|resume downloaded|application viewed|te invitamos|prueba tecnica/.test(evidence);
+      const identityOk = (match.companySeen === true && !genericCompany && roleHits >= 1) || roleHits >= 3;
+      return statusEvidence && identityOk;
+    }
     if (match.portalStatus !== 'Responded') return true;
     if (source === 'Computrabajo') return match.companySeen === true;
     if (source === 'LinkedIn') return match.companySeen === true && /solicitud vista|curriculum descargado|resume downloaded|application viewed/.test(evidence);
-    if (source.startsWith('Gmail')) {
-      return match.companySeen === true && /sigue avanzando|novedades|proceso de seleccion|mensaje|cuestionario|acceso a las preguntas|solicitud vista|curriculum descargado|resume downloaded|application viewed|te invitamos|prueba tecnica/.test(evidence);
-    }
     if (source.startsWith('Get on Board')) {
       return match.companySeen === true && /mensaje de|proceso finalizado|vista|cv visto/.test(evidence) && !/\b0 enviada\b/.test(evidence);
     }
@@ -142,7 +152,7 @@ function statusFromWindow(text, source) {
   if (/proceso finalizado|no seleccionado|rechaz|descartad/.test(value)) return 'Rejected';
   if (/entrevista|interview|agenda|coordinar reunion|reunion tecnica/.test(value)) return 'Interview';
   if (/sigue avanzando|avanzando en el proceso|novedades en tu postulacion|candidatura sigue|han visto|te han visto|solicitud vista|application viewed|vista|cv visto|visto por la empresa|curriculum descargado|curriculo descargado|resume downloaded|mensaje|message|contact/.test(value)) return 'Responded';
-  if (/enviada|solicitud enviada|te postulaste|ya te postulaste|aplicaste|applied/.test(value)) return 'Applied';
+  if (/enviada|solicitud enviada|tu solicitud para el puesto|te postulaste|ya te postulaste|aplicaste|applied/.test(value)) return 'Applied';
   if (/por enviar|borrador|draft/.test(value)) return 'Evaluated';
   return source === 'Get on Board' && /vista/.test(value) ? 'Responded' : 'Unknown';
 }
@@ -370,16 +380,79 @@ async function deepReadPageV2(page, source) {
   return { text, stats };
 }
 
+async function readGmailThreadBodies(page, source) {
+  if (!source.includes('LinkedIn')) return { text: '', opened: 0 };
+  const bodies = [];
+  const maxThreads = 3;
+
+  for (let i = 0; i < maxThreads; i += 1) {
+    const rowTexts = await page.evaluate(() => {
+      const clean = (value) => String(value || '').replace(/\s+/g, ' ').trim();
+      return [...document.querySelectorAll('tr[role="row"], [role="main"] [role="row"]')]
+        .map((row) => {
+          const style = getComputedStyle(row);
+          const text = clean(row.innerText || row.textContent || '');
+          return {
+            text,
+            visible: style.display !== 'none' && style.visibility !== 'hidden' && !!row.getClientRects().length,
+          };
+        })
+        .filter((row) => row.visible && row.text)
+        .slice(0, 15)
+        .map((row) => row.text);
+    }).catch(() => []);
+
+    const targetText = rowTexts[i];
+    if (!targetText) break;
+
+    const opened = await page.evaluate((needle) => {
+      const clean = (value) => String(value || '').replace(/\s+/g, ' ').trim();
+      const rows = [...document.querySelectorAll('tr[role="row"], [role="main"] [role="row"]')];
+      const target = rows.find((row) => clean(row.innerText || row.textContent || '').includes(needle.slice(0, 90)));
+      if (!target) return false;
+      target.scrollIntoView({ block: 'center' });
+      target.click();
+      return true;
+    }, targetText).catch(() => false);
+
+    if (!opened) continue;
+    await page.waitForTimeout(900);
+
+    const threadText = await page.evaluate(() => {
+      const clean = (value) => String(value || '').replace(/\s+/g, ' ').trim();
+      const subject = clean(document.querySelector('h2.hP')?.textContent || '');
+      const bodies = [...document.querySelectorAll('.a3s')]
+        .map((item) => clean(item.innerText || item.textContent || ''))
+        .filter(Boolean);
+      return [subject, ...bodies].join('\n').slice(0, 6000);
+    }).catch(() => '');
+    if (threadText) bodies.push(threadText);
+
+    await page.keyboard.press('u').catch(async () => {
+      await page.goBack({ waitUntil: 'domcontentloaded', timeout: 8000 }).catch(() => {});
+    });
+    await page.waitForTimeout(500);
+  }
+
+  return {
+    text: [...new Set(bodies)].join('\n\n--- gmail thread ---\n\n'),
+    opened: bodies.length,
+  };
+}
+
 async function readPortalPage(context, source, url, apps) {
   const page = await context.newPage();
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
     await page.waitForTimeout(source.startsWith('Gmail') ? 6500 : 2500);
-    const { text, stats } = await deepReadPageV2(page, source);
+    const read = await deepReadPageV2(page, source);
+    const gmailRead = await readGmailThreadBodies(page, source);
+    const text = [read.text, gmailRead.text].filter(Boolean).join('\n\n--- gmail bodies ---\n\n');
+    const stats = { ...read.stats, threads: gmailRead.opened };
     const loginRequired = /inicia sesi|login|sign in|acceder|no puedes acceder/i.test(text) && !/postul|empleo|solicitud|mis empleos/i.test(text);
     const matches = loginRequired ? [] : (source === 'Computrabajo' ? computrabajoMatchRows(text, apps) : matchApplicationsInText(text, apps, source));
     const portalSummary = source === 'Computrabajo' && !loginRequired ? computrabajoSummary(text, matches) : '';
-    const depthSummary = `Lectura profunda: ${stats.scrolls} scroll(s), ${stats.clicks} carga(s), ${stats.tabs} filtro(s).`;
+    const depthSummary = `Lectura profunda: ${stats.scrolls} scroll(s), ${stats.clicks} carga(s), ${stats.tabs} filtro(s), ${stats.threads || 0} hilo(s).`;
     return {
       source,
       state: loginRequired ? 'needs-login' : 'checked',
@@ -440,6 +513,7 @@ async function checkPortals(apps) {
   checks.push(await readPortalPage(context, 'Gmail Computrabajo', gmailSearchUrl('"sigue avanzando" OR "novedades en tu postulacion" OR "Postulaciones Compu"'), apps));
   checks.push(await readPortalPage(context, 'Gmail Get on Board', gmailSearchUrl('"Get on Board" OR getonbrd OR "Solicitud con Get on Board"'), apps));
   checks.push(await readPortalPage(context, 'Gmail LinkedIn', gmailSearchUrl('"solicitud vista" OR "curriculum descargado" OR "currículum descargado" OR "application viewed" OR "resume downloaded"'), apps));
+  checks.push(await readPortalPage(context, 'Gmail LinkedIn Confirmaciones', gmailSearchUrl('from:(linkedin.com OR linkedin) "tu solicitud para el puesto" newer:30d'), apps));
   checks.push(await readPortalPage(context, 'Gmail Cuestionarios', gmailSearchUrl('pandape OR bizneo OR cuestionario OR "Acceso a las preguntas"'), apps));
   checks.push(await readPortalPage(context, 'Gmail Trabajando Chiletrabajos', gmailSearchUrl('trabajando OR chiletrabajos OR "tu postulacion" OR "tu postulación"'), apps));
   return checks;

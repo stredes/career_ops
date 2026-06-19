@@ -6,7 +6,7 @@ import { findSimilarQuestionAnswer, recordApplicationQuestions } from './applica
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
-const cvPath = resolve(ROOT, process.env.CV_PATH || 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const logPath = resolve(ROOT, 'output/chiletrabajos-url-apply.log');
 const autoSubmit = process.env.AUTO_SUBMIT_CHILETRABAJOS !== '0';
 const urls = (process.env.CHILETRABAJOS_URLS || process.argv.slice(2).join('\n'))
@@ -44,7 +44,7 @@ Me interesa postular al cargo de ${role || 'este cargo'}. Actualmente curso Anal
 
 Tengo base practica en Python, JavaScript, TypeScript, React, SQL, APIs REST, Git/GitHub, automatizacion y documentacion. He desarrollado proyectos como AMILAB Frontend/Backend, Inventario App y Exelcior Apolo, trabajando con frontend, backend serverless, bases de datos, reportes, validaciones, tests y mejora de procesos.
 
-Mi experiencia previa en laboratorio clinico y logistica me aporta orden, trazabilidad, atencion al detalle, manejo de registros, inventario y trabajo con usuarios reales. Esa combinacion me permite aportar tanto desde lo tecnico como desde la comprension de procesos operativos.
+Mantengo proyectos activos en AMILAB Frontend/Backend, Exelcior Apolo, Inventario App y una app movil para HC Soluciones. Esa experiencia practica me permite aportar desde desarrollo web, automatizacion, datos, reportes, documentacion, Git/GitHub y resolucion de problemas reales.
 
 Disponibilidad inmediata. Pretension de renta: $${salary || '900000'} CLP, conversable segun condiciones.
 
@@ -62,16 +62,18 @@ function answer(question) {
   if (/disponibilidad/.test(q)) return 'Disponibilidad inmediata';
   if (/excel/.test(q)) return 'Manejo Excel a nivel intermedio para registros, reportes, filtros y control de datos operativos.';
   if (/python/.test(q)) return 'Tengo experiencia practica con Python en proyectos propios, automatizacion, reportes, manejo de datos y aplicaciones de escritorio.';
+  if (/angular/.test(q)) return 'He trabajado principalmente con React, JavaScript y TypeScript en proyectos web. Angular lo manejo a nivel basico/en aprendizaje, con buena base para adaptarme porque ya trabajo componentes, consumo de APIs, estado, rutas, validaciones y TypeScript.';
+  if (/typescript|type script|javascript|react/.test(q)) return 'Si, tengo experiencia practica con TypeScript, JavaScript y React en proyectos como AMILAB Frontend/Backend, trabajando componentes, consumo de APIs REST, validaciones, rutas, integracion con Firebase/Firestore, Git/GitHub y documentacion.';
   if (/funciones.*automatizacion|automatizacion.*funciones|realizadas en automatizacion/.test(q)) return 'He automatizado transformacion y validacion de archivos Excel, generacion de reportes/PDF, exportacion CSV, controles de inventario y flujos de datos en proyectos propios con Python. Tambien he trabajado pruebas basicas, documentacion y validacion de APIs/datos.';
   if (/selenium/.test(q)) return 'Manejo Selenium a nivel basico/en aprendizaje. Tengo base en testing, validaciones, Postman/APIs, SQL y automatizacion con Python; puedo aprender y reforzar Selenium rapidamente en el contexto del equipo.';
   if (/sql|base de datos/.test(q)) return 'Tengo experiencia practica con SQL, SQLite/PostgreSQL y consultas para proyectos academicos y personales.';
   if (/ingles|english/.test(q)) return 'Basico-intermedio; puedo defenderme en conversaciones tecnicas simples y sigo mejorando.';
   if (/office|microsoft 365|365/.test(q)) return 'Tengo manejo practico de herramientas Office/Microsoft 365 para documentacion, registros, reportes y trabajo colaborativo.';
-  if (/sap/.test(q)) return 'No tengo experiencia directa trabajando en SAP; si tengo experiencia con sistemas operativos/administrativos como Manager+, Zendo LIMS, registros, inventario y trazabilidad, y buena disposicion para aprender el sistema requerido.';
+  if (/sap/.test(q)) return 'No tengo experiencia directa trabajando en SAP; si tengo experiencia en sistemas internos, gestion de datos, inventario, SQL, Python, documentacion y trazabilidad funcional, con buena disposicion para aprender el sistema requerido.';
   if (/ticket|incidente|mesa|soporte/.test(q)) return 'Tengo base en soporte, documentacion, seguimiento de incidentes y trabajo con usuarios desde entornos operativos y proyectos TI.';
-  if (/formacion|titulo|estudios/.test(q)) return 'Analista Programador en curso en Duoc UC; titulado de Tecnico en Laboratorio Clinico y Banco de Sangre.';
+  if (/formacion|titulo|estudios/.test(q)) return 'Analista Programador en formacion en Duoc UC, con experiencia practica en proyectos activos de software: Exelcior Apolo, Amiweb, Inventario App y aplicacion movil para HC Soluciones.';
   if (/experiencia|perfil|comentario|motivacion|por que/.test(q)) {
-    return 'Estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos en Python, JavaScript, TypeScript, React, SQL, APIs REST, automatizacion y documentacion. Mi experiencia previa en laboratorio y logistica me aporta orden, trazabilidad y criterio para trabajar con procesos reales.';
+    return 'Estoy orientando mi carrera al area TI como Analista Programador en formacion. Cuento con proyectos practicos y activos en Python, JavaScript, TypeScript, React, SQL, APIs REST, Firebase/Firestore, automatizacion, documentacion, Git/GitHub, Arch Linux y Debian.';
   }
   return '';
 }

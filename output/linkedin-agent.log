@@ -292,3 +292,21 @@
 [2026-06-03T18:25:08.326Z] Prepared 0 LinkedIn Easy Apply process(es).
 [2026-06-03T18:25:08.326Z] Auto-submit was enabled. Review the log for submitted and skipped applications.
 [2026-06-03T18:25:08.327Z] Leave this process open while you review. Press Ctrl+C in this terminal when done.
+[2026-06-08T19:11:42.156Z] Opening visible browser with persistent session...
+[2026-06-08T19:11:42.159Z] LinkedIn query: Programador Junior OR Programador Area TI OR Desarrollador Junior
+[2026-06-08T19:11:42.159Z] Location: Santiago, Chile
+[2026-06-08T19:11:42.160Z] CV: C:\Users\bodega 1\Downloads\Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf
+[2026-06-08T19:11:42.160Z] AUTO_ADVANCE: off
+[2026-06-08T19:11:42.162Z] AUTO_SUBMIT: off
+[2026-06-08T19:11:48.889Z] Log in to LinkedIn in the visible browser if needed.
+[2026-06-08T19:11:48.890Z] After login, this script will continue when LinkedIn feed/jobs is reachable.
+[2026-06-08T19:12:00.768Z] Round 1: found 32 job cards
+[2026-06-08T19:12:06.184Z] Prepared 1/5: Senior Data Engineer
+[2026-06-08T19:12:11.259Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:16.321Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:21.376Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:26.459Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:31.529Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:36.607Z] Skipped without Easy Apply: Senior Data Engineer
+[2026-06-08T19:12:41.266Z] ERROR page.waitForTimeout: Target page, context or browser has been closed
+    at main (C:\Users\bodega 1\Desktop\workspace\career-ops\output\linkedin-easy-apply-assistant.mjs:314:18)

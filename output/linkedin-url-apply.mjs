@@ -6,7 +6,7 @@ import { answerDynamicQuestions } from './linkedin-question-answerer.mjs';
 
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const CDP = process.env.CDP_URL || 'http://127.0.0.1:9222';
-const cvPath = resolve(ROOT, process.env.CV_PATH || 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const logPath = resolve(ROOT, 'output/linkedin-url-apply.log');
 const autoSubmit = process.env.AUTO_SUBMIT_LINKEDIN !== '0';
 const stretchApply = process.env.LINKEDIN_STRETCH_APPLY === '1';
@@ -71,22 +71,55 @@ async function uploadCv(page) {
   let uploaded = 0;
   for (let i = 0; i < count; i += 1) {
     try {
-      await fields.nth(i).setInputFiles(cvPath);
-      uploaded += 1;
+      const field = fields.nth(i);
+      const label = await field.evaluate((node) => {
+        const id = node.id;
+        const explicit = id ? document.querySelector(`label[for="${CSS.escape(id)}"]`)?.innerText : '';
+        const nearby = node.closest('label, fieldset, section, div')?.innerText || '';
+        const attrs = [
+          node.getAttribute('name'),
+          node.getAttribute('id'),
+          node.getAttribute('aria-label'),
+          node.getAttribute('accept'),
+        ].filter(Boolean).join(' ');
+        return `${explicit || ''} ${nearby || ''} ${attrs || ''}`.replace(/\s+/g, ' ').trim();
+      }).catch(() => '');
+      if (/photo|avatar|picture|image|jpg|jpeg|png|gif/i.test(label)
+        && !/resume|cv|curriculum|curr[ií]culum|documento/i.test(label)) {
+        continue;
+      }
+      if (/resume|cv|curriculum|curr[ií]culum|documento|pdf/i.test(label) || count === 1) {
+        await field.setInputFiles(cvPath);
+        uploaded += 1;
+      }
     } catch {}
   }
   return uploaded;
 }
 
-async function requiredEmpty(page) {
+async function requiredEmptyDetails(page) {
   return page.locator('.jobs-easy-apply-modal input[required], .jobs-easy-apply-modal textarea[required], .jobs-easy-apply-modal select[required]').evaluateAll((fields) =>
-    fields.filter((field) => {
-      if (field.type === 'file') return !field.files?.length;
-      if (field.tagName.toLowerCase() === 'select') return !field.value;
-      if (field.type === 'checkbox' || field.type === 'radio') return false;
-      return !field.value?.trim();
-    }).length,
-  ).catch(() => 0);
+    fields
+      .filter((field) => {
+        if (field.type === 'file') return !field.files?.length;
+        if (field.tagName.toLowerCase() === 'select') return !field.value;
+        if (field.type === 'checkbox' || field.type === 'radio') return false;
+        return !field.value?.trim();
+      })
+      .map((field) => {
+        const id = field.id;
+        const label = id ? document.querySelector(`label[for="${CSS.escape(id)}"]`)?.innerText : '';
+        const aria = field.getAttribute('aria-label') || '';
+        const name = field.getAttribute('name') || '';
+        const placeholder = field.getAttribute('placeholder') || '';
+        const nearby = field.closest('label, fieldset, section, div')?.innerText || '';
+        return [label, aria, name, placeholder, nearby]
+          .filter(Boolean)
+          .join(' | ')
+          .replace(/\s+/g, ' ')
+          .slice(0, 260);
+      }),
+  ).catch(() => []);
 }
 
 async function closeMessageOverlays(page) {
@@ -130,8 +163,11 @@ async function applyLinkedInUrl(context, rawUrl, profile) {
     const activeHardStop = stretchApply ? stretchHardStop : hardStop;
     if (activeHardStop.test(text)) return { status: 'paused', reason: 'hard-stop modal', title, company, answered, uploaded, url: page.url(), text: text.slice(0, 900) };
 
-    const empty = await requiredEmpty(page);
-    if (empty > 0) return { status: 'paused', reason: `${empty} required empty`, title, company, answered, uploaded, url: page.url(), text: text.slice(0, 900) };
+    const empty = await requiredEmptyDetails(page);
+    if (empty.length > 0) {
+      const detail = empty.map((item, index) => `${index + 1}. ${item || 'campo sin etiqueta'}`).join(' || ');
+      return { status: 'paused', reason: `${empty.length} required empty: ${detail}`, title, company, answered, uploaded, url: page.url(), text: text.slice(0, 900) };
+    }
 
     const final = page.locator('.jobs-easy-apply-modal').last().getByRole('button', { name: finalText }).first();
     if (await final.count().catch(() => 0)) {

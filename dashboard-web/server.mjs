@@ -1,4 +1,5 @@
 import http from 'node:http';
+import { execFileSync } from 'node:child_process';
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { extname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -61,6 +62,38 @@ function readJsonIfExists(file, fallback) {
   }
 }
 
+function processAlive(pid, commandHint = '') {
+  if (!pid) return false;
+  try {
+    const output = execFileSync('powershell.exe', [
+      '-NoProfile',
+      '-Command',
+      `$p = Get-CimInstance Win32_Process -Filter "ProcessId=${Number(pid)}" -ErrorAction SilentlyContinue; if ($p) { $p.CommandLine }`,
+    ], { encoding: 'utf8', timeout: 3000 }).trim();
+    return output && (!commandHint || output.includes(commandHint));
+  } catch {
+    return false;
+  }
+}
+
+function normalizeAgentStatus(agent) {
+  const alive = processAlive(agent.pid, 'dashboard-web/monitor-agent.mjs');
+  const portalChecks = Array.isArray(agent.portalChecks) ? agent.portalChecks : [];
+  const portalError = portalChecks.find((check) => check.state === 'error' || /ECONNREFUSED|connectOverCDP/i.test(check.summary || ''));
+  return {
+    ...agent,
+    state: alive ? (agent.state || 'running') : 'offline',
+    processAlive: alive,
+    portalState: portalError ? 'disconnected' : (agent.portalState || (portalChecks.length ? 'cached' : 'unknown')),
+    portalChecks,
+    alerts: [
+      ...(agent.alerts || []),
+      ...(!alive ? ['El monitor del agente no esta activo segun el PID guardado.'] : []),
+      ...(portalError ? ['El navegador CDP no esta conectado; las revisiones en vivo de portales no estan actualizando.'] : []),
+    ],
+  };
+}
+
 function tailFile(file, lines = 30) {
   if (!existsSync(file)) return [];
   return readFileSync(file, 'utf8').trim().split(/\r?\n/).slice(-lines);
@@ -98,7 +131,7 @@ function fileInfo(relativePath) {
 function controlSnapshot() {
   const apps = parseApplications();
   const summary = statusSummary(apps);
-  const agent = readJsonIfExists(join(__dirname, 'agent-status.json'), { state: 'offline', alerts: [] });
+  const agent = normalizeAgentStatus(readJsonIfExists(join(__dirname, 'agent-status.json'), { state: 'offline', alerts: [] }));
   const recent = apps.slice(0, 10);
   const needsAttention = apps.filter((app) => ['Responded', 'Interview', 'Offer', 'Evaluated'].includes(app.status)).slice(0, 12);
   const practicesDiscarded = apps.filter((app) => app.status === 'Discarded' && /practica|practicante|pasant/i.test(`${app.role} ${app.notes}`)).length;
@@ -111,10 +144,13 @@ function controlSnapshot() {
     health: {
       dashboard: 'running',
       agent: agent.state || 'offline',
+      agentPid: agent.pid || null,
+      agentProcessAlive: agent.processAlive === true,
       trackerRows: summary.total,
       activeApplications: summary.active,
       portalState: agent.portalState || 'unknown',
       verifyOk: agent.verifyOk === true,
+      lastApplied: apps.find((app) => app.status === 'Applied') || null,
     },
     policy: {
       noPracticeRoles: noPracticePolicy,
@@ -164,7 +200,8 @@ const server = http.createServer((req, res) => {
         summary: {},
       }), mime['.json']);
     }
-    return send(res, 200, readFileSync(file), mime['.json']);
+    const agent = normalizeAgentStatus(readJsonIfExists(file, { state: 'offline', alerts: [] }));
+    return send(res, 200, JSON.stringify(agent), mime['.json']);
   }
 
   if (url.pathname === '/api/control') {

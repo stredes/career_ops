@@ -1,0 +1,788 @@
+{
+  "query": "older_than:14d newer_than:180d (postulacion OR postulación OR candidatura OR solicitud OR empleo OR entrevista OR LinkedIn OR Computrabajo OR Getonbrd OR \"Get on Board\" OR Trabajando OR Chiletrabajos)",
+  "scannedAt": "2026-06-17T19:31:22.389Z",
+  "items": [
+    {
+      "index": 0,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Tecnova IT Solutions ha visto tu solicitud",
+      "snippet": "Tecnova IT Solutions ha visto tu solicitud",
+      "date": "15:18",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 1,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Analista Programador / Experiencia en Sector Publico",
+      "snippet": "Seguimiento de tu postulación para el puesto Analista Programador / Experiencia en Sector Publico",
+      "date": "15:08",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "sector publico seguimiento de"
+    },
+    {
+      "index": 2,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador IA",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador IA",
+      "date": "15:07",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador ia seguimiento de"
+    },
+    {
+      "index": 3,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador BPM Oracle",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador BPM Oracle",
+      "date": "15:07",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador bpm oracle seguimiento de"
+    },
+    {
+      "index": 4,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, tienes novedades en tu postulación a Desarrollador Full Stack Java React",
+      "snippet": "Gian, tienes novedades en tu postulación a Desarrollador Full Stack Java React",
+      "date": "15:05",
+      "unread": true,
+      "inferredStatus": "Responded",
+      "inferredCompany": "tu postulación a desarrollador full stack java react"
+    },
+    {
+      "index": 5,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Completa tu candidatura a Desarrollador Full Stack Java React",
+      "snippet": "Completa tu candidatura a Desarrollador Full Stack Java React",
+      "date": "15:03",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 6,
+      "from": "notifications@ats.bizneo.com",
+      "subject": "Tu candidatura para Desarrollador Full Stack Java React",
+      "snippet": "Tu candidatura para Desarrollador Full Stack Java React",
+      "date": "15:03",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "desarrollador full stack java react"
+    },
+    {
+      "index": 7,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Grupo Falabella",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Grupo Falabella",
+      "date": "14:59",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 8,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Vinci Compass",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Vinci Compass",
+      "date": "14:59",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 9,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Analista Programador C#, .NET, MVC",
+      "snippet": "Seguimiento de tu postulación para el puesto Analista Programador C#, .NET, MVC",
+      "date": "14:52",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 10,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Analista Desarrollador",
+      "snippet": "Seguimiento de tu postulación para el puesto Analista Desarrollador",
+      "date": "14:51",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto analista desarrollador seguimiento de"
+    },
+    {
+      "index": 11,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Programador Backend PHP Laravel",
+      "snippet": "Seguimiento de tu postulación para el puesto Programador Backend PHP Laravel",
+      "date": "14:51",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto programador backend php laravel"
+    },
+    {
+      "index": 12,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador .net",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador .net",
+      "date": "14:51",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu postulación para el puesto desarrollador"
+    },
+    {
+      "index": 13,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador FrontEnd / Analista Técnico",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador FrontEnd / Analista Técnico",
+      "date": "14:50",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 14,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack Java React",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack Java React",
+      "date": "14:50",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador full stack java react"
+    },
+    {
+      "index": 15,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a INDI Staffing Services",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a INDI Staffing Services",
+      "date": "14:09",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 16,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a ATCOM Chile",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a ATCOM Chile",
+      "date": "14:09",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 17,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Tecnova IT Solutions",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Tecnova IT Solutions",
+      "date": "14:08",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 18,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Stefanini LATAM",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Stefanini LATAM",
+      "date": "14:08",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 19,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador SAP PI",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador SAP PI",
+      "date": "14:04",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador sap pi seguimiento de"
+    },
+    {
+      "index": 20,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador OSB/ODI",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador OSB/ODI",
+      "date": "14:03",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 21,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto RPA Developer",
+      "snippet": "Seguimiento de tu postulación para el puesto RPA Developer",
+      "date": "14:01",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto rpa developer seguimiento de"
+    },
+    {
+      "index": 22,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack",
+      "date": "14:00",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador full stack seguimiento de"
+    },
+    {
+      "index": 23,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto desarrollador .net",
+      "snippet": "Seguimiento de tu postulación para el puesto desarrollador .net",
+      "date": "14:00",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu postulación para el puesto desarrollador"
+    },
+    {
+      "index": 24,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Fullstack",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Fullstack",
+      "date": "13:57",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto desarrollador fullstack seguimiento de"
+    },
+    {
+      "index": 25,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack React React Native NestJS TypeScript",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Full Stack React React Native NestJS TypeScript",
+      "date": "13:57",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 26,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Seguimiento de tu postulación para el puesto Desarrollador Fullstack (Latam)",
+      "snippet": "Seguimiento de tu postulación para el puesto Desarrollador Fullstack (Latam)",
+      "date": "13:56",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 27,
+      "from": "postulaciones@chiletrabajos.cl",
+      "subject": "Gian Lucas, tienes una invitacion a postular #3845623",
+      "snippet": "Gian Lucas, tienes una invitacion a postular #3845623",
+      "date": "13:39",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 28,
+      "from": "informacion@thebigschool.com",
+      "subject": "No te quiero engañar",
+      "snippet": "No te quiero engañar",
+      "date": "13:09",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 29,
+      "from": "messaging-digest-noreply@linkedin.com",
+      "subject": "Camila acaba de enviarte un mensaje",
+      "snippet": "Camila acaba de enviarte un mensaje",
+      "date": "11:56",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "enviarte un mensaje camila acaba de enviarte un mensaje"
+    },
+    {
+      "index": 30,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, tienes novedades en tu postulación a Desarrollador B P M Oracle",
+      "snippet": "Gian, tienes novedades en tu postulación a Desarrollador B P M Oracle",
+      "date": "10:16",
+      "inferredStatus": "Responded",
+      "inferredCompany": "tu postulación a desarrollador b p m oracle"
+    },
+    {
+      "index": 31,
+      "from": "no-reply@resumeet.ai",
+      "subject": "¿Seguís por ahí? Probá el chat con IA de ResumeMeet",
+      "snippet": "¿Seguís por ahí? Probá el chat con IA de ResumeMeet",
+      "date": "9:00",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "resumemeet"
+    },
+    {
+      "index": 32,
+      "from": "noreply@jobsora.com",
+      "subject": "15 nuevas vacantes para el 17-06-26: Programador Junior, Chile y otros",
+      "snippet": "15 nuevas vacantes para el 17-06-26: Programador Junior, Chile y otros",
+      "date": "8:38",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 33,
+      "from": "noreply@bnovus.cl",
+      "subject": "Registro de asistencia",
+      "snippet": "Registro de asistencia",
+      "date": "8:27",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "asistencia registro de asistencia"
+    },
+    {
+      "index": 34,
+      "from": "newsletters-noreply@linkedin.com",
+      "subject": "New LATAM Jobs Update - 17th June, 2026",
+      "snippet": "New LATAM Jobs Update - 17th June, 2026",
+      "date": "4:04",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 35,
+      "from": "informacion@thebigschool.com",
+      "subject": "Volvemos a liarla",
+      "snippet": "Volvemos a liarla",
+      "date": "1:00",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 36,
+      "from": "email@market.temuemail.com",
+      "subject": "Su tarjeta TEMU está disponible",
+      "snippet": "Su tarjeta TEMU está disponible",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 37,
+      "from": "email@sales.temuemail.com",
+      "subject": "Recibiste un regalo",
+      "snippet": "Recibiste un regalo",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 38,
+      "from": "noreply@bnovus.cl",
+      "subject": "Registro de asistencia",
+      "snippet": "Registro de asistencia",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "asistencia registro de asistencia"
+    },
+    {
+      "index": 39,
+      "from": "destacados@computrabajo.com",
+      "subject": "Compañías líderes están buscando talento como el tuyo",
+      "snippet": "Compañías líderes están buscando talento como el tuyo",
+      "date": "16 jun",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 40,
+      "from": "no-reply@getonbrd.com",
+      "subject": "Nuevo empleo de una empresa a la que sigues: 3IT",
+      "snippet": "Nuevo empleo de una empresa a la que sigues: 3IT",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 41,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "SII Group Chile busca personal para el puesto de En remoto",
+      "snippet": "SII Group Chile busca personal para el puesto de En remoto",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "el puesto de en remoto"
+    },
+    {
+      "index": 42,
+      "from": "recomendaciones@computrabajo.com",
+      "subject": "Gian, tienes postulaciones pendientes de enviar",
+      "snippet": "Gian, tienes postulaciones pendientes de enviar",
+      "date": "16 jun",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "enviar"
+    },
+    {
+      "index": 43,
+      "from": "no-reply@legal.spotify.com",
+      "subject": "ACTUALIZACIÓN IMPORTANTE: el inicio de sesión de Spotify cambiará",
+      "snippet": "ACTUALIZACIÓN IMPORTANTE: el inicio de sesión de Spotify cambiará",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "sesión de spotify cambiará"
+    },
+    {
+      "index": 44,
+      "from": "noreply@jobsora.com",
+      "subject": "30 nuevas vacantes para el 16-06-26: Programador Junior, Chile y otros",
+      "snippet": "30 nuevas vacantes para el 16-06-26: Programador Junior, Chile y otros",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 45,
+      "from": "sin-respuesta@computrabajo.com",
+      "subject": "Gian, ¿La empresa Cygnus se comunicó contigo?",
+      "snippet": "Gian, ¿La empresa Cygnus se comunicó contigo?",
+      "date": "16 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 46,
+      "from": "aeug-member-benefits13@deals.aliexpress.com",
+      "subject": "Prepárate para ofertas top",
+      "snippet": "Prepárate para ofertas top",
+      "date": "15 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "ofertas top prepárate para ofertas top"
+    },
+    {
+      "index": 47,
+      "from": "updates-noreply@linkedin.com",
+      "subject": "Esteban Garcia Espinoza - Product Manager Core ha reaccionado a esta publicación: Amilab Ltda. Está en busca de…",
+      "snippet": "Esteban Garcia Espinoza - Product Manager Core ha reaccionado a esta publicación: Amilab Ltda. Está en busca de…",
+      "date": "15 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 48,
+      "from": "no-reply@outlier.ai",
+      "subject": "You're Invited: Join an Outlier Welcome Session",
+      "snippet": "You're Invited: Join an Outlier Welcome Session",
+      "date": "15 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 49,
+      "from": "postulaciones@computrabajo.com",
+      "subject": "Gian, hay una actualización en tu solicitud de empleo Junior Analyst Customer Service – SAP SD",
+      "snippet": "Gian, hay una actualización en tu solicitud de empleo Junior Analyst Customer Service – SAP SD",
+      "date": "15 jun",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 50,
+      "from": "contact@hunter.io",
+      "subject": "Your monthly credits have been reset",
+      "snippet": "Your monthly credits have been reset",
+      "date": "14 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "reset your monthly credits have been reset"
+    },
+    {
+      "index": 51,
+      "from": "API@chilecompra.cl",
+      "subject": "Ticket Api Mercado Público.",
+      "snippet": "Ticket Api Mercado Público.",
+      "date": "19 may",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 52,
+      "from": "googleplay-noreply@google.com",
+      "subject": "Your Google One subscription has been canceled",
+      "snippet": "Your Google One subscription has been canceled",
+      "date": "12 may",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "canceled your google one subscription has been canceled"
+    },
+    {
+      "index": 53,
+      "from": "googleplay-noreply@google.com",
+      "subject": "Pago de la suscripción a Google One rechazado",
+      "snippet": "Pago de la suscripción a Google One rechazado",
+      "date": "12 may",
+      "inferredStatus": "Rejected",
+      "inferredCompany": "la suscripción a google one rechazado"
+    },
+    {
+      "index": 54,
+      "from": "googleplay-noreply@google.com",
+      "subject": "Pago de la suscripción a Google One rechazado",
+      "snippet": "Pago de la suscripción a Google One rechazado",
+      "date": "10 may",
+      "inferredStatus": "Rejected",
+      "inferredCompany": "la suscripción a google one rechazado"
+    },
+    {
+      "index": 55,
+      "from": "noreply@tm.openai.com",
+      "subject": "Actualiza tu método de pago de Plus",
+      "snippet": "Actualiza tu método de pago de Plus",
+      "date": "9 may",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "pago de plus actualiza tu método de pago de plus"
+    },
+    {
+      "index": 56,
+      "from": "googleplay-noreply@google.com",
+      "subject": "Recibo de tu pedido de Google Play del 10 abr 2026",
+      "snippet": "Recibo de tu pedido de Google Play del 10 abr 2026",
+      "date": "10 abr",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu pedido de google play del 10 abr 2026 recibo de"
+    },
+    {
+      "index": 57,
+      "from": "engage@go.explore.redhat.com",
+      "subject": "Your Red Hat Developer subscription is expiring soon",
+      "snippet": "Your Red Hat Developer subscription is expiring soon",
+      "date": "1 abr",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 58,
+      "from": "googleplay-noreply@google.com",
+      "subject": "Recibo de tu pedido de Google Play del 16 mar 2026",
+      "snippet": "Recibo de tu pedido de Google Play del 16 mar 2026",
+      "date": "16 mar",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "tu pedido de google play del 16 mar 2026 recibo de"
+    },
+    {
+      "index": 59,
+      "from": "no-reply@duoc.cl",
+      "subject": "Notificacion pago DuocUC",
+      "snippet": "Notificacion pago DuocUC",
+      "date": "5 mar",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 60,
+      "from": "no-reply@pjchile.com",
+      "subject": "Confirmación de orden de Papa John's",
+      "snippet": "Confirmación de orden de Papa John's",
+      "date": "10 ene",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 61,
+      "from": "noreply@steampowered.com",
+      "subject": "You have been invited to join a Steam Family",
+      "snippet": "You have been invited to join a Steam Family",
+      "date": "16/11/25",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "invited to join a steam family"
+    },
+    {
+      "index": 62,
+      "from": "email@sales.temuemail.com",
+      "subject": "¡Tu regalo fue enviado el 16 Nov 2025!",
+      "snippet": "¡Tu regalo fue enviado el 16 Nov 2025!",
+      "date": "16/11/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 63,
+      "from": "no-responder@mercadolibre.com",
+      "subject": "Compraste Lampara 3d Ilusion Universidad De Chile Chilena Bas Negra Sc",
+      "snippet": "Compraste Lampara 3d Ilusion Universidad De Chile Chilena Bas Negra Sc",
+      "date": "12/11/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "3d ilusion universidad de chile chilena bas negra sc"
+    },
+    {
+      "index": 64,
+      "from": "no-reply@trello.com",
+      "subject": "Changes to your Trello subscription",
+      "snippet": "Changes to your Trello subscription",
+      "date": "18/10/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 65,
+      "from": "transaction@notice.aliexpress.com",
+      "subject": "Paquete 3598500441 en camino",
+      "snippet": "Paquete 3598500441 en camino",
+      "date": "24/9/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "camino paquete 3598500441 en camino"
+    },
+    {
+      "index": 66,
+      "from": "transaction@notice.aliexpress.com",
+      "subject": "Paquete SP028863006CL en camino",
+      "snippet": "Paquete SP028863006CL en camino",
+      "date": "23/9/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "camino paquete sp028863006cl en camino"
+    },
+    {
+      "index": 67,
+      "from": "transaction@notice.aliexpress.com",
+      "subject": "Pedido 8200854980991761: pendiente de confirmación",
+      "snippet": "Pedido 8200854980991761: pendiente de confirmación",
+      "date": "28/6/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "confirmación"
+    },
+    {
+      "index": 68,
+      "from": "transaction@notice.aliexpress.com",
+      "subject": "Pedido 8200854980991761: pendiente de confirmación",
+      "snippet": "Pedido 8200854980991761: pendiente de confirmación",
+      "date": "26/6/25",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": "confirmación"
+    },
+    {
+      "index": 69,
+      "from": "transaction@notice.aliexpress.com",
+      "subject": "Pedido 8200040193731761: pendiente de confirmación",
+      "snippet": "Pedido 8200040193731761: pendiente de confirmación",
+      "date": "4/5/25",
+      "inferredStatus": "Unknown",
+      "inferredCompany": "confirmación"
+    },
+    {
+      "index": 70,
+      "from": "noreply@tm.openai.com",
+      "subject": "ChatGPT - Your new plan",
+      "snippet": "ChatGPT - Your new plan",
+      "date": "7/4/24",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 71,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Mobdev",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Mobdev",
+      "date": "3 jun",
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 72,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Kabeli Selección",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Kabeli Selección",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 73,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "SII Group Chile ha visto tu solicitud",
+      "snippet": "SII Group Chile ha visto tu solicitud",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 74,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Itaú Chile",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Itaú Chile",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 75,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Claire Joster | People first",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Claire Joster | People first",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 76,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Nisum",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Nisum",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 77,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a SII Group Chile",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a SII Group Chile",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 78,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a COPEC S.A.",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a COPEC S.A.",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    },
+    {
+      "index": 79,
+      "from": "jobs-noreply@linkedin.com",
+      "subject": "Gian lucas, se ha enviado tu solicitud a Grupo Falabella",
+      "snippet": "Gian lucas, se ha enviado tu solicitud a Grupo Falabella",
+      "date": "3 jun",
+      "unread": true,
+      "inferredStatus": "Unknown",
+      "inferredCompany": ""
+    }
+  ],
+  "bodies": []
+}

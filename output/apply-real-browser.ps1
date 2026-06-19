@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $root = "C:\Users\bodega 1\Desktop\workspace\career-ops"
-$cv = Join-Path $root "output\cv-gian-programador-ti.pdf"
+$cv = "C:\Users\bodega 1\Downloads\Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf"
 
 $apps = @(
   @{

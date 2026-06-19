@@ -94,8 +94,7 @@ Notes:
 
 ## Step 6 — Post-apply (optional)
 
-
-
+If the candidate confirms that they submitted the application:
 1. Update status in `applications.md` from "Evaluated" to "Applied"
 2. Update Section G of the report with the final responses
 3. Suggest next step: `/career-ops contacto` for LinkedIn outreach

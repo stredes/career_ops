@@ -7,7 +7,7 @@ import { answerDynamicQuestions } from './linkedin-question-answerer.mjs';
 const ROOT = resolve('C:/Users/bodega 1/Desktop/workspace/career-ops');
 const USER_DATA_DIR = resolve(ROOT, process.env.LINKEDIN_PROFILE || '.recording-browser-profile');
 const profilePath = resolve(ROOT, 'config/profile.yml');
-const cvPath = resolve(ROOT, process.env.CV_PATH || 'output/cv-gian-programador-ti.pdf');
+const cvPath = resolve(process.env.CV_PATH || 'C:/Users/bodega 1/Downloads/Gian_Lucas_San_Martin_Agurto_CV_Tech.pdf_2026_6_5.pdf');
 const finalSubmitText = /submit application|enviar solicitud|enviar postulaci[oó]n|send application|presentar solicitud|enviar candidatura|finalizar postulaci[oó]n/i;
 const nextText = /next|siguiente|ir al siguiente paso|review|revisar|continuar/i;
 

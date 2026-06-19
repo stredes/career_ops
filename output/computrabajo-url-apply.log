@@ -234,3 +234,361 @@
 [2026-06-05T14:57:17.381Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
 [2026-06-05T14:57:17.381Z] Computrabajo apply: https://candidato.cl.computrabajo.com/candidate/kq?oi=2561EEF5E04AF93561373E686DCF3405&p=57&d=32&idb=1&lc=ListOffers-Score4-2
 [2026-06-05T14:57:31.783Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:35:49.391Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-react-native-en-santiago-providencia-3F1707AD629BC28361373E686DCF3405
+[2026-06-08T12:35:59.144Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Cuéntanos tu experiencia con React Native)
+[2026-06-08T12:35:59.145Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ios-swift-uikit-swift-concurrency-biometria-ios-reconocimiento-facial-face-id-en-santiago-providencia-E2B904BE1ED2612861373E686DCF3405
+[2026-06-08T12:36:08.965Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuál es tu nivel de experiencia usando Swift como lenguaje principal? | unrecognized: ¿Cuánta experiencia tienes desarrollando interfaces con UIKit? | unrecognized: ¿Con qué nivel has trabajado concurrencia en iOS? | unrecognized: ¿Qué experiencia tienes aplicando arquitecturas en apps iOS? | unrecognized: En tus proyectos iOS, ¿cómo manejas la lógica de negocio? | unrecognized: ¿Cuál es tu experiencia consumiendo APIs REST en iOS? | unrecognized: ¿Cuál es tu experiencia en autenticación segura? | unrecognized: ¿Has implementado autenticación biométrica en iOS? | unrecognized: ¿Cómo trabajas normalmente con Git en equipos? | unrecognized: ¿Has trabajado con apps iOS en producción?)
+[2026-06-08T12:36:08.965Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-programador-en-santiago-las-condes-1AE05749441C12E761373E686DCF3405
+[2026-06-08T12:36:18.788Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuenta con experiencia en el desarrollo de APIs y en la integración de estas con otros sistemas externos? (Por favor, mencione un ejemplo breve de qué tipo de sistemas integró) | unrecognized: Dentro de su trayectoria, ¿ha programado sistemas nuevos desde cero y realizado mantenimiento a sistemas ya existentes? (Por favor, mencione un ejemplo breve))
+[2026-06-08T12:36:18.789Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-developer-backend-visual-studionetnet-core-31no-sql-modalidad-hibrida-en-santiago-centro-DA5C9A08B2CA03B461373E686DCF3405
+[2026-06-08T12:36:28.540Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿tienes experiencia en NO-SQL: MongoDB, Redis, CouchDB? favor comente | unrecognized: Tiene experiencia en AngularJS, HTML5, CSS, Javascript?, favor comente)
+[2026-06-08T12:36:28.541Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-servicenow-en-santiago-centro-B158464FC1C9C7B661373E686DCF3405
+[2026-06-08T12:36:38.244Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuanto tiempo de experiencia posee Desarrollador con ServiceNow? | unrecognized: ¿Cuanto tiempo de experiencia posee en ITSM? | unrecognized: ¿Cuanto tiempo de experiencia posee en ITOM / CMDB?)
+[2026-06-08T12:36:38.245Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-en-santiago-las-condes-956B8B74D3CCF22961373E686DCF3405
+[2026-06-08T12:36:54.711Z] paused: Computrabajo - Aplicación enviada Desarrollador Full Stack - Computrabajo Chile (no confirmation)
+[2026-06-08T12:36:54.712Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-1400000-liquidos-quilicura-en-santiago-quilicura-F285E87C4AEA146561373E686DCF3405
+[2026-06-08T12:37:04.293Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Indique su rut sin puntos ni guion)
+[2026-06-08T12:37:04.294Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-mobile-y-web-indefinido-hibrido-en-santiago-cerrillos-C3A964143D98CF8D61373E686DCF3405
+[2026-06-08T12:37:14.339Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Has trabajado con bases de datos PostgreSQL? | unrecognized: ¿Qué experiencia tienes desarrollando aplicaciones web en PHP Laravel? | unrecognized: ¿Has realizado integraciones de APIs o servicios externos?)
+[2026-06-08T12:37:14.340Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-en-santiago-centro-A3A613B49DAE1EF861373E686DCF3405
+[2026-06-08T12:37:24.024Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia con Cosmos DB o bases de datos de grafos como Neo4J? Si no, ¿estás dispuesto/a a aprender y trabajar con estas tecnologías?)
+[2026-06-08T12:37:24.024Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-en-santiago-centro-097930AB62AD00F961373E686DCF3405
+[2026-06-08T12:37:41.788Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:37:41.789Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-backend-developer-java-experiencia-sector-seguros-en-santiago-providencia-B7A81B1A173ECA7761373E686DCF3405
+[2026-06-08T12:37:51.416Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: 1) Comente experiencia trabajando con Java, Spring y Spring Boot a nivel avanzado 2) Comente experiencia con patrones de diseño y arquitectura hexagonal (explique excluyente) | unrecognized: 1) Comente experiencia trabajando con SQL (MYSQL) y adm de bases de datos 2) Comente experiencia en la creacion y consumo de APIS REST / Microservicios (explique ambos puntos excluyente) | unrecognized: Indique experiencia o conocimientos con AWS, Kubernetes (explique))
+[2026-06-08T12:37:51.419Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-host-mainframe-proyecto-remoto-en-santiago-centro-B44EE0CFAE43B58161373E686DCF3405
+[2026-06-08T12:38:15.792Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:38:15.793Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-desarrollador-visual-net--oracle-19c-en-santiago-centro-AF84A710E7057E1961373E686DCF3405
+[2026-06-08T12:38:25.568Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Cuéntame tu experiencia con Oracle Database y PL/SQL: en qué proyectos los has usado, con qué frecuencia y si trabajas más con consultas o con procedimientos almacenados)
+[2026-06-08T12:38:25.569Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-area-de-salud-en-puente-alto-158939724F21372561373E686DCF3405
+[2026-06-08T12:38:35.391Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuenta con cursos relacionados a herramientas de Desarrollo?)
+[2026-06-08T12:40:38.110Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-react-native-en-santiago-providencia-3F1707AD629BC28361373E686DCF3405
+[2026-06-08T12:40:55.045Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:40:55.046Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ios-swift-uikit-swift-concurrency-biometria-ios-reconocimiento-facial-face-id-en-santiago-providencia-E2B904BE1ED2612861373E686DCF3405
+[2026-06-08T12:41:04.511Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: En tus proyectos iOS, ¿cómo manejas la lógica de negocio?)
+[2026-06-08T12:41:04.512Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-programador-en-santiago-las-condes-1AE05749441C12E761373E686DCF3405
+[2026-06-08T12:41:22.083Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:41:22.084Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-developer-backend-visual-studionetnet-core-31no-sql-modalidad-hibrida-en-santiago-centro-DA5C9A08B2CA03B461373E686DCF3405
+[2026-06-08T12:41:40.288Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:41:40.289Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-servicenow-en-santiago-centro-B158464FC1C9C7B661373E686DCF3405
+[2026-06-08T12:41:58.666Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:41:58.666Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-mobile-y-web-indefinido-hibrido-en-santiago-cerrillos-C3A964143D98CF8D61373E686DCF3405
+[2026-06-08T12:42:16.993Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:42:16.994Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-en-santiago-centro-A3A613B49DAE1EF861373E686DCF3405
+[2026-06-08T12:42:33.764Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:42:33.765Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-backend-developer-java-experiencia-sector-seguros-en-santiago-providencia-B7A81B1A173ECA7761373E686DCF3405
+[2026-06-08T12:42:50.385Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:42:50.386Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-desarrollador-visual-net--oracle-19c-en-santiago-centro-AF84A710E7057E1961373E686DCF3405
+[2026-06-08T12:43:08.658Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T12:43:08.659Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-area-de-salud-en-puente-alto-158939724F21372561373E686DCF3405
+[2026-06-08T12:43:25.422Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T13:48:08.212Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ios-swift-uikit-swift-concurrency-biometria-ios-reconocimiento-facial-face-id-en-santiago-providencia-E2B904BE1ED2612861373E686DCF3405
+[2026-06-08T13:48:24.894Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T13:50:03.690Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-springboot-azure-en-santiago-las-condes-AEAD9F081807229861373E686DCF3405
+[2026-06-08T13:50:20.062Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T13:50:20.063Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-b-p-m-oracle-en-santiago-las-condes-9D63DF4054FB839B61373E686DCF3405
+[2026-06-08T13:50:29.600Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿detalle experiencia con Oracle BPM Suite? | unrecognized: ¿ha trabajado con Oracle Suite BPM 11.1.1.19 / 11.1.1.17? detalle)
+[2026-06-08T13:50:57.795Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-b-p-m-oracle-en-santiago-las-condes-9D63DF4054FB839B61373E686DCF3405
+[2026-06-08T13:51:14.098Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:22:53.633Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-django-en-santiago-las-condes-F44A87ACC62FF56C61373E686DCF3405#lc=ListOffers-Score4-5
+[2026-06-08T15:23:09.929Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:23:21.633Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-en-santiago-las-condes-E7BDB8B67249B6F661373E686DCF3405#lc=ListOffers-Score4-2
+[2026-06-08T15:23:37.869Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:23:57.323Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ti-en-santiago-las-condes-DDBD1A880A140D4861373E686DCF3405#lc=ListOffers-Score4-8
+[2026-06-08T15:24:13.632Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:35:13.974Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-en-santiago-las-condes-BFFEE826DA9A9A3F61373E686DCF3405#lc=ListOffers-Score4-0
+[2026-06-08T15:35:30.234Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:35:41.071Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-salesforce-en-santiago-las-condes-CA1593AAB2E2507461373E686DCF3405#lc=ListOffers-Score4-3
+[2026-06-08T15:35:56.947Z] ERROR page.waitForTimeout: Target page, context or browser has been closed
+    at submitOne (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:499:14)
+    at async main (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:515:20)
+[2026-06-08T15:36:24.621Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-de-base-de-datos-informatica-finanzas-en-santiago-providencia-41A9F42EEB01F5E861373E686DCF3405#lc=ListOffers-Score4-12
+[2026-06-08T15:36:40.970Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T15:37:07.260Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-salesforce-en-santiago-las-condes-CA1593AAB2E2507461373E686DCF3405#lc=ListOffers-Score4-3
+[2026-06-08T15:37:23.477Z] paused: Computrabajo - Aplicación enviada Desarrollador Salesforce - Computrabajo Chile (no confirmation)
+[2026-06-08T17:34:51.688Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-informatico-junior-modalidad-en-sitio-en-santiago-providencia-5F46F54DF59E1D3D61373E686DCF3405
+[2026-06-08T17:35:05.572Z] paused: Computrabajo - Trabajos de Soporte Informático Junior, modalidad en Sitio - Santiago - Providencia (no confirmation)
+[2026-06-08T18:37:10.149Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-B98A6CBDC553709F61373E686DCF3405
+[2026-06-08T18:37:28.424Z] paused: Computrabajo - ofertas-de-trabajo (no confirmation)
+[2026-06-08T18:37:28.425Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-F285E87C4AEA146561373E686DCF3405
+[2026-06-08T18:37:44.587Z] paused: Computrabajo - ofertas-de-trabajo (no confirmation)
+[2026-06-08T18:37:44.588Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-8BF6D9BDB3FFBD7F61373E686DCF3405
+[2026-06-08T18:38:02.712Z] paused: Computrabajo - ofertas-de-trabajo (no confirmation)
+[2026-06-08T18:38:02.713Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-AF84A710E7057E1961373E686DCF3405
+[2026-06-08T18:38:12.318Z] paused: Computrabajo - ofertas-de-trabajo (needs review: fill-error: page.evaluate: Target page, context or browser has been closed)
+[2026-06-08T18:38:12.319Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-9B5E877FE0B045EA61373E686DCF3405
+[2026-06-08T18:38:30.569Z] paused: Computrabajo - Loading https://ofertas-de-trabajo/oferta-de-trabajo-de-9B5E877FE0B045EA61373E686DCF3405 (no confirmation)
+[2026-06-08T19:04:17.810Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-analista-programador#B98A6CBDC553709F61373E686DCF3405
+[2026-06-08T19:04:34.539Z] paused: Computrabajo - 4,2  Michael Page 37 evaluaciones (no confirmation)
+[2026-06-08T19:04:34.541Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-analista-programador#F285E87C4AEA146561373E686DCF3405
+[2026-06-08T19:04:50.750Z] paused: Computrabajo - 4,3  Cygnus 3.120 evaluaciones (no confirmation)
+[2026-06-08T19:04:50.751Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-analista-programador#8BF6D9BDB3FFBD7F61373E686DCF3405
+[2026-06-08T19:05:06.965Z] paused: Computrabajo - 4,2  Abenis 22 evaluaciones (no confirmation)
+[2026-06-08T19:14:31.786Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-1400000-liquidos-quilicura-en-santiago-quilicura-F285E87C4AEA146561373E686DCF3405#lc=ListOffers-Score6-0
+[2026-06-08T19:14:41.228Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Indique su rut sin puntos ni guion)
+[2026-06-08T19:14:41.229Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ti-gestion-de-proyectos-tecnico-experiencia-desarrollador-net-en-santiago-providencia-B98A6CBDC553709F61373E686DCF3405#lc=ListOffers-Score4-2
+[2026-06-08T19:14:50.626Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Comente experiencia como Analista TI (gestión de proyectos técnico) con experiencia en desarrollos .NET (explique) | unrecognized: Comente experiencia validando soluciones técnicas de proveedores externos, seguimiento de tiempos de entrega de soluciones, ejecución de reportería sobre los avances de servicios técnicos (explique))
+[2026-06-08T19:14:50.626Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ti-experiencia-desarrollador-net-en-santiago-providencia-2B902C4A5AC07FB961373E686DCF3405#lc=ListOffers-Score4-5
+[2026-06-08T19:15:00.014Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Comente experiencia como Analista TI con experiencia en desarrollos .NET (explique) | unrecognized: Comente experiencia validando soluciones técnicas de proveedores externos, seguimiento de tiempos de entrega de soluciones, ejecución de reportería sobre los avances de servicios técnicos (explique))
+[2026-06-08T19:16:12.739Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ti-gestion-de-proyectos-tecnico-experiencia-desarrollador-net-en-santiago-providencia-B98A6CBDC553709F61373E686DCF3405#lc=ListOffers-Score4-2
+[2026-06-08T19:16:29.413Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:16:29.413Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-ti-experiencia-desarrollador-net-en-santiago-providencia-2B902C4A5AC07FB961373E686DCF3405#lc=ListOffers-Score4-5
+[2026-06-08T19:16:45.602Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:25:55.345Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-host-mainframe-proyecto-remoto-en-santiago-centro-B44EE0CFAE43B58161373E686DCF3405#lc=ListOffers-Score4-1
+[2026-06-08T19:26:12.208Z] paused: Computrabajo - Aplicación enviada Analista Programador Host Mainframe - Proyecto Remoto - Computrabajo Chile (no confirmation)
+[2026-06-08T19:26:12.209Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-ingeniero-en-rmetropolitana-en-santiago---providencia#BCF152FD6F26F39D61373E686DCF3405
+[2026-06-08T19:26:25.695Z] paused: Computrabajo - 4,2  Abenis 22 evaluaciones (no confirmation)
+[2026-06-08T19:26:25.696Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-en-rmetropolitana-en-santiago---providencia#99C82DB62A8E972861373E686DCF3405
+[2026-06-08T19:26:39.136Z] paused: Computrabajo - Wall partners Spa (no confirmation)
+[2026-06-08T19:26:39.137Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-en-rmetropolitana-en-santiago-centro#ACFE7EB48199D4D861373E686DCF3405
+[2026-06-08T19:26:55.521Z] paused: Computrabajo - 4  Avos Tech 116 evaluaciones (no confirmation)
+[2026-06-08T19:26:55.521Z] Computrabajo apply: https://cl.computrabajo.com/empleos-de-informatica-y-telecom-en-rmetropolitana-en-santiago---las-condes#8EB19850F90F051D61373E686DCF3405
+[2026-06-08T19:27:09.069Z] paused: Computrabajo - Trabajo de informatica y telecom en santiago las condes en R.Metropolitana | Bolsa Empleo (no confirmation)
+[2026-06-08T19:27:09.069Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-en-rmetropolitana-en-santiago---las-condes#01E61017842F894261373E686DCF3405
+[2026-06-08T19:27:22.427Z] paused: Computrabajo - 4,6  BCTecnología 35 evaluaciones (no confirmation)
+[2026-06-08T19:29:00.227Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-en-rmetropolitana-en-santiago-centro#83B376D80223BEC361373E686DCF3405&lc=OfferAlreadyApplied-Similars-1-O2Ov2.2
+[2026-06-08T19:29:16.841Z] paused: Computrabajo - 4,6  BCTecnología 35 evaluaciones (no confirmation)
+[2026-06-08T19:29:16.842Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-programador-senior-en-rmetropolitana-en-santiago---providencia#B981F42D999C481361373E686DCF3405&lc=OfferAlreadyApplied-Similars-2-O2Ov2.2
+[2026-06-08T19:29:33.232Z] paused: Computrabajo - Programador full stack Senior (no confirmation)
+[2026-06-08T19:29:33.233Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-analista-programador-en-rmetropolitana-en-santiago-centro#6B090A2809DE91F261373E686DCF3405&lc=OfferAlreadyApplied-Similars-4-O2Ov2.2
+[2026-06-08T19:29:49.452Z] paused: Computrabajo - 4,2  Manpower Chile 3.443 evaluaciones (no confirmation)
+[2026-06-08T19:29:49.452Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-desarrollador-de-software-en-rmetropolitana-en-santiago---san-ramon#BC4F9E8B8BED8D5361373E686DCF3405&lc=OfferPostApply-Similars-1-O2Ov3.1
+[2026-06-08T19:30:06.037Z] paused: Computrabajo - 4,2  Abenis 22 evaluaciones (no confirmation)
+[2026-06-08T19:30:06.037Z] Computrabajo apply: https://cl.computrabajo.com/empleos-de-informatica-y-telecom-en-rmetropolitana-en-santiago-centro#8DB22A50485E707961373E686DCF3405&lc=OfferPostApply-Similars-2-O2Ov3.1
+[2026-06-08T19:30:19.251Z] paused: Computrabajo - 3,9  Fuerza Laboral E.S.T. SPA 527 evaluaciones (no confirmation)
+[2026-06-08T19:30:19.251Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-gestor-en-rmetropolitana-en-santiago-centro#A06B36144FF1453461373E686DCF3405&lc=OfferPostApply-Similars-3-O2Ov3.1
+[2026-06-08T19:30:32.579Z] paused: Computrabajo - Ingenieria informatica Kibernum S.A. (no confirmation)
+[2026-06-08T19:30:32.580Z] Computrabajo apply: https://cl.computrabajo.com/trabajo-de-programador-en-rmetropolitana-en-santiago---quilicura#07DF10DF5B17009061373E686DCF3405&lc=OfferPostApply-Similars-4-O2Ov3.1
+[2026-06-08T19:30:45.973Z] paused: Computrabajo - 3,9  XinerLink 1.600 evaluaciones (no confirmation)
+[2026-06-08T19:31:39.840Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-bilingue-remoto-chile-en-santiago-centro-6B090A2809DE91F261373E686DCF3405#lc=ListOffers-Score6-3
+[2026-06-08T19:31:56.628Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:31:56.629Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-full-stack-senior-en-santiago-providencia-B981F42D999C481361373E686DCF3405#lc=ListOffers-Score2-2
+[2026-06-08T19:32:12.869Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:32:12.870Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-de-software-net-web-y-escritorio-presencial-san-ramon-en-santiago-san-ramon-BC4F9E8B8BED8D5361373E686DCF3405#lc=ListOffers-Score2-15
+[2026-06-08T19:32:22.495Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia con MSSQL Server? | unrecognized: ¿Tienes experiencia en Sistemas operativos Windows?)
+[2026-06-08T19:32:22.495Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-php-en-santiago-centro-C1D704A1F62B2F2461373E686DCF3405#lc=ListOffers-Score5-5
+[2026-06-08T19:32:31.875Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Comente experiencia en Desarrollo de Sistemas y en que proyectos)
+[2026-06-08T19:32:31.876Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-mainframe-cobol-db2-proyecto-remoto-en-santiago-centro-54C878FD9835744961373E686DCF3405#lc=ListOffers-Score5-6
+[2026-06-08T19:32:48.101Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:32:48.102Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-informatico-generalista-con-experiencia-en-santiago-centro-5DECDAA6E7CB3F4561373E686DCF3405#lc=ListOffers-Score5-7
+[2026-06-08T19:33:04.472Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-08T19:33:04.473Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-funcional-en-santiago-centro-30B361882A1AB89A61373E686DCF3405#lc=ListOffers-Score5-9
+[2026-06-08T19:33:20.652Z] paused: Computrabajo - Aplicación enviada Soporte Funcional - Computrabajo Chile (no confirmation)
+[2026-06-08T19:33:20.653Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-web-en-santiago-centro-6F5A94750D216E3B61373E686DCF3405#lc=ListOffers-Score2-13
+[2026-06-08T19:33:30.133Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Has trabajado con CMS como WordPress o Strapi? Si es así, ¿cuál es tu nivel de experiencia y qué funcionalidades específicas has implementado?)
+[2026-06-08T19:33:30.134Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullsctack-angular-net-spring-boot-en-santiago-quilicura-7E8F3738AD92B47B61373E686DCF3405#lc=ListOffers-Score2-4
+[2026-06-08T19:33:46.512Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:33:46.512Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-en-santiago-quilicura-2643B467F0E8DB3A61373E686DCF3405#lc=ListOffers-Score2-11
+[2026-06-08T19:33:56.009Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia liderando equipos frontend o células ágiles?)
+[2026-06-08T19:33:56.009Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-en-santiago-quilicura-1A648CF2D1769EBB61373E686DCF3405#lc=ListOffers-Score2-15
+[2026-06-08T19:34:05.494Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia liderando equipos frontend o células ágiles?)
+[2026-06-08T19:35:10.159Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-de-software-net-web-y-escritorio-presencial-san-ramon-en-santiago-san-ramon-BC4F9E8B8BED8D5361373E686DCF3405#lc=ListOffers-Score2-15
+[2026-06-08T19:35:26.898Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:35:26.898Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-php-en-santiago-centro-C1D704A1F62B2F2461373E686DCF3405#lc=ListOffers-Score5-5
+[2026-06-08T19:35:43.140Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-08T19:35:43.141Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-web-en-santiago-centro-6F5A94750D216E3B61373E686DCF3405#lc=ListOffers-Score2-13
+[2026-06-08T19:35:59.356Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:35:59.356Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-en-santiago-quilicura-2643B467F0E8DB3A61373E686DCF3405#lc=ListOffers-Score2-11
+[2026-06-08T19:36:15.575Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-08T19:36:15.575Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-en-santiago-quilicura-1A648CF2D1769EBB61373E686DCF3405#lc=ListOffers-Score2-15
+[2026-06-08T19:36:31.824Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-09T15:06:42.532Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-django-en-santiago-las-condes-F44A87ACC62FF56C61373E686DCF3405#lc=ListOffers-Score4-5
+[2026-06-09T15:06:59.073Z] paused: Computrabajo - Aplicación enviada Desarrollador Python, Django - Computrabajo Chile (no confirmation)
+[2026-06-09T15:06:59.073Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-en-santiago-las-condes-E7BDB8B67249B6F661373E686DCF3405#lc=ListOffers-Score4-2
+[2026-06-09T15:07:15.305Z] paused: Computrabajo - Aplicación enviada Desarrollador Fullstack - Computrabajo Chile (no confirmation)
+[2026-06-09T15:07:15.306Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ti-en-santiago-las-condes-DDBD1A880A140D4861373E686DCF3405#lc=ListOffers-Score4-8
+[2026-06-09T15:07:31.509Z] paused: Computrabajo - Aplicación enviada Desarrollador TI - Computrabajo Chile (no confirmation)
+[2026-06-09T15:07:31.510Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-1400000-liquidos-quilicura-en-santiago-quilicura-F285E87C4AEA146561373E686DCF3405#lc=ListOffers-Score4-2
+[2026-06-09T15:07:40.889Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Indique su rut sin puntos ni guion)
+[2026-06-09T15:14:19.658Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-de-base-de-datos-informatica-finanzas-en-santiago-providencia-41A9F42EEB01F5E861373E686DCF3405#lc=ListOffers-Score4-12
+[2026-06-09T15:14:36.258Z] paused: Computrabajo - Aplicación enviada Desarrollador de base de datos - Informática finanzas - Computrabajo Chile (no confirmation)
+[2026-06-17T17:56:20.912Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-en-santiago-las-condes-E103129E291DACD061373E686DCF3405
+[2026-06-17T17:56:30.423Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Conoces vulnerabilidades de seguridad comunes como SQL Injection, Cross-Site Scripting (XSS) o Path Traversal y las formas básicas de mitigarlas?)
+[2026-06-17T17:56:30.423Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-latam-en-santiago-centro-BBAF8623EECD901B61373E686DCF3405
+[2026-06-17T17:56:46.787Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-17T17:56:46.787Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-providencia-presencial-en-santiago-providencia-7A22FECEA00A572B61373E686DCF3405
+[2026-06-17T17:56:56.174Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Cuéntame un sistema productivo que hayas desarrollado o mantenido de punta a punta. ¿Qué parte hiciste tú? | unrecognized: Indique carrera e institución y estado de la misma (titulado, en proceso, etc))
+[2026-06-17T17:56:56.175Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-BC29D1AF996AE9A461373E686DCF3405
+[2026-06-17T17:57:06.046Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuenta con conocimiento en las herramientas mencionadas? | unrecognized: ¿Esta de acuerdo con trabajar de forma presencial?)
+[2026-06-17T17:57:06.046Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-rpa-developer-automation-anywhere-proyecto-regional-latam-en-santiago-providencia-E991C7492442838961373E686DCF3405
+[2026-06-17T17:57:15.622Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia en las tareas descriptas? | unrecognized: ¿Tienes Experiencia comprobada en el desarrollo de bots en Automation Anywhere A360? Comente brevemente)
+[2026-06-17T17:57:15.622Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-react-react-native-nestjs-typescript-en-santiago-cerrillos-8815613AF4EF2CB261373E686DCF3405
+[2026-06-17T17:57:31.986Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T17:57:31.987Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-en-santiago-las-condes-4D8C31B8FE4A56BC61373E686DCF3405
+[2026-06-17T17:57:48.345Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T17:58:34.296Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-en-santiago-las-condes-E103129E291DACD061373E686DCF3405
+[2026-06-17T17:58:44.126Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Conoces vulnerabilidades de seguridad comunes como SQL Injection, Cross-Site Scripting (XSS) o Path Traversal y las formas básicas de mitigarlas?)
+[2026-06-17T17:58:44.127Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-providencia-presencial-en-santiago-providencia-7A22FECEA00A572B61373E686DCF3405
+[2026-06-17T17:58:54.247Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Cuéntame un sistema productivo que hayas desarrollado o mantenido de punta a punta. ¿Qué parte hiciste tú? | unrecognized: Indique carrera e institución y estado de la misma (titulado, en proceso, etc))
+[2026-06-17T17:58:54.248Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-BC29D1AF996AE9A461373E686DCF3405
+[2026-06-17T17:59:03.752Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuenta con conocimiento en las herramientas mencionadas? | unrecognized: ¿Esta de acuerdo con trabajar de forma presencial?)
+[2026-06-17T17:59:03.753Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-rpa-developer-automation-anywhere-proyecto-regional-latam-en-santiago-providencia-E991C7492442838961373E686DCF3405
+[2026-06-17T17:59:13.154Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tienes experiencia en las tareas descriptas? | unrecognized: ¿Tienes Experiencia comprobada en el desarrollo de bots en Automation Anywhere A360? Comente brevemente)
+[2026-06-17T18:00:07.861Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-en-santiago-las-condes-E103129E291DACD061373E686DCF3405
+[2026-06-17T18:00:24.454Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:00:24.455Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-providencia-presencial-en-santiago-providencia-7A22FECEA00A572B61373E686DCF3405
+[2026-06-17T18:00:40.742Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:00:40.743Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-BC29D1AF996AE9A461373E686DCF3405
+[2026-06-17T18:00:57.134Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:00:57.134Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-rpa-developer-automation-anywhere-proyecto-regional-latam-en-santiago-providencia-E991C7492442838961373E686DCF3405
+[2026-06-17T18:01:13.379Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:02:30.089Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-osbodi-en-santiago-centro-0687987EE6DAF15561373E686DCF3405
+[2026-06-17T18:02:46.822Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:02:46.823Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bpm-oracle-en-santiago-las-condes-21A0944138F607CB61373E686DCF3405
+[2026-06-17T18:03:03.084Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:03:03.084Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-sap-pi-en-santiago-centro-392E3B77411CD2AF61373E686DCF3405
+[2026-06-17T18:03:19.440Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:49:44.251Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-java-react-en-santiago-centro-B07B899BDF06787E61373E686DCF3405
+[2026-06-17T18:50:00.679Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-17T18:50:00.680Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-frontend-analista-tecnico-con-experiencia-en-santiago-centro-730DA835265FC3DC61373E686DCF3405
+[2026-06-17T18:50:17.032Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-17T18:50:17.033Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-jornada-presencial-en-santiago-san-ramon-2042DA94C5EA0CE661373E686DCF3405
+[2026-06-17T18:50:33.424Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:50:33.424Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-backend-php-laravel-contrato-indefinido-en-santiago-centro-04DD9A4D7504FF8B61373E686DCF3405
+[2026-06-17T18:50:49.702Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:50:49.703Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-sector-publico-jornada-hibrida-en-puente-alto-4E93F0A7D9C750F061373E686DCF3405
+[2026-06-17T18:50:59.257Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Cuenta con experiencia en sector salud o sector publico?)
+[2026-06-17T18:50:59.258Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-desarrollador-visual-net--oracle-19c-en-santiago-centro-AF84A710E7057E1961373E686DCF3405
+[2026-06-17T18:51:15.454Z] paused: Computrabajo - Aplicación enviada Analista Desarrollador - Visual .NET / Oracle 19c - Computrabajo Chile (no confirmation)
+[2026-06-17T18:51:15.455Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-desarrollador-visual-net-en-santiago-centro-0B7CF97724EE350261373E686DCF3405
+[2026-06-17T18:51:31.747Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:51:31.748Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-computacional-en-santiago-las-condes-158B5EF6F99ECB7261373E686DCF3405
+[2026-06-17T18:51:48.067Z] paused: Computrabajo - Aplicación enviada Analista Programador Computacional - Computrabajo Chile (no confirmation)
+[2026-06-17T18:51:48.068Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-en-santiago-las-condes-8653D69D4D8109F661373E686DCF3405
+[2026-06-17T18:52:04.447Z] paused: Computrabajo - Aplicación enviada Analista programador - Computrabajo Chile (no confirmation)
+[2026-06-17T18:52:04.447Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-c-net-mvc-en-santiago-las-condes-F6D763AE30E219BA61373E686DCF3405
+[2026-06-17T18:52:20.712Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T18:52:48.925Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-sector-publico-jornada-hibrida-en-puente-alto-4E93F0A7D9C750F061373E686DCF3405
+[2026-06-17T18:53:05.235Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T19:05:44.672Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bpm-oracle-en-santiago-las-condes-C2E4CAAEF28BB30461373E686DCF3405
+[2026-06-17T19:06:00.300Z] ERROR page.waitForTimeout: Target page, context or browser has been closed
+    at submitOne (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:593:14)
+    at async main (C:\Users\bodega 1\Desktop\workspace\career-ops\output\computrabajo-url-apply.mjs:609:20)
+[2026-06-17T19:06:50.548Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bpm-oracle-en-santiago-las-condes-C2E4CAAEF28BB30461373E686DCF3405
+[2026-06-17T19:07:07.169Z] paused: Computrabajo - Aplicación enviada Desarrollador BPM Oracle - Computrabajo Chile (no confirmation)
+[2026-06-17T19:07:07.170Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-63F04C0C47DDCB9061373E686DCF3405
+[2026-06-17T19:07:23.471Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-17T19:07:23.472Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-desarrollador-en-vina-del-mar-4FA12069D0310DD261373E686DCF3405
+[2026-06-17T19:07:39.734Z] paused: Computrabajo - Aplicación enviada Analista desarrollador - Computrabajo Chile (no confirmation)
+[2026-06-17T19:07:39.735Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-host-mainframe-proyecto-remoto-en-santiago-centro-B44EE0CFAE43B58161373E686DCF3405
+[2026-06-17T19:07:56.053Z] paused: Computrabajo - Aplicación enviada Analista Programador Host Mainframe - Proyecto Remoto - Computrabajo Chile (no confirmation)
+[2026-06-17T19:07:56.053Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-sector-publico-en-santiago-providencia-EB68EF13A085FD5D61373E686DCF3405
+[2026-06-17T19:08:12.489Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T13:57:45.537Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-mobile-y-web-proyecto-hibrido-en-santiago-cerrillos-D40766E8E118AC0661373E686DCF3405
+[2026-06-18T13:58:03.801Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T13:58:03.802Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bpm-oracle-en-santiago-las-condes-A53732D5666F6CC061373E686DCF3405
+[2026-06-18T13:58:20.086Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T13:58:20.086Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-E344C240D8C8B7FC61373E686DCF3405
+[2026-06-18T13:58:36.413Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T13:58:36.413Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-semi-senior-en-santiago-providencia-87F5B6D81FD4FC8E61373E686DCF3405
+[2026-06-18T13:58:45.939Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tiene dominio de C#? | unrecognized: ¿Posee conocimiento en bases de datos relacionales y no relacionales?)
+[2026-06-18T13:58:45.940Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-gcp-en-santiago-las-condes-90560923C0AFFC8561373E686DCF3405
+[2026-06-18T13:58:55.406Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Describe alguna experiencia participando en procesos de modernización o migración de aplicaciones hacia la nube. | unrecognized: Cuéntanos sobre un proyecto donde hayas desarrollado una solución Fullstack utilizando Node.js y Angular.)
+[2026-06-18T13:58:55.408Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-nifi-en-santiago-centro-359716394D9A2A2E61373E686DCF3405
+[2026-06-18T13:59:04.882Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: tienes experiencia aplicando certificado TLF para el cifrado de datos para los flujos de NIFI?¿cuanto?)
+[2026-06-18T13:59:04.882Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-full-stack-proyecto-6-meses-en-santiago-providencia-941D893351B587B261373E686DCF3405
+[2026-06-18T13:59:21.207Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T13:59:21.208Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-php-wordpress-con-experiencia-en-aws-proyecto-5-meses-en-santiago-providencia-05C950C66D82F84461373E686DCF3405
+[2026-06-18T13:59:31.282Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Tiene algún curso o certificación?)
+[2026-06-18T13:59:31.282Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-net-en-santiago-centro-627DF50E5D295C2D61373E686DCF3405
+[2026-06-18T13:59:47.814Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-18T13:59:47.815Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-prestashop-integraciones-y-apis-en-santiago-providencia-3986B3E601371B1D61373E686DCF3405
+[2026-06-18T14:00:04.091Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T14:03:06.356Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-semi-senior-en-santiago-providencia-87F5B6D81FD4FC8E61373E686DCF3405
+[2026-06-18T14:03:24.014Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T14:03:24.015Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-gcp-en-santiago-las-condes-90560923C0AFFC8561373E686DCF3405
+[2026-06-18T14:03:40.927Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T14:03:40.927Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-nifi-en-santiago-centro-359716394D9A2A2E61373E686DCF3405
+[2026-06-18T14:03:57.290Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T14:03:57.291Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-php-wordpress-con-experiencia-en-aws-proyecto-5-meses-en-santiago-providencia-05C950C66D82F84461373E686DCF3405
+[2026-06-18T14:04:13.726Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-18T15:50:19.703Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-backend-java-integracion-ia-en-santiago-las-condes-8757EE4476D655A461373E686DCF3405
+[2026-06-18T15:50:36.975Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T15:50:36.975Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-java-microservicios-cloud-hibrido-en-santiago-centro-759C48D83D78234461373E686DCF3405
+[2026-06-18T15:50:53.305Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T18:50:56.286Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ios-remoto-en-santiago-las-condes-4DFB87E8C671940761373E686DCF3405
+[2026-06-18T18:51:12.866Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T18:51:12.867Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-full-stack-developer-en-santiago-las-condes-1C94EC345D0A25AF61373E686DCF3405
+[2026-06-18T18:51:22.325Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Cuentas con experiencia en minería, datos en tiempo real/telemetría, mapas o arquitecturas edge/IoT?)
+[2026-06-18T18:51:22.326Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-net-desarrolladora-backend-aws-glue-en-santiago-las-condes-E6D605BF2662BB2761373E686DCF3405
+[2026-06-18T18:51:38.607Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-18T18:51:38.607Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-sql-python-java-etl-en-santiago-providencia-E8735B25A6BBE43E61373E686DCF3405
+[2026-06-18T18:51:48.135Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Resides en Santiago? | unrecognized: Imagina que un proceso automatizado falla: ¿qué pasos seguirías para identificar y solucionar el problema? | unrecognized: ¿Cómo documentarías un proceso automatizado para que pueda ser mantenido por otros miembros del equipo? | unrecognized: ¿Has creado dashboards o reportes en herramientas como Looker Studio o similares? ¿Qué tipo de indicadores diseñaste? | unrecognized: Explica con tus palabras qué es un proceso ETL y cuál es su importancia en el manejo de datos. | unrecognized: ¿Qué diferencia existe entre un INNER JOIN y un LEFT JOIN? ¿En qué casos usarías cada uno? | unrecognized: ¿Cómo construirías una consulta SQL para obtener el total de transacciones por cliente en un período determinado? Describe la lógica o ejemplo. | unrecognized: ¿Qué tipos de datos sensibles o críticos has manejado y cómo aseguras su correcta utilización y confidencialidad? | unrecognized: ¿Has participado en la creación o mantenimiento de procesos automatizados? Describe qué hiciste y qué herramientas utilizaste.)
+[2026-06-18T18:52:18.626Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-sql-python-java-etl-en-santiago-providencia-E8735B25A6BBE43E61373E686DCF3405
+[2026-06-18T18:52:28.179Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Resides en Santiago? | unrecognized: Imagina que un proceso automatizado falla: ¿qué pasos seguirías para identificar y solucionar el problema? | unrecognized: ¿Cómo documentarías un proceso automatizado para que pueda ser mantenido por otros miembros del equipo? | unrecognized: ¿Has creado dashboards o reportes en herramientas como Looker Studio o similares? ¿Qué tipo de indicadores diseñaste? | unrecognized: Explica con tus palabras qué es un proceso ETL y cuál es su importancia en el manejo de datos. | unrecognized: ¿Qué diferencia existe entre un INNER JOIN y un LEFT JOIN? ¿En qué casos usarías cada uno? | unrecognized: ¿Cómo construirías una consulta SQL para obtener el total de transacciones por cliente en un período determinado? Describe la lógica o ejemplo. | unrecognized: ¿Qué tipos de datos sensibles o críticos has manejado y cómo aseguras su correcta utilización y confidencialidad? | unrecognized: ¿Has participado en la creación o mantenimiento de procesos automatizados? Describe qué hiciste y qué herramientas utilizaste.)
+[2026-06-18T18:54:51.273Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-y-automatizacion-sql-python-java-etl-en-santiago-providencia-E8735B25A6BBE43E61373E686DCF3405
+[2026-06-18T18:55:08.020Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:09:57.276Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-ia-jornada-presencial-en-santiago-las-condes-50EC562230D88C8F61373E686DCF3405
+[2026-06-18T19:10:14.112Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:10:14.113Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-bpm-oracle-en-santiago-las-condes-5D5A86FF7928187D61373E686DCF3405
+[2026-06-18T19:10:30.351Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:10:30.351Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-con-experiencia-en-dynamics-365-en-santiago-centro-5D2FABDE985A376661373E686DCF3405
+[2026-06-18T19:10:46.639Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:10:46.639Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-experiencia-en-sector-publico-en-santiago-providencia-7E8F0AA16ADCB2A461373E686DCF3405
+[2026-06-18T19:11:02.982Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:31:07.081Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-de-soporte-tecnico-control-de-calidad-en-san-bernardo-BC463878ABB67D3A61373E686DCF3405
+[2026-06-18T19:31:16.601Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Manejo de sistemas como LIMS, Empower u otros similares. | unrecognized: Menciona tu nivel y tutulo universitario)
+[2026-06-18T19:31:16.601Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-django-en-santiago-las-condes-F44A87ACC62FF56C61373E686DCF3405
+[2026-06-18T19:31:32.819Z] paused: Computrabajo - Aplicación enviada Desarrollador Python, Django - Computrabajo Chile (no confirmation)
+[2026-06-18T19:31:32.820Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-angular-python-rpa-scraping-en-santiago-centro-2FF78C673634AA6061373E686DCF3405
+[2026-06-18T19:31:42.285Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: el trabajo es en modalidad remota y presencial, por lo que , ¿estas de acuerdo con asistir a la oficina 2 veces a la semana?)
+[2026-06-18T19:31:42.286Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-rpa-o-python-importante-afp-proyecto-6-meses-en-santiago-las-condes-712F6FEA59BD76A261373E686DCF3405
+[2026-06-18T19:31:58.509Z] paused: Computrabajo - Aplicación enviada Desarrollador RPA o Python Importante AFP - Proyecto 6 meses - Computrabajo Chile (no confirmation)
+[2026-06-18T19:31:58.509Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-automatizador-python-playwright-en-santiago-las-condes-02205FFAD53EC10961373E686DCF3405
+[2026-06-18T19:32:14.827Z] paused: Computrabajo - Aplicación enviada Desarrollador automatizador - python Playwright - Computrabajo Chile (no confirmation)
+[2026-06-18T19:32:14.828Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-conocimiento-en-pythonsqlmachine-learning-en-santiago-las-condes-377DCA3433AA8E8461373E686DCF3405
+[2026-06-18T19:32:31.093Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:33:11.201Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-programador-de-soporte-tecnico-control-de-calidad-en-san-bernardo-BC463878ABB67D3A61373E686DCF3405
+[2026-06-18T19:33:27.533Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-18T19:33:27.534Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-angular-python-rpa-scraping-en-santiago-centro-2FF78C673634AA6061373E686DCF3405
+[2026-06-18T19:33:43.800Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:55:47.430Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-en-santiago-las-condes-7DEDD2A878C9F99761373E686DCF3405
+[2026-06-18T19:56:03.836Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:56:03.838Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-backend-developer-python-nodejs-en-santiago-centro-79F8CEB2BE2472A761373E686DCF3405
+[2026-06-18T19:56:20.139Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:56:20.139Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-backend-developer-typescriptnodejspythonnestjspostgresql-modalidad-hibrida-en-santiago-la-reina-D8996F65603AF6A361373E686DCF3405
+[2026-06-18T19:56:36.971Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:56:36.972Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-data-engineer-oci-python-spark-en-santiago-las-condes-2E885F2B381DDD3661373E686DCF3405
+[2026-06-18T19:56:53.364Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: )
+[2026-06-18T19:56:53.365Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-python-y-gcp-en-santiago-las-condes-61C645515877F6A361373E686DCF3405
+[2026-06-18T19:57:02.940Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Has utilizado Apache o Dataflow?)
+[2026-06-18T19:57:02.941Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-en-santiago-las-condes-B32B52E535AFAFEA61373E686DCF3405
+[2026-06-18T19:57:19.355Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:57:42.321Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-java-python-y-gcp-en-santiago-las-condes-61C645515877F6A361373E686DCF3405
+[2026-06-18T19:57:58.816Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:59:15.374Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-python-en-santiago-las-condes-0EAFBAA81CF889FF61373E686DCF3405
+[2026-06-18T19:59:31.825Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T19:59:31.826Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-en-santiago-las-condes-00797CBA46D6A03A61373E686DCF3405
+[2026-06-18T19:59:41.278Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Que carrera estudiaste? | unrecognized: ¿Cuentas con experiencia en análisis y gestión de datos?)
+[2026-06-18T20:00:01.435Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-en-santiago-las-condes-00797CBA46D6A03A61373E686DCF3405
+[2026-06-18T20:00:17.716Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T20:19:39.104Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-soporte-ti-n1-presencial-en-santiago-centro-ECF080E54D466FC561373E686DCF3405
+[2026-06-18T20:19:48.888Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Has utilizado alguna herramienta de IA , cual)
+[2026-06-18T20:19:48.892Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-soporte-ti-colacion-renca-en-santiago-renca-3A6742244FC2FB0161373E686DCF3405
+[2026-06-18T20:20:05.173Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-18T20:20:44.825Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-soporte-ti-n1-presencial-en-santiago-centro-ECF080E54D466FC561373E686DCF3405
+[2026-06-18T20:21:01.146Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T13:16:05.332Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-typescript-node-y-react-en-santiago-providencia-64739D58DCA5B89561373E686DCF3405
+[2026-06-19T13:16:14.856Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Detalla tu experiencia en los requisitos solicitados en oferta.)
+[2026-06-19T13:16:14.857Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-php-laravel-react-native-postgresql-en-santiago-centro-0F41A690A86F605361373E686DCF3405
+[2026-06-19T13:16:31.191Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T13:16:31.192Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-rpa-en-santiago-providencia-DD72A7141585032461373E686DCF3405
+[2026-06-19T13:16:40.607Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Manejas base de datos? ¿Cuál o cuáles?)
+[2026-06-19T13:16:40.608Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-de-aplicaciones-y-cloud-aws-cdk-hibrido-en-santiago-las-condes-919B74A118EABB7C61373E686DCF3405
+[2026-06-19T13:16:50.080Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: ¿Has construido pipelines CI/CD utilizando GitHub Actions o herramientas similares? | unrecognized: ¿Tienes dominino avanzado con React y Vue.js? Menciona algun proyecto)
+[2026-06-19T13:16:50.080Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-frontend-developer-reactvue3typescriptsasscssgraphql-aws-modalidad-hibrida-en-santiago-la-reina-B53A83ECE8E92E3961373E686DCF3405
+[2026-06-19T13:17:06.328Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T13:18:13.435Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-typescript-node-y-react-en-santiago-providencia-64739D58DCA5B89561373E686DCF3405
+[2026-06-19T13:18:29.999Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T13:18:30.000Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-rpa-en-santiago-providencia-DD72A7141585032461373E686DCF3405
+[2026-06-19T13:18:46.235Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T13:18:46.235Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-de-aplicaciones-y-cloud-aws-cdk-hibrido-en-santiago-las-condes-919B74A118EABB7C61373E686DCF3405
+[2026-06-19T13:19:02.592Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (no confirmation)
+[2026-06-19T17:16:53.955Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-proyecto-3-meses-en-santiago-centro-3BDA013A56DF1EB361373E686DCF3405
+[2026-06-19T17:17:03.902Z] paused: Computrabajo - Bolsa de trabajo, Portal del empleo (needs review: unrecognized: Comenta tu experiencia con Manejo de React, Tailwind y librerías de componentes como shadcn | unrecognized: Comenta tu experiencia utilizando TypeOrm para manejo de datos.)
+[2026-06-19T17:17:03.903Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-c-en-santiago-providencia-2C2E9FFD422D26B161373E686DCF3405
+[2026-06-19T17:17:20.199Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T17:17:20.200Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-full-stack-en-santiago-centro-E046A2854BD4FDD961373E686DCF3405
+[2026-06-19T17:17:36.951Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
+[2026-06-19T17:18:44.440Z] Computrabajo apply: https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-proyecto-3-meses-en-santiago-centro-3BDA013A56DF1EB361373E686DCF3405
+[2026-06-19T17:19:01.168Z] submitted: Computrabajo - Bolsa de trabajo, Portal del empleo (confirmation: Enviar mi CV)
