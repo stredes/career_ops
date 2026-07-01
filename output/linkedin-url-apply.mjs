@@ -1,4 +1,4 @@
-import { chromium } from 'playwright';
+﻿import { chromium } from 'playwright';
 import { existsSync, readFileSync, appendFileSync } from 'fs';
 import { resolve } from 'path';
 import yaml from 'js-yaml';
@@ -17,9 +17,9 @@ const urls = (process.env.LINKEDIN_JOB_URLS || process.argv.slice(2).join('\n'))
 
 const finalText = /enviar solicitud|submit application|send application|presentar solicitud|enviar candidatura/i;
 const nextText = /siguiente|next|revisar|review|continuar/i;
-const hardStop = /assessment|test|prueba|evaluaci[oó]n|payment|pago|certifico|declaro|declaraci[oó]n|background|antecedentes|discapacidad|visa|sponsor|relocation|reubicaci[oó]n/i;
-const stretchHardStop = /assessment|test|prueba|evaluaci[oó]n|payment|pago|background|antecedentes|discapacidad/i;
-const jdBlockers = /senior|semi senior|semisenior|4\+|5\+|4 años|5 años|salesforce excluyente|sap excluyente|kubernetes excluyente|mulesoft|\.net 8/i;
+const hardStop = /assessment|test|prueba|evaluaci[oÃ³]n|payment|pago|certifico|declaro|declaraci[oÃ³]n|background|antecedentes|discapacidad|visa|sponsor|relocation|reubicaci[oÃ³]n/i;
+const stretchHardStop = /assessment|test|prueba|evaluaci[oÃ³]n|payment|pago|background|antecedentes|discapacidad/i;
+const jdBlockers = /senior|semi senior|semisenior|4\+|5\+|4 aÃ±os|5 aÃ±os|salesforce excluyente|sap excluyente|kubernetes excluyente|mulesoft|\.net 8/i;
 
 function log(message) {
   const line = `[${new Date().toISOString()}] ${message}`;
@@ -85,10 +85,10 @@ async function uploadCv(page) {
         return `${explicit || ''} ${nearby || ''} ${attrs || ''}`.replace(/\s+/g, ' ').trim();
       }).catch(() => '');
       if (/photo|avatar|picture|image|jpg|jpeg|png|gif/i.test(label)
-        && !/resume|cv|curriculum|curr[ií]culum|documento/i.test(label)) {
+        && !/resume|cv|curriculum|curr[iÃ­]culum|documento/i.test(label)) {
         continue;
       }
-      if (/resume|cv|curriculum|curr[ií]culum|documento|pdf/i.test(label) || count === 1) {
+      if (/resume|cv|curriculum|curr[iÃ­]culum|documento|pdf/i.test(label) || count === 1) {
         await field.setInputFiles(cvPath);
         uploaded += 1;
       }
@@ -124,7 +124,7 @@ async function requiredEmptyDetails(page) {
 
 async function closeMessageOverlays(page) {
   await page.evaluate(() => {
-    document.querySelectorAll('[aria-label*="Minimiza"], [aria-label*="Cerrar tu conversación"], .msg-overlay-bubble-header__control')
+    document.querySelectorAll('[aria-label*="Minimiza"], [aria-label*="Cerrar tu conversaciÃ³n"], .msg-overlay-bubble-header__control')
       .forEach((item) => item.click());
   }).catch(() => {});
 }
@@ -137,7 +137,7 @@ async function applyLinkedInUrl(context, rawUrl, profile) {
   await closeMessageOverlays(page);
 
   const body = await page.locator('body').innerText().catch(() => '');
-  const jd = (body.match(/Acerca del empleo[\s\S]*?(?:Establecer una alerta|Acerca de la empresa|Búsqueda de empleo)/i) || ['', body])[0];
+  const jd = (body.match(/Acerca del empleo[\s\S]*?(?:Establecer una alerta|Acerca de la empresa|BÃºsqueda de empleo)/i) || ['', body])[0];
   const title = (await page.locator('h1,.jobs-unified-top-card__job-title').first().innerText({ timeout: 1000 }).catch(() => 'este cargo')).trim() || 'este cargo';
   const company = (await page.locator('.job-details-jobs-unified-top-card__company-name, .jobs-unified-top-card__company-name').first().innerText({ timeout: 1000 }).catch(() => '')).trim();
 
@@ -207,3 +207,4 @@ main().catch((error) => {
   log(`ERROR ${error.stack || error.message || error}`);
   process.exit(1);
 });
+

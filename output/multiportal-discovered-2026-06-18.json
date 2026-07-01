@@ -1,97 +1,103 @@
 {
-  "scannedAt": "2026-06-19T19:27:47.072Z",
+  "scannedAt": "2026-06-26T15:31:02.833Z",
   "diagnostics": [
     {
       "portal": "LinkedIn",
       "url": "https://www.linkedin.com/jobs/search/?keywords=analista%20programador&location=Chile&f_AL=true&sortBy=DD",
-      "title": "(6) Empleos de «analista programador» en Chile | LinkedIn",
-      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nCiudad, provincia/estado o código postal\nBuscar\nactualizaciones del feed notificaciones nuevas\nInicio\nMi red\nE"
+      "title": "(1) Empleos de «analista programador» en Chile | LinkedIn",
+      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nactualizaciones del feed notificaciones nuevas\nInicio\n1\n1 actualización de red notificación nueva\nMi red\nEmple"
     },
     {
       "portal": "LinkedIn",
       "url": "https://www.linkedin.com/jobs/search/?keywords=desarrollador%20junior&location=Chile&f_AL=true&sortBy=DD",
-      "title": "(6) Empleos de «desarrollador junior» en Chile | LinkedIn",
-      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nCiudad, provincia/estado o código postal\nBuscar\nactualizaciones del feed notificaciones nuevas\nInicio\nMi red\nE"
+      "title": "(1) Empleos de «desarrollador junior» en Chile | LinkedIn",
+      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nactualizaciones del feed notificaciones nuevas\nInicio\n1\n1 actualización de red notificación nueva\nMi red\nEmple"
     },
     {
       "portal": "LinkedIn",
       "url": "https://www.linkedin.com/jobs/search/?keywords=data%20analyst%20junior&location=Chile&f_AL=true&sortBy=DD",
-      "title": "(6) Empleos de «data analyst junior» en Chile | LinkedIn",
-      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nCiudad, provincia/estado o código postal\nBuscar\nactualizaciones del feed notificaciones nuevas\nInicio\nMi red\nE"
+      "title": "(1) Empleos de «data analyst junior» en Chile | LinkedIn",
+      "sample": "0 notificaciones en total\nPasar a la búsqueda\nPasar al contenido principal\nAtajos de teclado\nCerrar menú de saltar\nBusca por cargo, aptitud o empresa\nactualizaciones del feed notificaciones nuevas\nInicio\n1\n1 actualización de red notificación nueva\nMi red\nEmple"
     },
     {
       "portal": "Get on Board",
       "url": "https://www.getonbrd.com/empleos/programacion?seniority=junior&remote=true",
       "title": "Trabajos de Programación | Get on Board",
-      "sample": "Ayuda\n  Gian Lucas San Martin\nEmpleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nTodos los empleos › Programación\nTrabajos de Programación\nDesarrollo de software, analistas de sistemas"
+      "sample": "Empleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nTodos los empleos › Programación\nTrabajos de Programación\n\nDesarrollo de software, analistas de sistemas y líderes técnicos (CTO), de"
     },
     {
       "portal": "Get on Board",
       "url": "https://www.getonbrd.com/empleos/programacion?remote=true",
       "title": "Trabajos de Programación | Get on Board",
-      "sample": "Ayuda\n  Gian Lucas San Martin\nEmpleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nTodos los empleos › Programación\nTrabajos de Programación\nDesarrollo de software, analistas de sistemas"
+      "sample": "Empleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nTodos los empleos › Programación\nTrabajos de Programación\n\nDesarrollo de software, analistas de sistemas y líderes técnicos (CTO), de"
     },
     {
       "portal": "Get on Board",
       "url": "https://www.getonbrd.com/misempleos",
       "title": "Empleos para ti | Get on Board",
-      "sample": "Ayuda\n  Gian Lucas San Martin\nEmpleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nEmpleos para ti\n   Alertas \nNuevos empleos en empresas que sigues\nProgramación\nJunior\nTodos los países\n"
+      "sample": "Empleos para ti\nTus postulaciones\nInvitaciones\nEditar mi perfil\nTus CVs\nNUEVO\nEventos\nSiguiendo\nTests\nBeneficios\nEspañol\nAyuda\nEmpleos para ti\n   Alertas \nFiltrar empleos\nDesarrollador/a Back-end GoJuniorFull time\nLoyalinkRemoto (Chile)\nGTM EngineerJuniorFull "
     },
     {
       "portal": "Chiletrabajos",
       "url": "https://www.chiletrabajos.cl/trabajo/programador-junior",
       "title": "Ofertas de trabajo, bolsa de trabajo - Busca empleos en Chiletrabajos",
-      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nHome\n(current)\nBuscar empleos\n Gian lucas \nEmpleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página "
+      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página que buscas no se encuentra en nuestra web, si gustas re"
     },
     {
       "portal": "Chiletrabajos",
       "url": "https://www.chiletrabajos.cl/trabajo/analista-programador",
       "title": "Ofertas de trabajo, bolsa de trabajo - Busca empleos en Chiletrabajos",
-      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nHome\n(current)\nBuscar empleos\n Gian lucas \nEmpleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página "
+      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página que buscas no se encuentra en nuestra web, si gustas re"
     },
     {
       "portal": "Chiletrabajos",
       "url": "https://www.chiletrabajos.cl/trabajo/desarrollador-junior",
       "title": "Ofertas de trabajo, bolsa de trabajo - Busca empleos en Chiletrabajos",
-      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nHome\n(current)\nBuscar empleos\n Gian lucas \nEmpleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página "
+      "sample": "×\nGian lucas San martin\ngianlucassanmartin@gmail.com\n Home\n Buscar empleos\n Editar Curriculum\n Mi cuenta\n Panel de control\n Recomendaciones\n Salir\n Empleadores\nPÁGINA NO ENCONTRADA\n\nLo sentimos, la página que buscas no se encuentra en nuestra web, si gustas re"
     },
     {
       "portal": "Trabajando",
       "url": "https://www.trabajando.cl/trabajo-programador-junior",
       "title": "Trabajos y empleos en Chile, bolsa de trabajo, portal de empleo | Trabajando.com",
-      "sample": "Trabajando.com\nMenú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nBuscar empleo\nCrea tu cuenta\nIngresa\nNo encontramos la página que buscas :(\nIr al inicio\nO puedes volver a la página anterior\nTambién tenemos estos empleos "
+      "sample": "Trabajando.com\nMenú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nHazte Premium\nPublica tu oferta de empleo\nCrea tu cuenta\nIngresa\nNo encontramos la página que buscas :(\nIr al inicio\nO puedes volver a la página anterior\nTa"
     },
     {
       "portal": "Trabajando",
       "url": "https://www.trabajando.cl/trabajo-analista-programador",
       "title": "Trabajo de analista programador | Trabajando.com",
-      "sample": "Menú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nBuscar empleo\nCrea tu cuenta\nIngresa\nTrabajo de analista programador\nCrea tu alerta de empleo\n211 empleos\nFiltrar\nOrdenar\nFecha más reciente\nRelevancia\nHace 8 días\nAnalist"
+      "sample": "Menú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nHazte Premium\nPublica tu oferta de empleo\nCrea tu cuenta\nIngresa\nTrabajo de analista programador\nCrea tu alerta de empleo\n220 empleos\nFiltrar\nOrdenar\nFecha más reciente\nRe"
     },
     {
       "portal": "Trabajando",
       "url": "https://www.trabajando.cl/trabajo-desarrollador-junior",
       "title": "Trabajos y empleos en Chile, bolsa de trabajo, portal de empleo | Trabajando.com",
-      "sample": "Trabajando.com\nMenú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nBuscar empleo\nCrea tu cuenta\nIngresa\nNo encontramos la página que buscas :(\nIr al inicio\nO puedes volver a la página anterior\nTambién tenemos estos empleos "
+      "sample": "Trabajando.com\nMenú\nMujeres STEM\nEmpleo +50\nEmpleo Joven\nMejora tu empleabilidad\nInformes de Renta\nBlog\nHazte Premium\nPublica tu oferta de empleo\nCrea tu cuenta\nIngresa\nNo encontramos la página que buscas :(\nIr al inicio\nO puedes volver a la página anterior\nTa"
     }
   ],
   "jobs": [
     {
       "portal": "LinkedIn",
-      "title": "Senior PHP Developer (Part-Time)",
-      "url": "https://www.linkedin.com/jobs/view/4431137370/",
-      "text": "Senior PHP Developer (Part-Time)"
+      "title": "PROGRAMADOR SOFTWARE PRIMAVERA P6 - PROYECTO CALAMA",
+      "url": "https://www.linkedin.com/jobs/view/4433327179/",
+      "text": "PROGRAMADOR SOFTWARE PRIMAVERA P6 - PROYECTO CALAMA"
     },
     {
       "portal": "LinkedIn",
-      "title": "Analista de Datos Maestros (Repuestos)",
-      "url": "https://www.linkedin.com/jobs/view/4428506137/",
-      "text": "Analista de Datos Maestros (Repuestos)"
+      "title": "Desarrollador Backend Sr | JAVA+GO.",
+      "url": "https://www.linkedin.com/jobs/view/4433238525/",
+      "text": "Desarrollador Backend Sr | JAVA+GO."
     },
     {
       "portal": "LinkedIn",
-      "title": "Analista Datos y Eventos",
-      "url": "https://www.linkedin.com/jobs/view/4430989313/",
-      "text": "Analista Datos y Eventos"
+      "title": "Arquitecto de Datos",
+      "url": "https://www.linkedin.com/jobs/view/4433862932/",
+      "text": "Arquitecto de Datos"
+    },
+    {
+      "portal": "LinkedIn",
+      "title": "BI Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4433524680/",
+      "text": "BI Analyst"
     }
   ]
 }

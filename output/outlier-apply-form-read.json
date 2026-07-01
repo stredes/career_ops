@@ -1,0 +1,48 @@
+{
+  "url": "https://app.outlier.ai/login?job_post_id=4549070005&utm_source=Joveo&utm_medium=paid&pod=coders&domain=tier_2_coder&locale=ES&utm_campaign=Scale%20%7C%20Joveo%20%7C%20Coders%20%7C%20Tier%202%20Coders%20%7C%20es-419%20%7C%20ES%20%7C%2003%2F11%2F2026&jClickId=4c554ba4-90e9-4b7e-88b9-5b7337810819&jcid=4c554ba4-90e9-4b7e-88b9-5b7337810819",
+  "title": "Outlier",
+  "clicked": "Apply Now",
+  "body": "Welcome to Outlier Competitive pay, delivered weekly Set your own schedule Improve pre-release AI models using your existing knowledge and expertise You're applying for Coding Expert - LATAM. Continue with Google OR Email Continue By signing up, I agree to the Terms of Use, including the Independent Contractor and Arbitration Agreements, and acknowledge the Privacy Policy.",
+  "fields": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "email",
+      "name": "",
+      "id": "email-login",
+      "value": "",
+      "required": false,
+      "label": "Email",
+      "placeholder": "",
+      "near": "Continue with GoogleOREmailContinueBy signing up, I agree to the Terms of Use, including the Independent Contractor and Arbitration Agreements, and acknowledge the Privacy Policy.",
+      "options": []
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "email",
+      "name": "",
+      "id": "email-login",
+      "value": "",
+      "required": false,
+      "label": "Email",
+      "placeholder": "",
+      "near": "Continue with GoogleOREmailContinueBy signing up, I agree to the Terms of Use, including the Independent Contractor and Arbitration Agreements, and acknowledge the Privacy Policy.",
+      "options": []
+    }
+  ],
+  "buttons": [
+    "Continue with Google",
+    "Continue",
+    "Terms of Use",
+    "Independent Contractor",
+    "Arbitration Agreements",
+    "Privacy Policy",
+    "Continue with Google",
+    "Continue",
+    "Terms of Use",
+    "Independent Contractor",
+    "Arbitration Agreements",
+    "Privacy Policy"
+  ]
+}

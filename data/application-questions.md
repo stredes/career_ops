@@ -3901,3 +3901,24 @@ Este archivo se alimenta automaticamente con preguntas vistas en formularios de 
 - URL: https://candidato.cl.computrabajo.com/candidate/kq?oi=3BDA013A56DF1EB361373E686DCF3405&p=57&d=32&idb=1
 - Question: Comenta tu experiencia utilizando TypeOrm para manejo de datos.
 - Answer: No he usado TypeORM en produccion. Tengo base practica en SQL, modelos de datos, CRUD, SQLite/PostgreSQL y Firestore, ademas de APIs REST con TypeScript. Puedo aprender TypeORM rapidamente porque entiendo la relacion entre entidades, repositorios, consultas y persistencia.
+## 2026-06-26T15:34:31.993Z - LinkedIn
+- Company: -
+- Role: este cargo
+- Status: answered
+- URL: https://www.linkedin.com/jobs/view/4433524680/
+- Question: ¿Cuáles son sus pretensiones de Renta?
+- Answer: 800000
+## 2026-06-26T15:37:52.007Z - Computrabajo
+- Company: Computrabajo
+- Role: Bolsa de trabajo, Portal del empleo
+- Status: answered
+- URL: https://candidato.cl.computrabajo.com/candidate/kq?oi=910B5C67884FD86A61373E686DCF3405&p=57&d=32&idb=1
+- Question: tiene experiencia como Desarrollador SAP PI/PO ? ¿cuanto tiempo?
+- Answer: 0
+## 2026-06-26T15:37:52.007Z - Computrabajo
+- Company: Computrabajo
+- Role: Bolsa de trabajo, Portal del empleo
+- Status: answered
+- URL: https://candidato.cl.computrabajo.com/candidate/kq?oi=910B5C67884FD86A61373E686DCF3405&p=57&d=32&idb=1
+- Question: ¿tiene experiencia como Desarrollador SAP ABAP ? ¿cuanto tiempo?
+- Answer: 0

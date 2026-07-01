@@ -1,11 +1,11 @@
 {
-  "state": "offline",
-  "pid": null,
-  "intervalSec": null,
-  "portalIntervalSec": null,
-  "lastCheck": "2026-06-19T19:15:45.374Z",
-  "nextCheck": null,
-  "lastPortalCheck": "2026-06-17T18:40:30.832Z",
+  "state": "running",
+  "pid": 11280,
+  "intervalSec": 60,
+  "portalIntervalSec": 300,
+  "lastCheck": "2026-06-22T21:57:54.712Z",
+  "nextCheck": "2026-06-22T21:58:54.806Z",
+  "lastPortalCheck": "2026-06-22T21:54:54.783Z",
   "summary": {
     "total": 277,
     "active": 253,
@@ -13,156 +13,26 @@
     "responded": 36,
     "interviews": 1,
     "offers": 0,
-    "discarded": 5,
-    "rejected": 19,
-    "evaluated": 6,
-    "skip": 0
+    "discarded": 5
   },
   "alerts": [
-    "Get on Board mejorado: el flujo ahora guarda preguntas/respuestas en data/application-questions.* y reutiliza respuestas similares adaptadas.",
-    "Get on Board ahora distingue numeros, selects, datos personales, renta y texto libre antes de responder.",
-    "Get on Board evita marcar exito si no existe confirmacion visible de postulacion enviada/postulacion ya enviada.",
-    "Continuacion 2026-06-19 completa: Gmail leido y sincronizado; luego 3 envios Computrabajo confirmados, 2 filas nuevas y 1 variante anexada.",
-    "Nuevas: #302 Tecnova Desarrollador C# y #304 Michael Page Desarrollador Fullstack Proyecto 3 meses.",
-    "Variante anexada: #200 Genesys Desarrollador Full Stack oferta E046A2854BD4FDD961373E686DCF3405.",
-    "Estados por correo sincronizados a Responded: #297 MKC Spa, #284 RyC .NET, #279 Tecnova QA y #269 Tecnova FullStack Net.",
-    "Pendientes por correo: completar datos/candidatura Bizneo para QA Automatizador y Desarrollador Full Stack .Net Angular (E).",
-    "Pipeline verificado limpio: 0 errores, 0 warnings.",
-    "Gmail leido 2026-06-19 con lector seguro: 18 correos listados y 10 cuerpos leidos sin colgarse.",
-    "Estados sincronizados desde correo: #297 MKC Spa visto por LinkedIn, #284 RyC .NET nuevo estado, #279 Tecnova QA visto/completar datos, #269 Tecnova FullStack Net nuevo estado/completar candidatura.",
-    "Conteos actualizados: total 275, Applied 208, Responded 36, Interview 1, Rejected 19.",
-    "Pendientes detectados por correo: completar candidatura QA Automatizador y Desarrollador Full Stack .Net Angular (E).",
-    "Pipeline verificado limpio: 0 errores, 0 warnings.",
-    "Continuacion 2026-06-19: 4 envios Computrabajo confirmados; 3 filas nuevas y 1 variante anexada por duplicado existente.",
-    "Nuevas: #298 Kibernum FullStack TypeScript Node React; #300 Tecnova Desarrollador RPA; #301 Valor Unico Frontend React Vue3 TypeScript AWS.",
-    "Variante anexada en #158 BCTecnologia: Full Stack PHP Laravel React Native PostgreSQL, oferta 0F41A690A86F605361373E686DCF3405."
+    "37 postulacion(es) requieren seguimiento por respuesta/entrevista/oferta.",
+    "6 oferta(s) evaluadas pendientes de decision.",
+    "1 portal(es) requieren revision de sesion o acceso."
   ],
-  "trackerUpdates": [
-    "Script actualizado: output/getonboard-url-apply.mjs.",
-    "Validacion: node --check OK y verify-pipeline limpio.",
-    "Applied nueva: #302 Tecnova Soluciones Informaticas Desarrollador C#.",
-    "Applied nueva: #304 Michael Page Desarrollador Fullstack Proyecto 3 meses.",
-    "Actualizada #200 Genesys con variante Desarrollador Full Stack confirmada.",
-    "Responded desde Gmail: #297, #284, #279, #269.",
-    "Responded actualizado: #297 MKC Spa Tecnico Analista de Datos Excel Avanzado.",
-    "Responded actualizado: #284 RyC Desarrollador .NET Backend AWS Glue.",
-    "Responded actualizado: #279 Tecnova QA Automatizador.",
-    "Responded actualizado: #269 Tecnova Desarrollador FullStack Net.",
-    "Gmail audit: output/email-audits/2026-06-19T17-15-34-077Z-gmail-safe-read.md.",
-    "Applied nueva: #298 Kibernum S.A. Desarrollador FullStack TypeScript Node y React.",
-    "Applied nueva: #300 Tecnova Soluciones Informaticas Desarrollador RPA.",
-    "Applied nueva: #301 Valor Unico Frontend developer React Vue3 TypeScript SASS CSS GraphQL AWS.",
-    "Actualizada #158 BCTecnologia con variante Full Stack PHP Laravel React Native PostgreSQL.",
-    "Pipeline verificado limpio: 0 errores, 0 warnings."
-  ],
-  "portalState": "manual-continue-2026-06-19-getonboard-flow-improved",
+  "trackerUpdates": [],
+  "portalState": "cached",
   "portalChecks": [
     {
-      "source": "Get on Board",
-      "state": "improved",
-      "url": "output/getonboard-url-apply.mjs",
-      "lastCheck": "2026-06-19T19:15:45.374Z",
+      "source": "Portales",
+      "state": "error",
+      "url": "",
+      "lastCheck": "2026-06-22T21:54:54.783Z",
       "matches": [],
       "matchCount": 0,
-      "summary": "Flujo mejorado para leer preguntas, responder segun tipo de campo, guardar banco de preguntas/respuestas y exigir confirmacion visible antes de registrar exito."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "checked",
-      "url": "output/computrabajo-discovered.json",
-      "lastCheck": "2026-06-19T17:19:51.600Z",
-      "matches": [],
-      "matchCount": 3,
-      "summary": "Confirmadas Tecnova C#, Genesys Full Stack como variante de #200 y Michael Page Fullstack 3 meses. Preguntas nuevas React/Tailwind/shadcn y TypeORM fueron respondidas con contexto tech."
-    },
-    {
-      "source": "Gmail",
-      "state": "checked",
-      "url": "output/email-audits/2026-06-19T17-15-34-077Z-gmail-safe-read.md",
-      "lastCheck": "2026-06-19T17:19:51.600Z",
-      "matches": [],
-      "matchCount": 4,
-      "summary": "Leidos 10 cuerpos; sincronizados 4 estados a Responded y detectados cuestionarios Bizneo pendientes."
-    },
-    {
-      "source": "Gmail",
-      "state": "checked",
-      "url": "output/email-audits/2026-06-19T17-15-34-077Z-gmail-safe-read.md",
-      "lastCheck": "2026-06-19T17:16:35.444Z",
-      "matches": [],
-      "matchCount": 4,
-      "summary": "Leidos cuerpos de correo. Sincronizados 4 estados a Responded: MKC Spa, RyC .NET, Tecnova QA y Tecnova FullStack Net. Detectados cuestionarios/datos pendientes en Bizneo."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "checked",
-      "url": "output/computrabajo-discovered.json",
-      "lastCheck": "2026-06-19T13:24:04.095Z",
-      "matches": [],
-      "matchCount": 4,
-      "summary": "Confirmadas #298 Kibernum FullStack TS/Node/React, variante #158 BCTecnologia Laravel/React Native/PostgreSQL, #300 Tecnova RPA y #301 Valor Unico Frontend React/Vue/TS/AWS. RyC AWS CDK quedo sin confirmacion final y no fue registrada."
-    },
-    {
-      "source": "LinkedIn",
-      "state": "checked",
-      "url": "https://www.linkedin.com/jobs/view/4429973482/",
-      "lastCheck": "2026-06-18T20:31:17.205Z",
-      "matches": [],
-      "matchCount": 1,
-      "summary": "Confirmada Solicitud sencilla para Analista de Datos job ID 4429973482. Empresa pendiente por timeout de LinkedIn al leer pagina; primer intento Great Challenge 4421964292 estaba cerrado."
-    },
-    {
-      "source": "Chiletrabajos",
-      "state": "checked",
-      "url": "output/chiletrabajos-discovered-2026-06-18.json",
-      "lastCheck": "2026-06-18T20:31:17.205Z",
-      "matches": [],
-      "matchCount": 0,
-      "summary": "Discovery devolvio Pagina no encontrada para rutas de analista-programador/desarrollador/programador/full-stack/soporte-ti/qa-junior; no se registro postulacion."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "checked",
-      "url": "https://cl.computrabajo.com/trabajo-de-soporte-ti",
-      "lastCheck": "2026-06-18T20:21:55.981Z",
-      "matches": [],
-      "matchCount": 2,
-      "summary": "Confirmadas #295 Eurofirms Soporte TI Renca y #296 BCTecnologia Soporte TI N1. Una oferta requirio nueva regla para herramientas de IA y luego fue enviada."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "checked",
-      "url": "output/computrabajo-discovered.json",
-      "lastCheck": "2026-06-18T20:01:06.1151322Z",
-      "matches": [],
-      "matchCount": 6,
-      "summary": "Confirmadas nuevas #290, #291, #292, #293 y variantes Abenis anexadas en #177. Manpower requirio reglas nuevas de carrera y gestion de datos; Java/Python/GCP requirio regla Apache/Dataflow."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "skipped",
-      "url": "https://cl.computrabajo.com/trabajo-de-python",
-      "lastCheck": "2026-06-18T20:01:06.1151322Z",
-      "matches": [],
-      "matchCount": 0,
-      "summary": "Saltadas ofertas de mineria, CNC, sales, QA ya postulado y soporte/control calidad sin confirmacion final."
-    },
-    {
-      "source": "Computrabajo",
-      "state": "checked",
-      "url": "output/computrabajo-discovered.json",
-      "lastCheck": "2026-06-18T19:39:15.4939545Z",
-      "matches": [],
-      "matchCount": 2,
-      "summary": "Confirmadas nuevas #288 People GO datos Python/SQL/ML y #289 EVALUA Fullstack Angular Python RPA Scraping. Variantes existentes llegaron a Aplicacion enviada: Python Django, RPA/Python AFP y Python Playwright. Talentfinder soporte/control calidad sin confirmacion final."
+      "summary": "browserType.connectOverCDP: connect ECONNREFUSED 127.0.0.1:9223\nCall log:\n\u001b[2m  - <ws preparing> retrieving websocket url from http://127.0.0.1:9223\u001b[22m\n"
     }
   ],
   "verifyOk": true,
-  "verifyTail": "Pipeline Health: 0 errors, 0 warnings",
-  "lastAuditFile": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\status-audits\\2026-06-17T18-40-30-832Z-portal-statuses.json",
-  "lastAuditMarkdown": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\status-audits\\2026-06-17T18-40-30-832Z-portal-statuses.md",
-  "lastEmailAuditMarkdown": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\email-audits\\2026-06-19T17-15-34-077Z-gmail-safe-read.md",
-  "lastEmailAuditFile": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\email-audits\\2026-06-19T17-15-34-077Z-gmail-safe-read.json",
-  "lastOldEmailAuditMarkdown": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\email-audits\\2026-06-17T19-31-22-388Z-gmail-status.md",
-  "lastOldEmailAuditFile": "C:\\Users\\bodega 1\\Desktop\\workspace\\career-ops\\output\\email-audits\\2026-06-17T19-31-22-388Z-gmail-status.json"
+  "verifyTail": "\n📊 Checking 277 entries in applications.md\n\n✅ All statuses are canonical\n✅ No exact duplicates found\n✅ All report links valid\n✅ All scores valid\n✅ All rows properly formatted\n✅ No pending TSVs\n✅ No bold in scores\n\n==================================================\n📊 Pipeline Health: 0 errors, 0 warnings\n🟢 Pipeline is clean!\n"
 }
